@@ -19,12 +19,12 @@
 
 * [DHT Proxy](addon-services/dht-proxy.md)
 * [Active Proxy](addon-services/active-proxy.md)
-* [Dynamic DNS](addon-services/dynamic-dns.md)
 
 ## Operations
 
 * [Super Nodes](operations/super-nodes.md)
 * [Crawler](operations/crawler.md)
+* [Dynamic DNS](operations/dynamic-dns.md)
 
 ## SDKs
 
