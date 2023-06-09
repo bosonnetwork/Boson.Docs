@@ -24,7 +24,7 @@
 
 * [Super Nodes](operations/super-nodes.md)
 * [Crawler](operations/crawler.md)
-* [Dynamic DNS](operations/dynamic-dns.md)
+* [Dynamic DNS](addon-services/dynamic-dns.md)
 
 ## SDKs
 
