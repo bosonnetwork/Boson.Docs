@@ -10,10 +10,11 @@
 
 ## The Stack
 
-* [Kademia DHT](the-stack/kademia-dht.md)
+* [Overview](the-stack/overview.md)
+* [Permission-less Network](the-stack/permission-less-network.md)
 * [Addon Services](the-stack/addon-services.md)
-* [DeStore](the-stack/destore.md)
-* [Federal-based DeComm](the-stack/federal-based-decomm.md)
+* [Key-Value Storage](the-stack/key-value-storage.md)
+* [Federal-based Communication](the-stack/federal-based-communication.md)
 
 ## Addon Services
 
