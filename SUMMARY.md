@@ -29,18 +29,18 @@
 * [💻 Practice in shell](practices/practice-in-shell.md)
 * [🕷 Set up crawler bot](practices/set-up-crawler-bot.md)
 
-## Operations
-
-* [⛷ Super Nodes](operations/super-nodes.md)
-* [🕸 Crawler](operations/crawler.md)
-* [🧜 pc2.net ](operations/pc2.net.md)
-
 ## Developer
 
 * [☕ Java - Super Node](developer/java-super-node.md)
 * [🗜 C/C++ SDKs](developer/c-c++-sdks.md)
 * [🪶 Swift SDK](developer/swift-sdk.md)
 * [🛷 Lite Javascript SDK](developer/lite-javascript-sdk.md)
+
+## Operations
+
+* [⛷ Super Nodes](operations/super-nodes.md)
+* [🕸 Crawler](operations/crawler.md)
+* [🧜 pc2.net ](operations/pc2.net.md)
 
 ## Adoptions
 
