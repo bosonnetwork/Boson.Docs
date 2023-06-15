@@ -10,8 +10,12 @@
 
 ## The Stack
 
-* [Overview](the-stack/overview.md)
-* [Permission-less Network](the-stack/permission-less-network.md)
+* [Architecture](the-stack/architecture.md)
+* [Carrier Network](the-stack/carrier-network/README.md)
+  * [Kademia DHT](the-stack/carrier-network/kademia-dht.md)
+  * [Protocols](the-stack/carrier-network/protocols.md)
+  * [Carrier Nodes](the-stack/carrier-network/carrier-nodes.md)
+  * [Page 1](the-stack/carrier-network/page-1.md)
 * [Addon Services](the-stack/addon-services.md)
 * [Key-Value Storage](the-stack/key-value-storage.md)
 * [Federal-based Communication](the-stack/federal-based-communication.md)
