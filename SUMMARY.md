@@ -4,26 +4,28 @@
 
 ## Overview
 
-* [🧭 The Past](overview/the-past.md)
+* [🎇 The Past](overview/the-past.md)
 * [✨ The Present](overview/the-present.md)
 * [💡 Our Hope](overview/our-hope.md)
 
-## The Stack
+## Fundamentals
 
-* [Architecture](the-stack/architecture.md)
-* [Carrier Network](the-stack/carrier-network/README.md)
-  * [Kademia DHT](the-stack/carrier-network/kademia-dht.md)
-  * [Protocols](the-stack/carrier-network/protocols.md)
-  * [Carrier Nodes](the-stack/carrier-network/carrier-nodes.md)
-  * [Page 1](the-stack/carrier-network/page-1.md)
-* [Addon Services](the-stack/addon-services.md)
-* [Key-Value Storage](the-stack/key-value-storage.md)
-* [Federal-based Communication](the-stack/federal-based-communication.md)
+* [🎏 Architecture](fundamentals/architecture.md)
+* [🐳 Carrier Network](fundamentals/carrier-network/README.md)
+  * [🎆 Kademia DHT](fundamentals/carrier-network/kademia-dht.md)
+  * [🌱 Protocols](fundamentals/carrier-network/protocols.md)
+  * [👁🗨 Carrier Nodes](fundamentals/carrier-network/carrier-nodes.md)
+  * [Page 1](fundamentals/carrier-network/page-1.md)
+* [☕ Addon Services](fundamentals/addon-services/README.md)
+  * [🛰 DHT Proxy](fundamentals/addon-services/dht-proxy.md)
+  * [⭕ Active Proxy](fundamentals/addon-services/active-proxy.md)
+* [📀 Key-Value Storage](fundamentals/key-value-storage.md)
+* [📡 Federal-based Communication](fundamentals/federal-based-communication.md)
 
-## Addon Services
+## Deployments
 
-* [DHT Proxy](addon-services/dht-proxy.md)
-* [Active Proxy](addon-services/active-proxy.md)
+* [🛰 DHT Proxy](deployments/dht-proxy.md)
+* [⭕ Active Proxy](deployments/active-proxy.md)
 
 ## Operations
 
@@ -31,8 +33,12 @@
 * [Crawler](operations/crawler.md)
 * [Dynamic DNS](addon-services/dynamic-dns.md)
 
-## SDKs
+## Developing Guides
 
-* [C/C++](sdks/c-c++.md)
-* [Swift](sdks/swift.md)
-* [Javascript](sdks/javascript.md)
+* [C/C++](developing-guides/c-c++.md)
+* [Swift](developing-guides/swift.md)
+* [Javascript](developing-guides/javascript.md)
+
+## Adoptions
+
+* [Use Cases](adoptions/use-cases.md)
