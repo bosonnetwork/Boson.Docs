@@ -2,7 +2,7 @@
 description: The history of Carrier (Elastos Carrier)
 ---
 
-# The Past
+# 🧭 The Past
 
 #### Overview of the Carrier Classic Platform&#x20;
 

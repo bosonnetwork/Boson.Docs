@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [👋 Welcome to Carrier](README.md)
 
-## Evolution
+## Overview
 
-* [The Past](evolution/the-past.md)
-* [The Present](evolution/the-present.md)
-* [Our Hope](evolution/our-hope.md)
+* [🧭 The Past](overview/the-past.md)
+* [✨ The Present](overview/the-present.md)
+* [💡 Our Hope](overview/our-hope.md)
 
 ## The Stack
 
