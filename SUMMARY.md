@@ -22,10 +22,12 @@
 * [📀 Key-Value Storage](fundamentals/key-value-storage.md)
 * [📡 Federal-based Communication](fundamentals/federal-based-communication.md)
 
-## Deployments
+## Practices
 
-* [🛰 DHT Proxy](deployments/dht-proxy.md)
-* [⭕ Active Proxy](deployments/active-proxy.md)
+* [🔆 Deploy a super node](practices/deploy-a-super-node.md)
+* [🔑 Launcher a local service](practices/launcher-a-local-service.md)
+* [💻 Practice in shell](practices/practice-in-shell.md)
+* [🕷 Set up crawler bot](practices/set-up-crawler-bot.md)
 
 ## Operations
 
