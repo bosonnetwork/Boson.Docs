@@ -4,8 +4,8 @@
 
 ## Overview
 
-* [🎇 The Past](overview/the-past.md)
-* [✨ The Present](overview/the-present.md)
+* [🐾 The Past](overview/the-past.md)
+* [🎆 The Present](overview/the-present.md)
 * [💡 Our Hope](overview/our-hope.md)
 
 ## Fundamentals
@@ -31,16 +31,24 @@
 
 ## Operations
 
-* [Super Nodes](operations/super-nodes.md)
-* [Crawler](operations/crawler.md)
-* [Dynamic DNS](addon-services/dynamic-dns.md)
+* [⛷ Super Nodes](operations/super-nodes.md)
+* [🕸 Crawler](operations/crawler.md)
+* [🧜 pc2.net ](operations/pc2.net.md)
 
-## Developing Guides
+## Developer
 
-* [C/C++](developing-guides/c-c++.md)
-* [Swift](developing-guides/swift.md)
-* [Javascript](developing-guides/javascript.md)
+* [☕ Java - Super Node](developer/java-super-node.md)
+* [🗜 C/C++ SDKs](developer/c-c++-sdks.md)
+* [🪶 Swift SDK](developer/swift-sdk.md)
+* [🛷 Lite Javascript SDK](developer/lite-javascript-sdk.md)
 
 ## Adoptions
 
-* [Use Cases](adoptions/use-cases.md)
+* [⚡ Hyper IM](adoptions/hyper-im.md)
+* [🌱 Feeds Network](adoptions/feeds-network.md)
+
+## Resources
+
+* [🌠 Troubleshootings](resources/troubleshootings.md)
+* [❓ FAQ](resources/faq.md)
+* [🔗 Contacts](resources/contacts.md)

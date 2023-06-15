@@ -2,7 +2,7 @@
 description: The list of Carrier Super Nodes
 ---
 
-# Super Nodes
+# ⛷ Super Nodes
 
 **Carrier Super Node** is a special type of Carrier Node dedicated to help new nodes join and bootstrap the whole Carrier network, plus providing the add-on services:
 
