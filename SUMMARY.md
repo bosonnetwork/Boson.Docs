@@ -24,7 +24,7 @@
 
 ## Practices
 
-* [🔆 Deploy a super node](practices/deploy-a-super-node.md)
+* [🔆 Setting Up a Super Node](practices/setting-up-a-super-node.md)
 * [🔑 Launcher a local service](practices/launcher-a-local-service.md)
 * [💻 Practice in shell](practices/practice-in-shell.md)
 * [🕷 Set up crawler bot](practices/set-up-crawler-bot.md)
