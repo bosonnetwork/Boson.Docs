@@ -1,16 +1,8 @@
----
-description: >-
-  A list of Carrier super nodes maintained by TrinityTech to keep the network
-  healthy.
----
-
 # ⛷ Carrier super nodes
 
 TrinityTech initiated the implementation of the **Carrier network** by deploying two sets of super nodes, each set containing 4 super nodes. These super nodes formed the initial version of the Carrier network.&#x20;
 
 As previously mentioned, each Carrier super node runs the **ActiveProxy** service for client applications. Users can use the **ActiveProxy** Service either in conjunction with the **pc2 domain name** service or on its own.
-
-
 
 ## The set of super nodes used by pc2.net
 
@@ -57,8 +49,6 @@ As previously mentioned, each Carrier super node runs the **ActiveProxy** servic
 {% endtab %}
 {% endtabs %}
 
-
-
 ## The set of super nodes used by pc2.org
 
 {% tabs %}
@@ -97,4 +87,3 @@ As previously mentioned, each Carrier super node runs the **ActiveProxy** servic
 ```
 {% endtab %}
 {% endtabs %}
-
