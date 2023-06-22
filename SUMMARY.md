@@ -24,7 +24,7 @@
 
 ## Practices
 
-* [🔆 Setting up carrier super-node](practices/setting-up-carrier-super-node.md)
+* [🔆 Setting up Carrier super node](practices/setting-up-carrier-super-node.md)
 * [🔑 Walk through active proxy service](practices/walk-through-active-proxy-service.md)
 * [💻 Practice in shell](practices/practice-in-shell.md)
 * [🕷 Set up crawler bot](practices/set-up-crawler-bot.md)

@@ -1,29 +1,41 @@
 ---
-description: A beginner's guide to deploy a Carrier super node service
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# 🔆 Setting up carrier super-node
+# 🔆 Setting up Carrier super node
 
 {% hint style="info" %}
-_It's recommended to install the Carrier Super Node Service on **Ubuntu Linux version 22.04** or later, and need bind it to a public IP address._
+_It's recommended to install the Carrier super node on **Ubuntu 22.04** or later, and bind it to a public IP address._
 {% endhint %}
 
-## Installation of Runtime Dependencies
+## Installation of runtime dependencies
 
-The **carrier super node** has dependencies on the following runtime components:
+The following runtime components as dependencies required to be installed before the installation of **Carrier super node**:
 
 * Java Virtual Machine (JVM) >= Java 11
 * sodium (libsodium) >= 1.0.16
 
 To install these dependencies, please run the following commands:
 
+{% code fullWidth="true" %}
 ```sh
 $ sudo apt install openjdk-11-jre-headless libsodium23
 ```
+{% endcode %}
 
-## &#x20;Building Your Debian Package
+## Building your debian package
 
-Please ensure that JDK-11 has been installed on your building machine before building the Carrier deamon debian package. Use the following command to carry out the whole building process:
+Ensure that JDK-11 has been installed on your building machine before building the Carrier super node, where usually it's referred as Carrier daemon debian package. Use the following command to carry out the whole building process:
 
 ```sh
 $ git clone git@github.com:elastos/Elastos.Carrier.Java.git  Carrier.Java
@@ -31,9 +43,7 @@ $ cd Carrier.Java
 $ ./mvnw -Dmaven.test.skip=true
 ```
 
-Once the build process finishes, the Debian package will be generated under the directory `launcher/target` with the name like _**carrier-launcher-\<version>-\<timestamp>.deb**_
-
-After the build process completes, a Debian package will be generated in the `launcher/target`directory with a name following the format _**carrier-launcher-\<version>-\<timestamp>.deb**_. Please note that  `<version>` and `<timestamp>` will vary depending on the specific version of the package being built.
+Once the build process finishes, the Debian package will be generated under the directory `launcher/target` with the pattern name _**carrier-launcher-\<version>-\<timestamp>.deb**,_ where <_**version**_> and <_**timestamp**_> values will vary depending on the specific version being built.
 
 ## Installing the Carrier Super Node Service
 
