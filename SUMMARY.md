@@ -53,3 +53,4 @@
 * [🌠 Troubleshootings](resources/troubleshootings.md)
 * [❓ FAQ](resources/faq.md)
 * [🔗 Contacts](resources/contacts.md)
+* [🇱🇹 Repositories](resources/repositories.md)

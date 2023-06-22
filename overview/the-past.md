@@ -1,20 +1,43 @@
 ---
-description: The history of Carrier (Elastos Carrier)
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 🐾 The Past
 
-#### Overview of the Carrier Classic Platform&#x20;
+{% hint style="info" %}
+**Elastos Carrier** was a fully decentralized and encrypted **peer-to-peer (P2P)** communication platform as Carrier version 1.0, refered as the classic Carrier version.
+{% endhint %}
 
-**Carrier Classic** or **Carrier Version 1.0** is a fully decentralized and encrypted `peer-to-peer` (_**P2P**_) communication platform that routes network traffic between **dApps** (_Decentralized_ _Applications_). &#x20;
+## A dedicated communication platform - Carrier Classic
+
+The **Carrier Classic** or **Carrier Version 1.0** is the first version of Elastos Carrier infrastructure dedicated to being a fully decentralized and encrypted **peer-to-peer** communication platform that routes network traffic between **dApps** (_Decentralized_ _Applications_). &#x20;
+
+The **Classic classic** provides a package of communication features with the pipeline design, and users can use any layered communication features to fulfill the requirements.  Here are the list of layered communication features below:
+
+* **Instant messaging**
+* **Session** establishment and communication for audio/video traffic&#x20;
+* **Multiplexing**
+* **Port forwarding** service for TCP connection
+* Secure and reliable **file transfer** mechanism
+* **WebRTC** on session
 
 <img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
-#### The drawbacks of Carrier Classic platform
+## The deficiencies of Carrier classic
 
-Carrier Classic has its own specialty and strengths, and a few experimental adoption applications have been trying on top of it. But as a general communication platform, Carrier Classic has the following drawbacks:
+The **Carrier classic** has its own features and strengths of being a fully decentralized and encrypted P2P communication, and various adoptions have been trying on the integration. But as a general communication platform, **Carrier classic** has the following drawbacks:
 
-* The two peers to communicate with each other need to become friends at first, which would restrict Carrier adoption to very narrow scenarios, like IM application;
-* The two peers to communicate both need to be being online at same time period, and no offline messaing features are supported. Therefore, it will require applications integrated Carrier to be running in foreground.
+* The two peers to participate communication need to be friends first, which would naturally narrow the adoption scenarios falling into **Instant Messaging** (**IM**) applications;
+* The two peers to communicate need to being online at same time period, otherwise,  messages or data would be delivered in failure.  In this case, it requires applications to keep running in foregound so as to keep peers being online to able to communicate.
 
-Given the reasons above that barely can meet the solid needs from the applications, the new and advanced version of Carrier, called Carrier Version 2 has been developing and the first inital version has been released.
+Given the reasons above that could not perfectly meet the solid needs from the applications, the new and advanced version of Elastos Carrier, also known as **Carrier Version 2.0** has been developing and the first inital version has already came out.
