@@ -38,9 +38,10 @@
 
 ## Operations
 
-* [⛷ Super Nodes](operations/super-nodes.md)
+* [⛷ Carrier super nodes](operations/carrier-super-nodes.md)
 * [🕸 Crawler](operations/crawler.md)
 * [🧜 pc2.net ](operations/pc2.net.md)
+* [🧜♂ pc2.org](operations/pc2.org.md)
 
 ## Adoptions
 
