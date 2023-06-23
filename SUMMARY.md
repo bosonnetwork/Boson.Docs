@@ -52,5 +52,4 @@
 
 * [🌠 Troubleshootings](resources/troubleshootings.md)
 * [❓ FAQ](resources/faq.md)
-* [🔗 Links](resources/links.md)
-* [🇱🇹 Repo](resources/repo.md)
+* [🔗 Contacts](resources/links.md)
