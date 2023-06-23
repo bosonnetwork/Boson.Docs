@@ -15,7 +15,6 @@
   * [🎆 Kademia DHT](fundamentals/carrier-network/kademia-dht.md)
   * [🌱 Protocols](fundamentals/carrier-network/protocols.md)
   * [👁🗨 Carrier Nodes](fundamentals/carrier-network/carrier-nodes.md)
-  * [Page 1](fundamentals/carrier-network/page-1.md)
 * [☕ Addon Services](fundamentals/addon-services/README.md)
   * [🛰 DHT Proxy](fundamentals/addon-services/dht-proxy.md)
   * [⭕ Active proxy](fundamentals/addon-services/active-proxy.md)
@@ -51,5 +50,5 @@
 ## Resources
 
 * [❓ FAQ](resources/faq.md)
-* [🌠 Troubleshootings](resources/troubleshootings.md)
+* [🌠 Trouble shootings](resources/trouble-shootings.md)
 * [🔗 Contacts](resources/links.md)
