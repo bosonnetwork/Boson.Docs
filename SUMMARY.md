@@ -20,7 +20,7 @@
   * [🛰 DHT Proxy](fundamentals/addon-services/dht-proxy.md)
   * [⭕ Active proxy](fundamentals/addon-services/active-proxy.md)
 * [📀 Key-value dstore](fundamentals/key-value-dstore.md)
-* [📡 Federal-based Communication](fundamentals/federal-based-communication.md)
+* [📡 Federal-centric Communication](fundamentals/federal-centric-communication.md)
 
 ## Practices
 
