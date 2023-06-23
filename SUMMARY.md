@@ -50,6 +50,6 @@
 
 ## Resources
 
-* [🌠 Troubleshootings](resources/troubleshootings.md)
 * [❓ FAQ](resources/faq.md)
+* [🌠 Troubleshootings](resources/troubleshootings.md)
 * [🔗 Contacts](resources/links.md)
