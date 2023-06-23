@@ -19,7 +19,7 @@
 * [☕ Addon Services](fundamentals/addon-services/README.md)
   * [🛰 DHT Proxy](fundamentals/addon-services/dht-proxy.md)
   * [⭕ Active proxy](fundamentals/addon-services/active-proxy.md)
-* [📀 Key-Value Storage](fundamentals/key-value-storage.md)
+* [📀 Key-value dstore](fundamentals/key-value-dstore.md)
 * [📡 Federal-based Communication](fundamentals/federal-based-communication.md)
 
 ## Practices
