@@ -1,2 +1,0 @@
-# 🔆 Deploy a super node
-

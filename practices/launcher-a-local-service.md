@@ -1,2 +1,0 @@
-# 🔑 Launcher a local service
-
