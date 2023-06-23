@@ -1,8 +1,6 @@
----
-description: A beginner's guide to use active proxy service from carrier super node
----
-
 # 🔑 Walk through active proxy service
+
+ActiveProxy service is the first service provided by Carrier super node, and it's used to forward&#x20;
 
 ## Active Proxy Service Usage
 

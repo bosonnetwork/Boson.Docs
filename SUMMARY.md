@@ -18,7 +18,7 @@
   * [Page 1](fundamentals/carrier-network/page-1.md)
 * [☕ Addon Services](fundamentals/addon-services/README.md)
   * [🛰 DHT Proxy](fundamentals/addon-services/dht-proxy.md)
-  * [⭕ Active Proxy](fundamentals/addon-services/active-proxy.md)
+  * [⭕ Active proxy](fundamentals/addon-services/active-proxy.md)
 * [📀 Key-Value Storage](fundamentals/key-value-storage.md)
 * [📡 Federal-based Communication](fundamentals/federal-based-communication.md)
 
