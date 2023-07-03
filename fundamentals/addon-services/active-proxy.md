@@ -12,23 +12,23 @@ layout:
     visible: true
 ---
 
-# ⭕ Active proxy
+# ⭕ Active Proxy
 
-The **ActiveProxy** service is the first add-on service provided by the **carrier super node**. It is used to announce a local service on the carrier super node, while the local service is running at your home LAN. Once the service is announced on the specific carrier node, this service can be accessed by the public naturally.
+The **Active Proxy** service is the first add-on service provided by carrier super nodes. It allows a local service running on your home WIFI to be announced on a set of carrier super nodes. Once the service is announced on carrier super nodes, it can be accessed by the public naturally.
 
-## The usecases could benefit from ProxyActive serivce
+## The Use Cases Could Benefit From Proxy Active
 
-Imagine the case that you want to run a blog service on Raspbery deivce at your home LAN, and want to the stories on blog service to be shared with the public.  Then you can leverage the **ActiveProxy** from the super node you trust the most to publish your blog service to the public.
+Suppose you want to run a blog service on a Raspberry device in your home WIFI and share stories on the blog service with the public. In this case, you can use the **Active Proxy** from the super nodes you trust the most to announce your blog service to the public.
 
-Another natural case is that you have deployed a NAS or psersonal storage service on your home LAN. It's working to access your data from the service service under your home, but once you need to access or upate your personal data from outside, you can leverage **ActiveProxy** to move the service access point from LAN to internet, but still keep the privacy to your data.
+Another example is when you have deployed a NAS or personal storage service on your home WIFI. It works to access your data from the service at your home, but if you need to access your personal data from outside, you can use **Active Proxy** to announce the service access point from home WIFI to the internet while still keeping the privacy of your data.
 
-## Why do you need ActiveProxy for local service
+## Why Do You Need Active Proxy for Local Services?
 
-Generally, if a local service is running on a home LAN, it can only be accessed within the LAN and not by external users. This is due to the NAT mechanism blocking initial access directly from the public network. To allow external access, users can run services on a VPS with a public IP address or leverage third-party DDNS services to publish the service.
+If a local service is running on a home WIFI, it can only be accessed within the LAN and not by external users. This is because the NAT mechanism blocks initial access directly from the public network. To allow external access, users can either run services on a VPS with a public IP address or leverage third-party DDNS services to publish the service.
 
-In a carrier network, each carrier super node runs an Active Proxy service. Any user can choose one of the super nodes to announce a service entry on the super node, making the service accessible to the public.
+In the carrier network, each carrier super node runs an **Active Proxy** service. Any user can choose a set of the super nodes to announce a service entry, making the service accessible for the public.
 
-## How does ActiveProxy work
+## How Does ActiveProxy Work
 
 TODO
 
