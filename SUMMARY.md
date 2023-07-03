@@ -38,7 +38,7 @@
 ## Operations
 
 * [⛷ Carrier super nodes](operations/carrier-super-nodes.md)
-* [🕸 Crawler website](operations/crawler-website.md)
+* [🕸 Carrier Explorer](operations/carrier-explorer.md)
 * [🧜 pc2.net ](operations/pc2.net.md)
 * [🧜♂ pc2.org](operations/pc2.org.md)
 
