@@ -37,7 +37,7 @@
 
 ## Operations
 
-* [⛷ Carrier super nodes](operations/carrier-super-nodes.md)
+* [⛷ Super Nodes](operations/super-nodes.md)
 * [🕸 Carrier Explorer](operations/carrier-explorer.md)
 * [🧜 pc2.net ](operations/pc2.net.md)
 * [🧜♂ pc2.org](operations/pc2.org.md)
