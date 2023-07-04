@@ -7,12 +7,12 @@ layout:
   tableOfContents:
     visible: true
   outline:
-    visible: true
+    visible: false
   pagination:
     visible: true
 ---
 
-# 🐾 Carrier 1.0
+# 🐾 The Review
 
 {% hint style="info" %}
 **Elastos Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version 1.0.
@@ -20,7 +20,7 @@ layout:
 
 ***
 
-## Carrier 1.0 Overview
+## The Overview of Carrier 1.0
 
 The **Carrier 1.0** or **Carrier Classic** is the first version of Elastos carrier infrastructure dedicated to being a fully decentralized and encrypted peer-to-peer communication platform that routes network traffic between dApps (_Decentralized_ _Applications_). &#x20;
 
