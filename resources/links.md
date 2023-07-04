@@ -1,22 +1,21 @@
-# 🔗 Contacts
+# 🔗 Links
 
-## Github
+## Github Repositories
 
-Here are the repositories related to Carrier Version 2.0, and we welcome any contributions from the community to the repositories, either as reporting issues or proposal requests:
+Here are the main repositories related to Carrier Version 2.0. We welcome contributions from the community in the form of issue reports or proposal requests.
 
 * [Carrier Java](https://github.com/elastos/Elastos.Carrier.Java)
-* [Carrier Native](https://github.com/elastos/Elastos.Carrier.Native)&#x20;
+* [Carrier Native](https://github.com/elastos/Elastos.Carrier.Native)
+* Carrier Swift (Working)
 
-where the first one - Carrier Java is used to deploy Carrier super node, while the later Carrier Native is used to be integrated into applications as general Carrier node to leverage the features or services from suepr nodes.
+The first one, **Carrier Java** repository, is used to deploy a carrier super node. The latter, **Carrier Native** repository, is used to integrate into applications as a regular carrier node to leverage the features or services from super nodes.
 
-## Email&#x20;
+* [CIP (Carrier Improvement Proposal)](https://github.com/trinity-tech-io/awesome-carrier)
+* [Public Carrier Nodes](https://github.com/trinity-tech-io/public-carrier-nodes)
 
-[carrier-dev@trintiy-tech.io](links.md#email)
+## Other Links:
 
-## Telgram
-
-[@elastoscarrier](https://t.me/elastoscarrier)
-
-## Discord invitation link
-
-[https://discord.gg/VnfUHXkv](https://discord.gg/VnfUHXkv)
+* **Email** - [carrier-dev@trintiy-tech.io](links.md#email)
+* **Telgram** - [@awesomecarrier](https://t.me/awesomecarrier)
+* **Discord** - [https://discord.gg/VnfUHXkv](https://discord.gg/VnfUHXkv)
+* **Website** - [https://trinity-tech.io](https://trinity-tech.io)

@@ -51,4 +51,4 @@
 
 * [❓ FAQ](resources/faq.md)
 * [🌠 Trouble shootings](resources/trouble-shootings.md)
-* [🔗 Contacts](resources/links.md)
+* [🔗 Links](resources/links.md)
