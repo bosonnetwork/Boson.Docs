@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🐾 The Past
+# 🐾 Carrier 1.0
 
 {% hint style="info" %}
 **Elastos Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version 1.0.
@@ -49,3 +49,7 @@ Due to the aforementioned limitations in meeting the solid needs of applications
 * [**Swift/iOS SDK**](https://github.com/elastos/Elastos.CarrierClassic.Swift)
 * [**Bootstraps**](https://github.com/elastos/Elastos.CarrierClassic.Bootstrap)
 * [**Crawler**](https://github.com/elastos/Elastos.CarrierClassic.Crawler)
+
+## Applications that use Carrier 1.0
+
+* [**Beagle Chat**](https://www.beagle.chat)
