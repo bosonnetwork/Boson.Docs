@@ -18,11 +18,13 @@ layout:
 **Elastos Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version 1.0.
 {% endhint %}
 
-## The Overview of Carrier 1.0
+***
+
+## Carrier 1.0 Overview
 
 The **Carrier 1.0** or **Carrier Classic** is the first version of Elastos carrier infrastructure dedicated to being a fully decentralized and encrypted peer-to-peer communication platform that routes network traffic between dApps (_Decentralized_ _Applications_). &#x20;
 
-The classic classic provides a package of communication features with a pipeline of design in structural implementation. Users can choose from a variety of layered communication features to fulfill their requirements. Below is a list of the available features:
+The version 1.0 provides a package of communication features with a pipeline of design in structural implementation. Users can choose from a variety of layered communication features to fulfill their requirements. Below is a list of the available features:
 
 * Instant Short **Messaging**
 * **Session** establishment and communication for streaming
@@ -42,14 +44,16 @@ The **Carrier Classic** is a fully decentralized and encrypted peer-to-peer comm
 
 Due to the aforementioned limitations in meeting the solid needs of applications, a new and advanced version of **Elastos Carrier**, known as **Carrier Version 2.0**, has been developed. The initial version of this new update has already been released.
 
-## Links to Main Repositories of Carrier 1.0
+## The Repositories of Carrier 1.0
+
+We have suspended the development of Carrier version 1.0, but we will continue to maintain it until all customizers have migrated to Carrier 2.0. Below is a list of the main repositories for Carrier 1.0:
 
 * [**C/C++/Native SDK**](https://github.com/elastos/Elastos.CarrierClassic.Native)
 * [**Java/Android SDK**](https://github.com/elastos/Elastos.CarrierClassic.Android)
 * [**Swift/iOS SDK**](https://github.com/elastos/Elastos.CarrierClassic.Swift)
-* [**Bootstraps**](https://github.com/elastos/Elastos.CarrierClassic.Bootstrap)
-* [**Crawler**](https://github.com/elastos/Elastos.CarrierClassic.Crawler)
+* [**Carrier Bootstraps**](https://github.com/elastos/Elastos.CarrierClassic.Bootstrap)
+* [**Carrier Crawler**](https://github.com/elastos/Elastos.CarrierClassic.Crawler)
 
-## Applications that use Carrier 1.0
+## Applications on Carrier 1.0
 
 * [**Beagle Chat**](https://www.beagle.chat)
