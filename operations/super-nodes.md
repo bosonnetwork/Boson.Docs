@@ -14,6 +14,10 @@ layout:
 
 # ⛷ Super Nodes
 
+{% hint style="info" %}
+We expect the community to deploy public super nodes and improve the carrier network to be more healthy and robust. Please inform us once you start working on this.
+{% endhint %}
+
 ## Carrier Super Nodes
 
 A carrier super node, also known as a bootstrap node, is a special type of carrier node dedicated to helping new nodes join the carrier network. It achieves this by propagating nodes into the routing tables of neighboring carrier nodes, and keeping the routing tables of neighboring nodes healthy and robust. Since carrier super nodes serve as bootstrap node, they must run on a VPS with a public IP address.
