@@ -15,29 +15,37 @@ layout:
 # 🐾 The Past
 
 {% hint style="info" %}
-**Elastos Carrier** was a fully decentralized and encrypted **peer-to-peer (P2P)** communication platform as Carrier version 1.0, refered as the classic Carrier version.
+**Elastos Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version 1.0.
 {% endhint %}
 
-## A dedicated communication platform - Carrier Classic
+## The Overview of Carrier 1.0
 
-The **Carrier Classic** or **Carrier Version 1.0** is the first version of Elastos Carrier infrastructure dedicated to being a fully decentralized and encrypted **peer-to-peer** communication platform that routes network traffic between **dApps** (_Decentralized_ _Applications_). &#x20;
+The **Carrier 1.0** or **Carrier Classic** is the first version of Elastos carrier infrastructure dedicated to being a fully decentralized and encrypted peer-to-peer communication platform that routes network traffic between dApps (_Decentralized_ _Applications_). &#x20;
 
-The **Classic classic** provides a package of communication features with the pipeline design, and users can use any layered communication features to fulfill the requirements.  Here are the list of layered communication features below:
+The classic classic provides a package of communication features with a pipeline of design in structural implementation. Users can choose from a variety of layered communication features to fulfill their requirements. Below is a list of the available features:
 
-* **Instant messaging**
-* **Session** establishment and communication for audio/video traffic&#x20;
-* **Multiplexing**
-* **Port forwarding** service for TCP connection
+* Instant Short **Messaging**
+* **Session** establishment and communication for streaming
+* **Multiplexing** management
+* **Port forwarding** service
 * Secure and reliable **file transfer** mechanism
-* **WebRTC** on session
+* **WebRTC**
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>The pipelined structural Carrier Classic Native SDK</p></figcaption></figure>
 
-## The deficiencies of Carrier classic
+## The Shortcomings of Carrier 1.0
 
-The **Carrier classic** has its own features and strengths of being a fully decentralized and encrypted P2P communication, and various adoptions have been trying on the integration. But as a general communication platform, **Carrier classic** has the following drawbacks:
+The **Carrier Classic** is a fully decentralized and encrypted peer-to-peer communication platform with unique features and strengths. However, as a general communication platform, it has the following shortcomings:
 
-* The two peers to participate communication need to be friends first, which would naturally narrow the adoption scenarios falling into **Instant Messaging** (**IM**) applications;
-* The two peers to communicate need to being online at same time period, otherwise,  messages or data would be delivered in failure.  In this case, it requires applications to keep running in foregound so as to keep peers being online to able to communicate.
+* To communicate, the two peers need to become friends first. This narrows down the adoption scenarios to instant messaging (IM) applications.
+* Both peers need to be online at the same time for successful message or data delivery. Therefore, applications need to be kept running in the foreground to keep the peers online and able to communicate.
 
-Given the reasons above that could not perfectly meet the solid needs from the applications, the new and advanced version of Elastos Carrier, also known as **Carrier Version 2.0** has been developing and the first inital version has already came out.
+Due to the aforementioned limitations in meeting the solid needs of applications, a new and advanced version of **Elastos Carrier**, known as **Carrier Version 2.0**, has been developed. The initial version of this new update has already been released.
+
+## Links to Main Repositories of Carrier 1.0
+
+* [**C/C++/Native SDK**](https://github.com/elastos/Elastos.CarrierClassic.Native)
+* [**Java/Android SDK**](https://github.com/elastos/Elastos.CarrierClassic.Android)
+* [**Swift/iOS SDK**](https://github.com/elastos/Elastos.CarrierClassic.Swift)
+* [**Bootstraps**](https://github.com/elastos/Elastos.CarrierClassic.Bootstrap)
+* [**Crawler**](https://github.com/elastos/Elastos.CarrierClassic.Crawler)

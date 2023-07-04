@@ -10,17 +10,9 @@ coverY: 0
 
 A simple introduction here.
 
-{% content-ref url="overview/the-past.md" %}
-[the-past.md](overview/the-past.md)
-{% endcontent-ref %}
-
-{% content-ref url="overview/the-present.md" %}
-[the-present.md](overview/the-present.md)
-{% endcontent-ref %}
-
-{% content-ref url="overview/our-hope.md" %}
-[our-hope.md](overview/our-hope.md)
-{% endcontent-ref %}
+* [**The Past** ](overview/the-past.md)- the history of Elastos Carrier classic network
+* [**The Present**](overview/the-present.md) - the current status for the carrier development
+* [**Our Hope** ](overview/our-hope.md)
 
 ## Get started
 

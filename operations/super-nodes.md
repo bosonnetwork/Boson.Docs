@@ -24,7 +24,7 @@ A carrier super node, also known as a bootstrap node, is a special type of carri
 
 In addition to serving as bootstrap nodes, carrier super nodes also offer built-in services such as DHT Proxy and Active Proxy services. More built-in services will be integrated as the development of the carrier network progresses.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>An imagined carrier network consists of Super Nodes, Regular Nodes, and dApp adoptions.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>An imagined carrier network consists of Super Nodes, Regular Nodes, and dApp adoptions.</p></figcaption></figure>
 
 ## A Set of Super Nodes Running as Bootstrap Nodes
 
