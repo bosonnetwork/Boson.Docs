@@ -28,5 +28,12 @@ The brief introcution here
 
 
 
+## Links
+
+* [**Github**](https://github.com/elastos/Elastos.Carrier.Java)
+* [**Telegram**](https://t.me/awesomecarrier)
+* [**Discord**](https://discord.gg/PfhEeuu2)
+* [**CIP**](https://github.com/trinity-tech-io/awesome-carrier)
+
 
 

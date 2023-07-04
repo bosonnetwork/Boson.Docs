@@ -15,10 +15,10 @@
   * [🎆 Kademia DHT](fundamentals/carrier-network/kademia-dht.md)
   * [🌱 Protocols](fundamentals/carrier-network/protocols.md)
   * [👁🗨 Carrier Nodes](fundamentals/carrier-network/carrier-nodes.md)
-* [☕ Addon Services](fundamentals/addon-services/README.md)
-  * [🛰 DHT Proxy](fundamentals/addon-services/dht-proxy.md)
-  * [🕳 Active Proxy](fundamentals/addon-services/active-proxy.md)
-* [📀 Key-value dstore](fundamentals/key-value-dstore.md)
+* [☕ Services](fundamentals/services/README.md)
+  * [🛰 DHT Proxy](fundamentals/services/dht-proxy.md)
+  * [🕳 Active Proxy](fundamentals/services/active-proxy.md)
+* [📀 dStore](fundamentals/dstore.md)
 * [📡 Federal-centric Communication](fundamentals/federal-centric-communication.md)
 
 ## Practices
@@ -30,15 +30,15 @@
 
 ## Developer
 
-* [☕ Java - Super Node](developer/java-super-node.md)
-* [🗜 C/C++ SDKs](developer/c-c++-sdks.md)
-* [🪶 Swift SDK](developer/swift-sdk.md)
-* [🛷 Lite Javascript SDK](developer/lite-javascript-sdk.md)
+* [☕ Java](developer/java.md)
+* [🗜 C/C++](developer/c-c++.md)
+* [🪶 Swift](developer/swift.md)
+* [🛷 Javascript](developer/javascript.md)
 
 ## Operations
 
 * [⛷ Super Nodes](operations/super-nodes.md)
-* [🕸 Carrier Explorer](operations/carrier-explorer.md)
+* [🕸 Explorer](operations/explorer.md)
 * [🧜 pc2.net ](operations/pc2.net.md)
 * [🧜♂ pc2.org](operations/pc2.org.md)
 
