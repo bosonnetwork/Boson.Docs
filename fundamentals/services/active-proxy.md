@@ -38,5 +38,5 @@ By using a config file to specify the active proxy peer ID, a regular Carrier no
 
 Assuming that the connection between an external dApp and a user service deployed on a home WiFi has been established, and the dApp requests access to the user service. The request from the dApp is forwarded to the internal carrier regular node on the user's home WiFi via an active proxy server running on a super node. The active proxy client in the regular node then forwards the traffic to the target user service. The response is then forwarded in reverse from the internal carrier regular node to the super node outside.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The work flow for Active Proxy between dApp and the user service.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The work flow for Active Proxy between dApp and the user service.</p></figcaption></figure>
 

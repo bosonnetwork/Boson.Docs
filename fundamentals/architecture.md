@@ -1,5 +1,9 @@
 # 🎏 Architecture
 
+
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>The Layered Carrier Network</p></figcaption></figure>
+
 * [Carrier Super Node](architecture.md#carrier-super-node)
 * [Carrier ](architecture.md#carrier-regular-node)[Native Node](architecture.md#carrier-regular-node)
 * [Carrier Light Node](architecture.md#carrier-light-node)

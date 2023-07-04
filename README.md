@@ -18,6 +18,10 @@ A simple introduction here.
 
 The brief introcution here
 
+* Setting up a Carrier super Node
+* Walk through Active Proxy Service
+* A basic practice on an interactive shell command
+
 
 
 ## Links
@@ -26,6 +30,3 @@ The brief introcution here
 * [**Telegram**](https://t.me/awesomecarrier)
 * [**Discord**](https://discord.gg/PfhEeuu2)
 * [**CIP**](https://github.com/trinity-tech-io/awesome-carrier)
-
-
-
