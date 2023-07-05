@@ -1,12 +1,12 @@
 # Table of contents
 
-* [👋 Welcome to Carrier](README.md)
+* [👋 Welcome to Carrier 2.0](README.md)
 
 ## Introduction
 
-* [🐾 The Review](overview/the-review.md)
-* [🎆 The Present](overview/the-present.md)
-* [💡 Our Hope](overview/our-hope.md)
+* [🐾 The Legacy](introduction/the-legacy.md)
+* [🎆 The New Age](introduction/the-new-age.md)
+* [💡 The Outlook](introduction/the-outlook.md)
 
 ## Fundamental
 
