@@ -1,2 +1,2 @@
-# 🛰 DHT Proxy
+# DHT Proxy
 

@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🕳 Active Proxy
+# Active Proxy
 
 The **Active Proxy** service is the first add-on service provided by **Carrier Super Nodes**. It allows a local service running on your home WiFi to be announced on a set of carrier super nodes. Once the service is announced on carrier super nodes, it can be accessed by the public naturally.
 

@@ -1,4 +1,4 @@
-# 🎆 Kademia DHT
+# Kademia DHT
 
 Here is the definition and introduction to [Kademia DHT](https://en.wikipedia.org/wiki/Kademlia) from wikipedia website:
 
