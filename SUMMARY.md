@@ -12,12 +12,12 @@
 
 * [🎏 Architecture](fundamentals/architecture.md)
 * [🐳 Carrier Network](fundamentals/carrier-network/README.md)
-  * [🎆 Kademia DHT](fundamentals/carrier-network/kademia-dht.md)
-  * [🌱 Protocols](fundamentals/carrier-network/protocols.md)
-  * [👁🗨 Carrier Nodes](fundamentals/carrier-network/carrier-nodes.md)
+  * [Kademia DHT](fundamentals/carrier-network/kademia-dht.md)
+  * [Protocols](fundamentals/carrier-network/protocols.md)
+  * [Carrier Nodes](fundamentals/carrier-network/carrier-nodes.md)
 * [☕ Services](fundamentals/services/README.md)
-  * [🛰 DHT Proxy](fundamentals/services/dht-proxy.md)
-  * [🕳 Active Proxy](fundamentals/services/active-proxy.md)
+  * [DHT Proxy](fundamentals/services/dht-proxy.md)
+  * [Active Proxy](fundamentals/services/active-proxy.md)
 * [📀 dStore](fundamentals/dstore.md)
 * [📡 Federal-centric Communication](fundamentals/federal-centric-communication.md)
 
