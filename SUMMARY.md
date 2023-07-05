@@ -2,31 +2,26 @@
 
 * [👋 Welcome to Carrier](README.md)
 
-## Overview
+## Introduction
 
-* [🐾 The Review](overview/the-review.md)
-* [🎆 The Present](overview/the-present.md)
-* [💡 Our Hope](overview/our-hope.md)
+* [🐾 The Review](introduction/the-review.md)
+* [🎆 The Present](introduction/the-present.md)
+* [💡 Our Hope](introduction/our-hope.md)
 
 ## Fundamentals
 
-* [🎏 Architecture](fundamentals/architecture.md)
-* [🐳 Carrier Network](fundamentals/carrier-network/README.md)
-  * [Kademia DHT](fundamentals/carrier-network/kademia-dht.md)
-  * [Protocols](fundamentals/carrier-network/protocols.md)
-  * [Carrier Nodes](fundamentals/carrier-network/carrier-nodes.md)
+* [🎏 Overview](fundamentals/overview.md)
+* [🛰 Protocols](fundamentals/protocols.md)
 * [☕ Services](fundamentals/services/README.md)
   * [DHT Proxy](fundamentals/services/dht-proxy.md)
   * [Active Proxy](fundamentals/services/active-proxy.md)
-* [📀 dStore](fundamentals/dstore.md)
-* [📡 Federal-centric Communication](fundamentals/federal-centric-communication.md)
-
-## Practices
-
-* [🔆 Setting up Carrier super node](practices/setting-up-carrier-super-node.md)
-* [🔑 Walk through active proxy service](practices/walk-through-active-proxy-service.md)
-* [💻 Practice in shell](practices/practice-in-shell.md)
-* [🕷 Set up crawler bot](practices/set-up-crawler-bot.md)
+  * [Messaging](fundamentals/services/messaging.md)
+  * [dStore](fundamentals/services/dstore.md)
+* [🔬 Practices](fundamentals/practices/README.md)
+  * [Setting up Carrier super node](fundamentals/practices/setting-up-carrier-super-node.md)
+  * [Walk through active proxy service](fundamentals/practices/walk-through-active-proxy-service.md)
+  * [Practice in shell](fundamentals/practices/practice-in-shell.md)
+  * [Set up crawler bot](fundamentals/practices/set-up-crawler-bot.md)
 
 ## Developer
 

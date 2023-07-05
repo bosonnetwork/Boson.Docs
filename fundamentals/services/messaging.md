@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 📡 Federal-centric Communication
+# Messaging
 
 {% hint style="info" %}
 This feature has not been implemented yet, but it is already on the list of planned features. We will share more detials later when it's ready to implement.

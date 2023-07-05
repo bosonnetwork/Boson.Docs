@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🎏 Architecture
+# 🎏 Overview
 
 ## A Layered, Permission-less Communication Platform
 
@@ -36,10 +36,10 @@ Being a layered communication network, it means that the network will allows for
 
 The carrier network comprises all the carrier nodes running worldwide, including the following types of nodes running on public VPS, personal devices, Raspberry Pi devices, or even browsers and so on:
 
-* [**Carrier Super node**](architecture.md#carrier-super-node)
-* [**Carrier Native node**](architecture.md#carrier-regular-node)
-* [**Carrier Lite Node**](architecture.md#carrier-light-node)
-* [**Carrier Crawler**](architecture.md#carrier-crawler)
+* [**Carrier Super node**](overview.md#carrier-super-node)
+* [**Carrier Native node**](overview.md#carrier-regular-node)
+* [**Carrier Lite Node**](overview.md#carrier-light-node)
+* [**Carrier Crawler**](overview.md#carrier-crawler)
 
 In brief, a super node is required to run on a VPS server with a public address to bootstrap new carrier nodes joining the network. A native node generally runs alongside an application or is integrated into the application to fulfill its features for end-users. A lite node is intended to run on a browser to use the DHT Proxy service from a specific super node. Finally, a carrier crawler is essentially a native node dedicated to crawling all active nodes in the entire carrier network.
 

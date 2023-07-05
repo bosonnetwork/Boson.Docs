@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🔆 Setting up Carrier super node
+# Setting up Carrier super node
 
 {% hint style="info" %}
 _It's recommended to install the Carrier super node on **Ubuntu 22.04** or later, and bind it to a public IP address._

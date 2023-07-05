@@ -1,4 +1,4 @@
-# 🔑 Walk through active proxy service
+# Walk through active proxy service
 
 ActiveProxy service is the first service provided by Carrier super node, and it's used to forward&#x20;
 

@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 📀 Key-value dstore
+# dStore
 
 {% hint style="info" %}
 This feature has not been implemented yet, but it is already on the list of planned features. We will share more detials later when it's ready to implement.
