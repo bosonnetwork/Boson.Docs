@@ -1,7 +1,5 @@
 ---
 description: A network of federal-based communication and content addressing based storage
-cover: .gitbook/assets/benchmark2.jpg
-coverY: 0
 ---
 
 # 👋 Welcome to Carrier
@@ -10,9 +8,9 @@ coverY: 0
 
 A simple introduction here.
 
-* [**The Past** ](introduction/the-review.md)- the history of Elastos Carrier classic network
-* [**The Present**](introduction/the-present.md) - the current status for the carrier development
-* [**Our Hope** ](introduction/our-hope.md)
+* [**The Past** ](overview/the-review.md)- the history of Elastos Carrier classic network
+* [**The Present**](overview/the-present.md) - the current status for the carrier development
+* [**Our Hope** ](overview/our-hope.md)
 
 ## Get started
 

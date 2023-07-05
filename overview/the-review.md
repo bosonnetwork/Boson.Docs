@@ -18,9 +18,7 @@ layout:
 **Elastos Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version 1.0.
 {% endhint %}
 
-***
-
-## The Overview of Carrier 1.0
+## The R**etrospect** of Carrier 1.0
 
 The **Carrier 1.0** or **Carrier Classic** is the first version of Elastos carrier infrastructure dedicated to being a fully decentralized and encrypted peer-to-peer communication platform that routes network traffic between dApps (_Decentralized_ _Applications_). &#x20;
 
@@ -44,7 +42,7 @@ The **Carrier Classic** is a fully decentralized and encrypted peer-to-peer comm
 
 Due to the aforementioned limitations in meeting the solid needs of applications, a new and advanced version of **Elastos Carrier**, known as **Carrier Version 2.0**, has been developed. The initial version of this new update has already been released.
 
-## The Repositories of Carrier 1.0
+## Repositories of Carrier 1.0
 
 We have suspended the development of Carrier version 1.0, but we will continue to maintain it until all customizers have migrated to Carrier 2.0. Below is a list of the main repositories for Carrier 1.0:
 
@@ -54,6 +52,6 @@ We have suspended the development of Carrier version 1.0, but we will continue t
 * [**Carrier Bootstraps**](https://github.com/elastos/Elastos.CarrierClassic.Bootstrap)
 * [**Carrier Crawler**](https://github.com/elastos/Elastos.CarrierClassic.Crawler)
 
-## Applications on Carrier 1.0
+## Adoptions on Carrier 1.0
 
 * [**Beagle Chat**](https://www.beagle.chat)

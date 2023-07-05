@@ -4,24 +4,27 @@
 
 ## Introduction
 
-* [🐾 The Review](introduction/the-review.md)
-* [🎆 The Present](introduction/the-present.md)
-* [💡 Our Hope](introduction/our-hope.md)
+* [🐾 The Review](overview/the-review.md)
+* [🎆 The Present](overview/the-present.md)
+* [💡 Our Hope](overview/our-hope.md)
 
-## Fundamentals
+## Fundamental
 
-* [🎏 Overview](fundamentals/overview.md)
-* [🛰 Protocols](fundamentals/protocols.md)
-* [☕ Services](fundamentals/services/README.md)
-  * [DHT Proxy](fundamentals/services/dht-proxy.md)
-  * [Active Proxy](fundamentals/services/active-proxy.md)
-  * [Messaging](fundamentals/services/messaging.md)
-  * [dStore](fundamentals/services/dstore.md)
-* [🔬 Practices](fundamentals/practices/README.md)
-  * [Setting up Carrier super node](fundamentals/practices/setting-up-carrier-super-node.md)
-  * [Walk through active proxy service](fundamentals/practices/walk-through-active-proxy-service.md)
-  * [Practice in shell](fundamentals/practices/practice-in-shell.md)
-  * [Set up crawler bot](fundamentals/practices/set-up-crawler-bot.md)
+* [🎏 Overview](fundamental/overview.md)
+* [🛰 Carrier Protocols](fundamental/carrier-protocols/README.md)
+  * [Carrier Node](fundamental/carrier-protocols/carrier-node.md)
+  * [Carrier Peer](fundamental/carrier-protocols/carrier-peer.md)
+  * [Carrier Value](fundamental/carrier-protocols/carrier-value.md)
+* [☕ Carrier Services](fundamental/carrier-services/README.md)
+  * [DHT Proxy](fundamental/carrier-services/dht-proxy.md)
+  * [Active Proxy](fundamental/carrier-services/active-proxy.md)
+  * [Messaging Service](fundamental/carrier-services/messaging-service.md)
+  * [dStore Service](fundamental/carrier-services/dstore-service.md)
+* [🔬 Practices](fundamental/practices/README.md)
+  * [Setting up Carrier super node](fundamental/practices/setting-up-carrier-super-node.md)
+  * [Walk through active proxy service](fundamental/practices/walk-through-active-proxy-service.md)
+  * [Practice in shell](fundamental/practices/practice-in-shell.md)
+  * [Set up crawler bot](fundamental/practices/set-up-crawler-bot.md)
 
 ## Developer
 
