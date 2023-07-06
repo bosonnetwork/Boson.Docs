@@ -12,13 +12,13 @@ layout:
     visible: true
 ---
 
-# 🛰 Carrier Protocols
+# Carrier Protocols
 
-## Kademia DHT
+## Kademlia DHT
 
-Here is the definition and introduction to [Kademia DHT](https://en.wikipedia.org/wiki/Kademlia) from wikipedia website:
+Kademlia DHT is a distrbuted hash table for decentralized peer-to-peer network desgined by Petar Maymounkov and David Mazières in 2002. It specifes the structure of the network and the exchange of information through node lookups. Kademlia DHT nodes communcate among themselves using UDP.  Each DHT node is identified by a number or node ID, and the Kademlia algorithm uses the node ID to locate nodes or values.  Learn more on [Kademlia DHT wikipedia](https://en.wikipedia.org/wiki/Kademlia) website.
 
-> Kademlia is a [distributed hash table](https://en.wikipedia.org/wiki/Distributed\_hash\_table) for decentralized peer-to-peer computer networks designed by Petar Maymounkov and David Mazières in 2002. It specifies the structure of the network and the exchange of information through node lookups. Kademlia nodes communicate among themselves using UDP. A virtual or [overlay network](https://en.wikipedia.org/wiki/Overlay\_network) is formed by the participant nodes. Each node is identified by a number or _node ID_. The _node ID_ serves not only as identification, but the Kademlia algorithm uses the _node ID_ to locate values (usually file hashes or keywords).
+The distributed nature of kademia means each node must keep the mapping of a subset of the nodes on the network in it's own routing table, which makes the network highly resistant to denial of service attacks and the loss of a group of nodes as the protocol simply routes around the unavailable nodes. Therefore, it creates resislicency agains attack, downtime and central points of failure.
 
 ## Supported Protocols
 
