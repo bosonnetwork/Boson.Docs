@@ -16,15 +16,15 @@ layout:
 
 ## A Layered, Permission-less Communication Platform
 
-The new Carrier maintains its decentralized nature and secure peer-to-peer (P2P) communication feature from version 1.0. However, it has been restructured as a layered, open, and permission-less platform. This decision was made to offer more possibilities for dApp adoption beyond the secure P2P communication feature.  The layered structure is listed below, from the bottom up:
+The new Carrier maintains its decentralized nature and the peer-to-peer (P2P) encrypted communication feature from the legacy version 1.0. As part of its evolution, it has been restructured as a layered and permissionless communication network. This decision was made to offer more possibilities for dApp adoption beyond the secure P2P communication feature. The layered structure is listed below, from the bottom up:
 
 * **UDP/TCP**
-* **Kademia DHT (Distributed Hash Table)**
-* **Carrier Protocol**
-* **Carrier Service**
+* [**Kademia DHT**](carrier-dht.md)
+* [**Carrier Protocol**](carrier-protocol/)
+* [**Carrier Service**](carrier-services/)
 * **Applications**
 
-In this layered structure, the bottom layer consists of core communication protocols UDP/TCP from the internet protocol suite, which are used to send messages. The **Kademia DHT** is a distributed hash table used for decentralized peer-to-peer networks, and the network structure is designed to exchange information through nodes using the UDP protocol. The **Carrier Protocol** layer defines the network protocols among nodes to provide a platform for applications, while the **Carrier Service** layer contains multiple system services such as Active Proxy, DHT Proxy, messaging, and public dStore for application adoption.
+In this layered structure, the bottom layer consists of core communication protocols UDP/TCP from the internet protocol suite, which are used to send messages. The **Kademia DHT** is a distributed hash table used for decentralized peer-to-peer network, where the network structure is designed to exchange information through nodes using the UDP protocol. The **Carrier Protocol** layer defines a suite of network protocols between nodes to communicate for applications, while the **Carrier Service** layer contains a serial of system level services serving applications, such as Active Proxy, DHT Proxy, messaging, and public dStore.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>A layered, open and permission-less Carrier Network</p></figcaption></figure>
 

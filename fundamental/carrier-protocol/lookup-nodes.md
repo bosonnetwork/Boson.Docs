@@ -14,15 +14,15 @@ layout:
 
 # Lookup Nodes
 
-## Carrier Nodes
+## Carrier Node
 
 Carrier is a fully decentralized communication network that consists of carrier nodes running worldwide. These nodes are categorized into the different types based on the way they contribute to the network:
 
 * [**Carrier Super Node**](lookup-nodes.md#carrier-super-node)
-* **Carrier Native Node**
-* **Carrier Lite Node**
+* [**Carrier Native Node**](lookup-nodes.md#carrier-native-node)
+* [**Carrier Lite Node**](lookup-nodes.md#carrier-lite-node)
 
-### Super Node
+## Carrier Super Node
 
 A **carrier super node** is a dedicated node that serves new nodes looking to join the network and broadcast their appearance. It's also running to provides services for applications like DHT Proxy, Active Proxy, and later, Messaging and public dStore.
 
@@ -30,7 +30,7 @@ Since super nodes are public node services that offer system services to applica
 
 The community can check the [Carrier Java](https://github.com/elastos/Elastos.Carrier.Java) repository and deploy their own Carrier super nodes for public use. The more super nodes running on the network, the greater the benefits for improving the reliability and decentralization of the Carrier network. Currently, there is no enforced economic model for running a Carrier super node, but the possibility of an incentive mechanism is under consideration.
 
-### Carrier Native Node
+## Carrier Native Node
 
 A native node typically runs alongside an application or is integrated into an application that runs on computers or devices. Applications can use carrier nodes to interact with others to store or find values, announce or find peers, or stream traffic directly. Native nodes can run under a home WiFi network and join the Carrier network by bootstrapping from the super node the first time they connect. Once connected to the Carrier network, they organize themselves and propagate their appearance on the network.
 
@@ -38,11 +38,9 @@ There are two versions of Carrier SDKs that can be integrated into applications:
 
 One special case worth mentioning is that a carrier crawler can be essentially considered as a native node. However, it is dedicated to crawling all active nodes in the entire carrier network. The results collected can then be presented on a Carrier Explorer to actively showcase the topology of the Carrier network.
 
-### Carrier Lite Node
+## Carrier Lite Node
 
-A lite node is intended to run on a browser to use the DHT Proxy service from a specific super node
-
-
+A lite node is designed to run as a browser application, utilizing the DHT Proxy service from a specific super node. Essentially, lite nodes are not DHT nodes themselves, but communicate with other nodes through the super node with the assistance of the DHT Proxy service. Therefore, web applications running in the browser can still be considered lightweight DHT nodes from the perspective of interacting nodes.
 
 ## Protocol - find\_node
 

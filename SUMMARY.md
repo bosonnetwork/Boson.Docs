@@ -11,6 +11,7 @@
 ## Fundamental
 
 * [Overview](fundamental/overview.md)
+* [Carrier DHT](fundamental/carrier-dht.md)
 * [Carrier Protocol](fundamental/carrier-protocol/README.md)
   * [Lookup Nodes](fundamental/carrier-protocol/lookup-nodes.md)
   * [Announce Peers](fundamental/carrier-protocol/announce-peers.md)
@@ -18,8 +19,8 @@
 * [Carrier Services](fundamental/carrier-services/README.md)
   * [DHT Proxy](fundamental/carrier-services/dht-proxy.md)
   * [Active Proxy](fundamental/carrier-services/active-proxy.md)
-  * [Messaging Service](fundamental/carrier-services/messaging-service.md)
   * [dStore Service](fundamental/carrier-services/dstore-service.md)
+  * [Messaging Service](fundamental/carrier-services/messaging-service.md)
 * [Practices](fundamental/practices/README.md)
   * [Setting up Carrier super node](fundamental/practices/setting-up-carrier-super-node.md)
   * [Walk through active proxy service](fundamental/practices/walk-through-active-proxy-service.md)
