@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Carrier Protocols
+# Carrier Protocol
 
 ## Kademlia DHT
 
@@ -22,14 +22,16 @@ The distributed nature of Kademia requires each node to maintain a mapping of a 
 
 Due to the aforementioned advantages, Kademia DHT has been widely used in projects such as Bittorrent, Ethereum, IPFS, and Swarm. Carrier has also decided to integrate it as the underlying DHT network so that Carrier can be a fully decentralized, reliable communication platform.
 
-## Carrier Protocols
+## Carrier Network
 
-* ping&#x20;
+Carrier is a fully decentralized and peer-to-peer encrypted communication platform that uses Kademlia DHT as its underlying network. A suite of protocols has been implemented to facilitate communication among nodes, including addressing and propagating nodes, values, and peer entities. Below is a list of protocols supported in Carrier:
+
+* ping
 * find\_node
-* announce\_peer
-* find\_peer
 * store\_value
 * find\_value
+* announce\_peer
+* find\_peer
 
 ## Related Links:
 

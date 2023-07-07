@@ -11,10 +11,10 @@
 ## Fundamental
 
 * [Overview](fundamental/overview.md)
-* [Carrier Protocols](fundamental/carrier-protocols/README.md)
-  * [Carrier Node](fundamental/carrier-protocols/carrier-node.md)
-  * [Carrier Peer](fundamental/carrier-protocols/carrier-peer.md)
-  * [Carrier Value](fundamental/carrier-protocols/carrier-value.md)
+* [Carrier Protocol](fundamental/carrier-protocol/README.md)
+  * [Carrier Node](fundamental/carrier-protocol/carrier-node.md)
+  * [Carrier Peer](fundamental/carrier-protocol/carrier-peer.md)
+  * [Carrier Value](fundamental/carrier-protocol/carrier-value.md)
 * [Carrier Services](fundamental/carrier-services/README.md)
   * [DHT Proxy](fundamental/carrier-services/dht-proxy.md)
   * [Active Proxy](fundamental/carrier-services/active-proxy.md)

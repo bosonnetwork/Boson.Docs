@@ -14,6 +14,10 @@ layout:
 
 # 👋 Welcome to Carrier 2.0
 
+{% hint style="info" %}
+Throughout the documentation website, the terms **Carrier Legacy** or **Carrier Classic** refer to carrier version 1.0, while the term **New Carrier** or simply **Carrier** is used to refer to carrier version 2.0 or any new version in the future.
+{% endhint %}
+
 ## Overview
 
 **Carrier** has been an essential component of the Elastos ecosystem since its inception. As a completely decentralized, peer-to-peer (P2P) communication network, it provides reliable communication and data sharing capabilities without relying on any central authorities and risking data leakage.&#x20;
@@ -31,7 +35,7 @@ Below is a list of brief introductions to the Carrier project from the past, pre
 If you're new to the Carrier project, it's recommended that you first gain an overview understanding of the new Carrier network. Carrier is a well-layered, permissionless communication network, where each layer serves its own specific purpose for the entire Carrier network. Below are recommended steps to learn about Carrier:
 
 * [**The overview of Carrier Network**](./#overview)
-* [**Carrier protocols**](fundamental/carrier-protocols/) - The carrier defined protocols from CIP
+* [**Carrier protocols**](fundamental/carrier-protocol/) - The carrier defined protocols from CIP
 * [**Carrier Services**](fundamental/carrier-services/) - The built-in system level services
 
 Once you have a basic understanding of the Carrier network, it is recommended that you practice by deploying a Carrier super node. This will allow you to run a local service on your development machine or Raspberry device utilizing the ActiveProxy service. Below are the recommended steps to practice using Carrier:
