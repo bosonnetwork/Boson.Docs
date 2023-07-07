@@ -50,3 +50,17 @@ A lite node is designed to run as a browser application, utilizing the DHT Proxy
 * Active Proxy
 * Messaging Service
 * Public bStore
+
+
+
+## Categories of Carrier Nodes
+
+The carrier network comprises all the carrier nodes running worldwide, including the following types of nodes running on public VPS, personal devices, Raspberry Pi devices, or even browsers and so on:
+
+* [**Carrier Super node**](lookup-nodes.md#carrier-super-node)
+* [**Carrier Native node**](lookup-nodes.md#carrier-regular-node)
+* [**Carrier Lite Node**](lookup-nodes.md#carrier-light-node)
+
+In brief, a super node is required to run on a VPS server with a public address to bootstrap new carrier nodes joining the network. A native node generally runs alongside an application or is integrated into the application to fulfill its features for end-users. A lite node is intended to run on a browser to use the DHT Proxy service from a specific super node.
+
+Each category of carrier nodes serves its own purpose and contributes its traffic to boost the security and health of the Carrier network.

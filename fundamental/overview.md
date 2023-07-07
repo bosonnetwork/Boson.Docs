@@ -14,9 +14,9 @@ layout:
 
 # Overview
 
-## A Layered, Permission-less Communication Platform
+## Rising the New Carrier
 
-The new Carrier maintains its decentralized nature and the peer-to-peer (P2P) encrypted communication feature from the legacy version 1.0. As part of its evolution, it has been restructured as a layered and permissionless communication network. This decision was made to offer more possibilities for dApp adoption beyond the secure P2P communication feature. The layered structure is listed below, from the bottom up:
+The new Carrier maintains its decentralized nature and the peer-to-peer (P2P) encrypted communication feature from its legacy version 1.0. As part of its evolution, it has been restructured as a layered and permissionless communication network. This decision was made to offer more possibilities for dApp adoption beyond the secure P2P communication feature. The layered structure is listed below, from the bottom up:
 
 * **UDP/TCP**
 * [**Kademia DHT**](carrier-dht.md)
@@ -24,32 +24,32 @@ The new Carrier maintains its decentralized nature and the peer-to-peer (P2P) en
 * [**Carrier Service**](carrier-services/)
 * **Applications**
 
-In this layered structure, the bottom layer consists of core communication protocols UDP/TCP from the internet protocol suite, which are used to send messages. The **Kademia DHT** is a distributed hash table used for decentralized peer-to-peer network, where the network structure is designed to exchange information through nodes using the UDP protocol. The **Carrier Protocol** layer defines a suite of network protocols between nodes to communicate for applications, while the **Carrier Service** layer contains a serial of system level services serving applications, such as Active Proxy, DHT Proxy, messaging, and public dStore.
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>A layered and permission-less peer-to-peer encrypted carrier network</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>A layered, open and permission-less Carrier Network</p></figcaption></figure>
+In this layered structure, the bottom layer consists of core communication protocols UDP/TCP used for sending messages. **Kademia DHT** is a distributed hash table used for decentralized peer-to-peer network, where the network structure is designed to exchange information through nodes. The layer **Carrier Protocol** defines a suite of network protocols between nodes to communicate for applications, while the layer **Carrier Service** contains a serial of system level services serving applications, such as Active Proxy, DHT Proxy, messaging, and public dStore.
 
+Overall, the layered structure offers the network greater scalability and flexibility in terms of application adoption, and also enables more efficient communication between devices, since each layer serves a specific purpose for applications.
 
+## Understand the Carrier Stack
 
-Being a layered communication network, it means that the network will allows for more efficient communication between devices, and each layer serves a specific purpose of applications. Additionally, this structure allows for greater scalability and flexibility. Overal, the layered desgin of Carrier network is one of it's key strengths, enable it provide fast, secure and reliable communication for users all round the world.
+After obtaining an overview of the layered structure of the carrier network, the subsequent step is to delve into the concepts and technologies of each layer. In the following chapters, the main layers - Protocol, and Services - will be described in detail, with a focus on each layer individually.
 
-## Categories of Carrier Nodes
+* [**Carrier Protocol**](carrier-protocol/)
+* [**Carrier Services**](carrier-services/)
 
-The carrier network comprises all the carrier nodes running worldwide, including the following types of nodes running on public VPS, personal devices, Raspberry Pi devices, or even browsers and so on:
+Once you have gained knowledge of the basic concepts, it is recommended that you reinforce that knowledge through practice. Below are some useful tasks that you can start practicing:
 
-* [**Carrier Super node**](overview.md#carrier-super-node)
-* [**Carrier Native node**](overview.md#carrier-regular-node)
-* [**Carrier Lite Node**](overview.md#carrier-light-node)
+* [**Deploy a Carrier super node**](practices/setting-up-carrier-super-node.md)
+* [**Utilize the ActiveProxy service to run a local service**](practices/walk-through-active-proxy-service.md)
+* [**Practice using Carrier by following the recommended steps**](practices/practice-in-shell.md)
 
-In brief, a super node is required to run on a VPS server with a public address to bootstrap new carrier nodes joining the network. A native node generally runs alongside an application or is integrated into the application to fulfill its features for end-users. A lite node is intended to run on a browser to use the DHT Proxy service from a specific super node.
+Here are links to related concepts that can provide you with a deeper understanding of the topic at hand. We hope that they can help you gain a more thorough and nuanced understanding of the technologies involved:
 
-Each category of carrier nodes serves its own purpose and contributes its traffic to boost the security and health of the Carrier network.
-
-## More Links
-
-* Carrier Protocols
-* Carrier Services
-* Active Proxy
+* Carrier Nodes
+* Lookup Nodes
+* Announce Peers
+* Store Values
 * DHT Proxy
-* Message services
-* Public dStore&#x20;
-
+* Active Proxy
+* Messaging service
+* dStore service
