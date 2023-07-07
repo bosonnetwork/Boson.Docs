@@ -1,4 +1,4 @@
-# ❓ FAQ
+# FAQ
 
 {% hint style="info" %}
 Here are the list of FAQs that the community possibly would ask or have already been asked by the community. Hope you can find the anwsers among those FAQs or you can put a new one by raising an issue from [here](https://github.com/trinity-tech-io/Carrier-FAQ.git).

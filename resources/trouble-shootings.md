@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🌠 Trouble shootings
+# Trouble shootings
 
 {% hint style="info" %}
 Here are the list of trouble shootings that have been collected from our devs or the community and would be also possibly happening to others who are trying to utilize carrier network features in their applications with same or similar sceniaros.

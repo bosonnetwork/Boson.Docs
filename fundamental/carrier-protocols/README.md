@@ -20,7 +20,9 @@ Kademlia DHT is a distributed hash table designed for decentralized peer-to-peer
 
 The distributed nature of Kademia requires each node to maintain a mapping of a subset of the nodes on the network in its own routing table. This feature makes the network highly resistant to denial-of-service attacks and the loss of a group of nodes, as the protocol simply routes around the unavailable nodes. Therefore, it creates resilience against attacks, downtime, and central points of failure.
 
-## Supported Protocols
+Due to the aforementioned advantages, Kademia DHT has been widely used in projects such as Bittorrent, Ethereum, IPFS, and Swarm. Carrier has also decided to integrate it as the underlying DHT network so that Carrier can be a fully decentralized, reliable communication platform.
+
+## Carrier Protocols
 
 * ping&#x20;
 * find\_node

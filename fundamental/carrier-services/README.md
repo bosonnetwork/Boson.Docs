@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# ☕ Carrier Services
+# Carrier Services
 
 ## Carrier Services
 

@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🔗 Links
+# Links
 
 ## Github Repositories
 

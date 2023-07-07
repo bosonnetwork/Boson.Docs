@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🎏 Overview
+# Overview
 
 ## A Layered, Permission-less Communication Platform
 

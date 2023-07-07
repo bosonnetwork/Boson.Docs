@@ -1,4 +1,4 @@
-# 🗜 C/C++ SDKs
+# C/C++
 
 {% code fullWidth="true" %}
 ```cpp

@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🐾 The Review
+# The Legacy
 
 {% hint style="info" %}
 **Elastos Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version 1.0.

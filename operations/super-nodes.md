@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# ⛷ Super Nodes
+# Super Nodes
 
 {% hint style="info" %}
 We expect the community to deploy public super nodes and improve the carrier network to be more healthy and robust. Please inform us once you start working on this.

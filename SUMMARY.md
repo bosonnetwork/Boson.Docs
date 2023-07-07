@@ -36,14 +36,9 @@
 ## Operations
 
 * [Super Nodes](operations/super-nodes.md)
-* [Explorer](operations/explorer.md)
+* [Carrier Explorer](operations/carrier-explorer.md)
 * [pc2.net ](operations/pc2.net.md)
 * [pc2.org](operations/pc2.org.md)
-
-## Adoptions
-
-* [Hyper IM](adoptions/hyper-im.md)
-* [Feeds Network](adoptions/feeds-network.md)
 
 ## Resources
 

@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🕸 Explorer
+# Carrier Explorer
 
 {% hint style="info" %}
 We expect the community to develop and deploy carrier explorers that can present all active node information throughout the entire carrier network. Please inform us once you start working on this.
@@ -24,9 +24,7 @@ A carrier crawler is a specialized type of carrier node dedicated to crawling ac
 
 ## Carrier Explorer
 
-A carrier explorer is a website integrated with [**carrier crawler**](explorer.md#carrier-crawler) that presents all active carrier nodes discovered by crawling the entire carrier network. Community users can deploy an explorer website integrated with a carrier crawler to display as many active carrier nodes as possible.
-
-
+A carrier explorer is a website integrated with [**carrier crawler**](carrier-explorer.md#carrier-crawler) that presents all active carrier nodes discovered by crawling the entire carrier network. Community users can deploy an explorer website integrated with a carrier crawler to display as many active carrier nodes as possible.
 
 ## More Links
 

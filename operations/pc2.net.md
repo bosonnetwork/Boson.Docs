@@ -2,7 +2,7 @@
 description: One web portal to the twin pc2 domain name registration service
 ---
 
-# 🧜 pc2.net&#x20;
+# pc2.net&#x20;
 
 ## Dynamic DNS
 

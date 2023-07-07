@@ -1,2 +1,2 @@
-# ☕ Java - Super Node
+# Java
 

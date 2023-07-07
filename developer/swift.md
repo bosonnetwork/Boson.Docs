@@ -1,2 +1,2 @@
-# 🪶 Swift SDK
+# Swift
 

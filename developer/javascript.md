@@ -1,2 +1,2 @@
-# 🛷 Lite Javascript SDK
+# Javascript
 
