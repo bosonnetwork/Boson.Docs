@@ -39,9 +39,8 @@ The carrier network comprises all the carrier nodes running worldwide, including
 * [**Carrier Super node**](overview.md#carrier-super-node)
 * [**Carrier Native node**](overview.md#carrier-regular-node)
 * [**Carrier Lite Node**](overview.md#carrier-light-node)
-* [**Carrier Crawler**](overview.md#carrier-crawler)
 
-In brief, a super node is required to run on a VPS server with a public address to bootstrap new carrier nodes joining the network. A native node generally runs alongside an application or is integrated into the application to fulfill its features for end-users. A lite node is intended to run on a browser to use the DHT Proxy service from a specific super node. Finally, a carrier crawler is essentially a native node dedicated to crawling all active nodes in the entire carrier network.
+In brief, a super node is required to run on a VPS server with a public address to bootstrap new carrier nodes joining the network. A native node generally runs alongside an application or is integrated into the application to fulfill its features for end-users. A lite node is intended to run on a browser to use the DHT Proxy service from a specific super node.
 
 Each category of carrier nodes serves its own purpose and contributes its traffic to boost the security and health of the Carrier network.
 
