@@ -16,9 +16,9 @@ layout:
 
 ## Overview
 
-**Carrier** has been an essential component of the Elastos ecosystem since its inception. As a completely decentralized, peer-to-peer (P2P) communication network, it provides reliable communication and data sharing capabilities without relying on a central authority or risking data leakage.&#x20;
+**Carrier** has been an essential component of the Elastos ecosystem since its inception. As a completely decentralized, peer-to-peer (P2P) communication network, it provides reliable communication and data sharing capabilities without relying on any central authorities and risking data leakage.&#x20;
 
-Due to limited adoptions of the legacy version, Carrier 1.0, Carrier has continued to evolve and improve over time. With a newly well-layered architecture and expanded possibilities for application adoption, Carrier remains a critical component of the Elastos Ecosystem. It plays a crucial role in its success and continued growth.
+Due to limited adoptions of the legacy version 1.0, Carrier has continued to evolve and improve over time. With a newly well-layered architecture and expanded possibilities for application adoption, Carrier remains a critical component of the Elastos Ecosystem. It plays a crucial role in its success and continued growth.
 
 Below is a list of brief introductions to the Carrier project from the past, present, and future:
 
