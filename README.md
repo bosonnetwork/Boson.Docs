@@ -40,7 +40,7 @@ If you're new to the Carrier project, it's recommended that you first gain an ov
 
 Once you have a basic understanding of the Carrier network, it is recommended that you practice by deploying a Carrier super node. This will allow you to run a local service on your development machine or Raspberry device utilizing the ActiveProxy service. Below are the recommended steps to practice using Carrier:
 
-* [**Deploy a Carrier super node**](fundamental/practices/setting-up-carrier-super-node.md)
+* [**Deploy a Carrier super node**](fundamental/practices/deploying-a-carrier-super-node.md)
 * [**Utilize the ActiveProxy service to run a local service**](fundamental/practices/walk-through-active-proxy-service.md)
 * [**Practice using Carrier by following the recommended steps**](fundamental/practices/practice-in-shell.md)
 

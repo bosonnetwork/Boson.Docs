@@ -163,5 +163,5 @@ Here is an example configuration file that the community can use with the full s
 ## More Links
 
 * [Carrier Super Nodes](super-nodes.md#carrier-super-nodes)
-* [Setting up a Carrier super node by the community](../fundamental/practices/setting-up-carrier-super-node.md)
+* [Setting up a Carrier super node by the community](../fundamental/practices/deploying-a-carrier-super-node.md)
 * [Java SDK API document](../developer/java.md)

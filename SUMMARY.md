@@ -22,7 +22,7 @@
   * [dStore Service](fundamental/carrier-services/dstore-service.md)
   * [Messaging Service](fundamental/carrier-services/messaging-service.md)
 * [Practices](fundamental/practices/README.md)
-  * [Setting up Carrier super node](fundamental/practices/setting-up-carrier-super-node.md)
+  * [Deploying a Carrier Super Node](fundamental/practices/deploying-a-carrier-super-node.md)
   * [Walk through active proxy service](fundamental/practices/walk-through-active-proxy-service.md)
   * [Practice in shell](fundamental/practices/practice-in-shell.md)
   * [Set up crawler bot](fundamental/practices/set-up-crawler-bot.md)
