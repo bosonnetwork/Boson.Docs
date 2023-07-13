@@ -62,7 +62,7 @@ We welcome contributions from passionate developers in the open-source community
 * [**Carrier Java**](https://github.com/elastos/Elastos.Carrier.Java)
 * [**Carrier Native**](https://github.com/elastos/Elastos.Carrier.Native)
 
-We also welcome community involvement in improving the CIP specifications and publishing carrier super nodes for public use. Also be welcome join the dedicated telegram to get more details and progresses about the carrier network:
+We also welcome community involvement in improving the CIP specifications and publishing carrier super nodes for public use. You are also welcome to join our dedicated Telegram group to get more details and updates about the Carrier network.
 
 * [**awesome-carrier**](https://github.com/trinity-tech-io/awesome-carrier) - CIP (Carrier Implementation Possibilities of Adoptions)
 * [**Public Carrier Nodes**](https://github.com/trinity-tech-io/public-carrier-nodes)

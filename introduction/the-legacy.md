@@ -46,9 +46,9 @@ Due to the aforementioned limitations in meeting the solid needs of applications
 
 We have suspended the development of Carrier version 1.0, but we will continue to maintain it until all customizers have migrated to Carrier 2.0. Below is a list of the main repositories for Carrier 1.0:
 
-* [**C/C++/Native SDK**](https://github.com/elastos/Elastos.CarrierClassic.Native)
-* [**Java/Android SDK**](https://github.com/elastos/Elastos.CarrierClassic.Android)
-* [**Swift/iOS SDK**](https://github.com/elastos/Elastos.CarrierClassic.Swift)
+* [**C/C++ Native SDK**](https://github.com/elastos/Elastos.CarrierClassic.Native)
+* [**Java Android SDK**](https://github.com/elastos/Elastos.CarrierClassic.Android)
+* [**Swift iOS SDK**](https://github.com/elastos/Elastos.CarrierClassic.Swift)
 * [**Carrier Bootstraps**](https://github.com/elastos/Elastos.CarrierClassic.Bootstrap)
 * [**Carrier Crawler**](https://github.com/elastos/Elastos.CarrierClassic.Crawler)
 

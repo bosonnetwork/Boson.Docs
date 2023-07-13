@@ -24,7 +24,7 @@ The new Carrier maintains its decentralized nature and the peer-to-peer (P2P) en
 * [**Carrier Service**](carrier-services/)
 * **Applications**
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>A layered and permission-less peer-to-peer encrypted carrier network</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>A layered and permission-less peer-to-peer encrypted carrier network</p></figcaption></figure>
 
 In this layered structure, the bottom layer consists of core communication protocols UDP/TCP used for sending messages. **Kademia DHT** is a distributed hash table used for decentralized peer-to-peer network, where the network structure is designed to exchange information through nodes. The layer **Carrier Protocol** defines a suite of network protocols between nodes to communicate for applications, while the layer **Carrier Service** contains a serial of system level services serving applications, such as Active Proxy, DHT Proxy, messaging, and public dStore.
 
