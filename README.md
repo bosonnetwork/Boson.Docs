@@ -35,23 +35,23 @@ Below is a list of brief introductions to the Carrier project from the past, pre
 If you're new to the Carrier project, it's recommended that you first gain an overview understanding of the new Carrier network. Carrier is a well-layered, permissionless communication network, where each layer serves its own specific purpose for the entire Carrier network. Below are recommended steps to learn about Carrier:
 
 * [**The overview of Carrier Network**](./#overview)
-* [**Carrier protocols**](fundamental/carrier-protocol/) - The carrier defined protocols from CIP
-* [**Carrier Services**](fundamental/carrier-services/) - The built-in system level services
+* [**Carrier protocols**](getting-started/carrier-protocol/) - The carrier defined protocols from CIP
+* [**Carrier Services**](getting-started/carrier-services/) - The built-in system level services
 
 Once you have a basic understanding of the Carrier network, it is recommended that you practice by deploying a Carrier super node. This will allow you to run a local service on your development machine or Raspberry device utilizing the ActiveProxy service. Below are the recommended steps to practice using Carrier:
 
-* [**Deploy a Carrier super node**](fundamental/practices/deploying-a-carrier-super-node.md)
-* [**Utilize the ActiveProxy service to run a local service**](fundamental/practices/walk-through-active-proxy-service.md)
-* [**Practice using Carrier by following the recommended steps**](fundamental/practices/practice-in-shell.md)
+* [**Deploy a Carrier super node**](getting-started/practices/deploying-a-carrier-super-node.md)
+* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/walk-through-active-proxy-service.md)
+* [**Practice using Carrier by following the recommended steps**](getting-started/practices/practice-in-shell.md)
 
 ## Deep Dive
 
 Once you have a thorough understanding of the Carrier project, it's time to dive deep into the SDKs and APIs for different versions of Carrier project. This is the next step in your journey to integrate Carrier into your applications.
 
-* [**Java SDK and APIs**](developer/java.md)
-* [**C/C++ Native SDK and APIs**](developer/c-c++.md)
+* [**Java SDK and APIs**](developer-kits/java.md)
+* [**C/C++ Native SDK and APIs**](developer-kits/c-c++.md)
 * [**Swift/iOS APIs and SDK**](http://localhost:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/)
-* [**Javascript Lite SDK and APIs**](developer/javascript.md)
+* [**Javascript Lite SDK and APIs**](developer-kits/javascript.md)
 
 ## Contributions
 
