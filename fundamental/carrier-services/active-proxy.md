@@ -16,7 +16,7 @@ layout:
 
 The **Active Proxy** service is the first add-on service provided by **Carrier Super Nodes**. It allows a local service running on your home WiFi to be announced on a set of carrier super nodes. Once the service is announced on carrier super nodes, it can be accessed by the public naturally.
 
-## The Use Cases Could Benefit From Proxy Active
+## The Use Cases Could Benefit From Active Proxy
 
 Suppose you want to run a blog service on a Raspberry device in your home WiFi and share stories on the blog service with the public. In this case, you can use the **Active Proxy** from the super nodes you trust the most to announce your blog service to the public.
 
