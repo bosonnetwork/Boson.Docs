@@ -23,14 +23,14 @@
   * [Messaging Service](getting-started/carrier-services/messaging-service.md)
 * [Practices](getting-started/practices/README.md)
   * [Deploying a Carrier Super Node](getting-started/practices/deploying-a-carrier-super-node.md)
-  * [Walk through active proxy service](getting-started/practices/walk-through-active-proxy-service.md)
+  * [Utilize the Active Proxy service to run a local service](getting-started/practices/utilize-the-active-proxy-service-to-run-a-local-service.md)
   * [Practice in shell](getting-started/practices/practice-in-shell.md)
   * [Set up crawler bot](getting-started/practices/set-up-crawler-bot.md)
 
-## Advanced
+## In-depth Tech
 
-* [Specifications](advanced/specifications.md)
-* [Proposals](advanced/proposals.md)
+* [Specifications](in-depth-tech/specifications.md)
+* [Proposals](in-depth-tech/proposals.md)
 
 ## Developer Kits
 

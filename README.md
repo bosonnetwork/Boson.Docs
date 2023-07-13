@@ -20,55 +20,55 @@ Throughout the documentation website, the terms **Carrier Legacy** or **Carrier 
 
 ## Overview
 
-**Carrier** has been an essential component of the Elastos ecosystem since its inception. As a completely decentralized, peer-to-peer (P2P) communication network, it provides reliable communication and data sharing capabilities without relying on any central authorities and risking data leakage.&#x20;
+**Carrier** has been an essential component of the **Elastos** ecosystem since its inception. As a completely decentralized, peer-to-peer (P2P) communication network, it provides reliable communication and data sharing capabilities without relying on a central registry and risking data leakage.
 
-Due to limited adoptions of the legacy version 1.0, Carrier has continued to evolve and improve over time. With a newly well-layered architecture and expanded possibilities for application adoption, Carrier remains a critical component of the Elastos Ecosystem. It plays a crucial role in its success and continued growth.
+Due to limited adoptions of the legacy version 1.0, Carrier has continued to evolve and improve over time. With a newly well-layered architecture and expanded possibilities for application adoption, the carrier remains a critical component of the Elastos ecosystem. It keeps playing a crucial role in its success and continued growth.
 
-Below is a list of brief introductions to the Carrier project from the past, present, and future:
+Below is a list of brief introductions to the carrier project from the past, present, and future:
 
 * [**The Legacy** ](introduction/the-legacy.md) - A retrospective of carrier version 1.0
 * [**The New Age**](introduction/the-new-age.md) - The improved carrier version 2.0
 * [**The Outlook** ](introduction/the-outlook.md)- The vision of carrier for the future
 
-## Get started
+## Getting started
 
-If you're new to the Carrier project, it's recommended that you first gain an overview understanding of the new Carrier network. Carrier is a well-layered, permissionless communication network, where each layer serves its own specific purpose for the entire Carrier network. Below are recommended steps to learn about Carrier:
+If you're new to the carrier project, it's recommended that you first gain an overview understanding of the new carrier network. Carrier is a well-layered, permissionless communication network, where each layer serves its own specific purpose for the entire carrier network. Here are the recommended steps to learn about Carrier:
 
-* [**The overview of Carrier Network**](./#overview)
-* [**Carrier protocols**](getting-started/carrier-protocol/) - The carrier defined protocols from CIP
-* [**Carrier Services**](getting-started/carrier-services/) - The built-in system level services
+* [**The overview of carrier network**](./#overview)
+* [**Carrier protocols**](getting-started/carrier-protocol/) - The carrier-defined protocols from CIP
+* [**Carrier services**](getting-started/carrier-services/) - The services customizedly provided by carrier super nodes
 
-Once you have a basic understanding of the Carrier network, it is recommended that you practice by deploying a Carrier super node. This will allow you to run a local service on your development machine or Raspberry device utilizing the ActiveProxy service. Below are the recommended steps to practice using Carrier:
+Once you have a basic understanding of the carrier network, it is recommended that you practice by deploying a carrier super node on a public VPS server. Next, we suggest that you run a local service on your development machine or Raspberry Pi device using the active proxy service.&#x20;
 
-* [**Deploy a Carrier super node**](getting-started/practices/deploying-a-carrier-super-node.md)
-* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/walk-through-active-proxy-service.md)
+Here is a list of recommended guidelines for practicing with carrier tech:
+
+* [**Deploy a carrier super node**](getting-started/practices/deploying-a-carrier-super-node.md)
+* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/utilize-the-active-proxy-service-to-run-a-local-service.md)
 * [**Practice using Carrier by following the recommended steps**](getting-started/practices/practice-in-shell.md)
 
-## Deep Dive
+## In-depth tech
 
-Once you have a thorough understanding of the Carrier project, it's time to dive deep into the SDKs and APIs for different versions of Carrier project. This is the next step in your journey to integrate Carrier into your applications.
+Once you have a general understanding of the carrier project, it's time to dive into the technology in-depth and check the SDKs and APIs. Here is a set of SDKs in different languages for the final step in your journey to integrate carrier into your applications:
 
-* [**Java SDK and APIs**](developer-kits/java.md)
-* [**C/C++ Native SDK and APIs**](developer-kits/c-c++.md)
-* [**Swift/iOS APIs and SDK**](http://localhost:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/)
-* [**Javascript Lite SDK and APIs**](developer-kits/javascript.md)
+* [**Java SDK**](developer-kits/java.md)
+* [**C/C++ Native SDK**](developer-kits/c-c++.md)
+* [**Swift iOS SDK**](http://localhost:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/)
+* [**Javascript Lite SDK**](developer-kits/javascript.md)
 
 ## Contributions
 
-We welcome contributions from passionate developers in the open-source community who aspire to create a secure, decentralized communication platform and help expand the capabilities of Elastos Carrier, to achieve wider adoption. Below is a list of repositories for the Carrier project where you can create issues or push pull requests to contribute.
+We welcome contributions from passionate developers in the open-source community who aspire to create a secure, decentralized communication platform and help expand the capabilities of the carrier project to achieve wider adoption. Below is a list of repositories for the Carrier project where you can create issues or push pull-requests to contribute:
 
 * [**Carrier Java**](https://github.com/elastos/Elastos.Carrier.Java)
 * [**Carrier Native**](https://github.com/elastos/Elastos.Carrier.Native)
-* **Carrier Swift (Working)**
 
-We also welcome community involvement in improving the CIP specifications and publishing carrier super nodes for public use.
+We also welcome community involvement in improving the CIP specifications and publishing carrier super nodes for public use. Also be welcome join the dedicated telegram to get more details and progresses about the carrier network:
 
-* [**CIP (Carrier Improvement Proposal)**](https://github.com/trinity-tech-io/awesome-carrier)
+* [**awesome-carrier**](https://github.com/trinity-tech-io/awesome-carrier) - CIP (Carrier Implementation Possibilities of Adoptions)
 * [**Public Carrier Nodes**](https://github.com/trinity-tech-io/public-carrier-nodes)
+* [**Telegram - Awesome Carrier 2.0**](https://t.me/awesomecarrier)
 
 ## More Links
 
 * [**Github**](https://github.com/elastos/Elastos.Carrier.Java)
-* [**Telegram**](https://t.me/awesomecarrier)
 * [**Discord**](https://discord.gg/PfhEeuu2)
-* [**CIP**](https://github.com/trinity-tech-io/awesome-carrier)
