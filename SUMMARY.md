@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to Carrier 2.0](README.md)
+* [Welcome to Carrier 2.0](README.md)
 
 ## Introduction
 
