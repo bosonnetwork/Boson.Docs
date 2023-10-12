@@ -6,9 +6,7 @@ The Active Proxy service consists of two parts: the **Service** and **Client**. 
 
 ## Deploying the Active Proxy Service
 
-Currently, the Active Proxy service is running alongside the super node. Here is an example of a configuration file for the super node, tailored to your preference.
-
-Generally, the Active Proxy service is running alongside the super node on the server with public address. Here is the an example of a config file that can be used.&#x20;
+As it's mentioned, the Active Proxy service is running alongside the super node on the server with public address. Here is the an example of a config file that can be referenced.&#x20;
 
 ```json
 {
@@ -38,11 +36,9 @@ Generally, the Active Proxy service is running alongside the super node on the s
 }
 ```
 
-In this config file, only one service named with 'ActiveProxy' service is included. Users can use the customized port or port ranges other than the default values. &#x20;
+In this config file, only one item of 'ActiveProxy' service is included. Users can use the other port value or port range other than the default values.
 
-Since the services over the Carrier network will be presented as a peer and identified by peerId. The service provider needs to keep the ownership of this peer because later the service will be updated and broadcasted in case. So, the item **peerPrivateKey** is the secret key to control the ownership of this peer, and need to be keep it in privacy.&#x20;
-
-
+The service over the Carrier network is broadcasted and located as a peer information and identified by using peerId. The deploying user needs to maintain ownership of this peer so that the service can be updated and broadcasted later if necessary. Therefore, the item peerPrivateKey is the secret key to control the ownership of this peer and needs to be kept private.
 
 {% hint style="info" %}
 The Trinity-Tech team has deployed a list of carrier super nodes that can be leveraged by the user applications. One set of these carrier super nodes provides the Active Proxy service with supporting the pc2 domain name. &#x20;
