@@ -1,14 +1,14 @@
-# Walk through active proxy service
+# Leverage the ActiveProxy Service
 
-ActiveProxy service is the first service provided by Carrier super node, and it's used to forward&#x20;
+Active Proxy service is a type of system level service over the carrier network. It is used to forward local services that are deployed and running within a LAN network, making them accessible to the public.
 
-## Active Proxy Service Usage
+The Active Proxy service consists of two parts: the **Service** and **Client**. The service part runs alongside the super node, and users typically do not need to be concerned about this aspect. The other part runs alongside the native node of the Carrier. As the native Carrier is often integrated into the user application, it can be customized and updated based on specific requirements or application scenarios.
 
-The Active Proxy service is the first service provided by Carrier Super Node. It is used to forward service entries for third parties that are originally located within a LAN network, making them accessible to the public
+## Deploying the Active Proxy Service
 
-## Preparing for Active Proxy Services on Carrier Super Nodes
+Currently, the Active Proxy service is running alongside the super node. Here is an example of a configuration file for the super node, tailored to your preference.
 
-Here is an example configuration file for Carrier Super Node for your reference.
+Generally, the Active Proxy service is running alongside the super node on the server with public address. Here is the an example of a config file that can be used.&#x20;
 
 ```json
 {
@@ -22,7 +22,7 @@ Here is an example configuration file for Carrier Super Node for your reference.
 	"id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
 	"address": "155.138.245.211",
 	"port": 39001
-    }	// more bootstrap nodes. 
+    } // more bootstrap nodes. 
   ],
   
   "services": [
@@ -30,18 +30,27 @@ Here is an example configuration file for Carrier Super Node for your reference.
       "class": "elastos.carrier.service.activeproxy.ActiveProxy",
       "configuration": {
         "port": 8090,
-        "portMappingRange": "20000-22000"
+        "portMappingRange": "20000-22000",
+        "peerPrivateKey": "d7f3d9cbd61a65c06d2f81986403214ba563a18042c1615d84dd01ef53e09e32825ed1d126c05b7d2a65845f9686d39fa72a7b2be8b83b3f181c88c6e44bbac5",
       } 
     }
   ]
 }
 ```
 
-In this configuration file, there is only one service included, named 'ActiveProxy.' Typically, the '**`8090`**' TCP port is reserved for use by the ActiveProxy service, and during runtime, the TCP port mapping range of '**`20000-22000`**' will be utilized to map ports and forward the services.
+In this config file, only one service named with 'ActiveProxy' service is included. Users can use the customized port or port ranges other than the default values. &#x20;
 
-💡 _Generally, the `TrinityTech` team deploys a list of Carrier Super Nodes, some of which provide Active Proxy services for users. All services from the Super Nodes use the same reserved port '8090' and port mapping range of '20000-22000'.”_
+Since the services over the Carrier network will be presented as a peer and identified by peerId. The service provider needs to keep the ownership of this peer because later the service will be updated and broadcasted in case. So, the item **peerPrivateKey** is the secret key to control the ownership of this peer, and need to be keep it in privacy.&#x20;
 
-_At present, the Active Proxy service only supports the mapping of TCP-based connection services from internal sources to public-facing ones._
+
+
+{% hint style="info" %}
+The Trinity-Tech team has deployed a list of carrier super nodes that can be leveraged by the user applications. One set of these carrier super nodes provides the Active Proxy service with supporting the pc2 domain name. &#x20;
+{% endhint %}
+
+## The Leverage of Active Proxy Client
+
+
 
 ## Configuration of Active Proxy Service in the Carrier Node Application
 

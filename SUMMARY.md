@@ -22,8 +22,8 @@
   * [dStore Service](getting-started/carrier-services/dstore-service.md)
   * [Messaging Service](getting-started/carrier-services/messaging-service.md)
 * [Practices](getting-started/practices/README.md)
-  * [Deploying a Carrier Super Node](getting-started/practices/deploying-a-carrier-super-node.md)
-  * [Utilize the Active Proxy service to run a local service](getting-started/practices/utilize-the-active-proxy-service-to-run-a-local-service.md)
+  * [Deploying a Super Node](getting-started/practices/deploying-a-super-node.md)
+  * [Leverage the ActiveProxy Service](getting-started/practices/leverage-the-activeproxy-service.md)
   * [Practice in shell](getting-started/practices/practice-in-shell.md)
   * [Set up crawler bot](getting-started/practices/set-up-crawler-bot.md)
 

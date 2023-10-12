@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 👋 Welcome to Carrier 2.0
+# Welcome to Carrier 2.0
 
 {% hint style="info" %}
 Throughout the documentation website, the terms **Carrier Legacy** or **Carrier Classic** refer to carrier version 1.0, while the term **New Carrier** or simply **Carrier** is used to refer to carrier version 2.0 or any new version in the future.
@@ -42,8 +42,8 @@ Once you have a basic understanding of the carrier network, it is recommended th
 
 Here is a list of recommended guidelines for practicing with carrier tech:
 
-* [**Deploy a carrier super node**](getting-started/practices/deploying-a-carrier-super-node.md)
-* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/utilize-the-active-proxy-service-to-run-a-local-service.md)
+* [**Deploy a carrier super node**](getting-started/practices/deploying-a-super-node.md)
+* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/leverage-the-activeproxy-service.md)
 * [**Practice using Carrier by following the recommended steps**](getting-started/practices/practice-in-shell.md)
 
 ## In-depth tech
@@ -52,7 +52,7 @@ Once you have a general understanding of the carrier project, it's time to dive 
 
 * [**Java SDK**](developer-kits/java.md)
 * [**C/C++ Native SDK**](developer-kits/c-c++.md)
-* [**Swift iOS SDK**](http://localhost:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/)
+* [**Swift iOS SDK**](http://127.0.0.1:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/)
 * [**Javascript Lite SDK**](developer-kits/javascript.md)
 
 ## Contributions

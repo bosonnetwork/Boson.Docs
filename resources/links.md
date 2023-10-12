@@ -29,7 +29,7 @@ The first one, **Carrier Java**, is used to deploy a carrier super node. The lat
 
 ## Other Links:
 
-* [**Email**](http://localhost:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/) - [carrier-dev@trinity-tech.io](links.md#email)
+* [**Email**](http://127.0.0.1:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/) - [carrier-dev@trinity-tech.io](links.md#email)
 * [**Website**](https://trinity-tech.io) - [https://trinity-tech.io](https://trinity-tech.io)
 * [**Telgram**](https://t.me/awesomecarrier)
 * [**Discord**](https://discord.gg/VnfUHXkv)
