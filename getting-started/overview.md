@@ -40,7 +40,7 @@ After obtaining an overview of the layered structure of the carrier network, the
 Once you have gained knowledge of the basic concepts, it is recommended that you reinforce that knowledge through practice. Below are some useful tasks that you can start practicing:
 
 * [**Deploy a Carrier super node**](practices/deploying-a-super-node.md)
-* [**Utilize the ActiveProxy service to run a local service**](practices/leverage-the-activeproxy-service.md)
+* [**Utilize the ActiveProxy service to run a local service**](practices/leverage-active-proxy-service.md)
 * [**Practice using Carrier by following the recommended steps**](practices/practice-in-shell.md)
 
 Here are links to related concepts that can provide you with a deeper understanding of the topic at hand. We hope that they can help you gain a more thorough and nuanced understanding of the technologies involved:
