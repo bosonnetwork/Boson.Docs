@@ -29,7 +29,7 @@ As it's mentioned, the Active Proxy service is running alongside the super node 
       "configuration": {
         "port": 8090,
         "portMappingRange": "20000-22000",
-        "peerPrivateKey": "d7f3d9cbd61a65c06d2f81986403214ba563a18042c1615d84dd01ef53e09e32825ed1d126c05b7d2a65845f9686d39fa72a7b2be8b83b3f181c88c6e44bbac5",
+        "peerPrivateKey": "THE-PEER-PRIVATE-KEY-OF-ACTIVE-PROXY-SERVICE",
       } 
     }
   ]
@@ -38,101 +38,153 @@ As it's mentioned, the Active Proxy service is running alongside the super node 
 
 In this config file, only one item of 'ActiveProxy' service is included. Users can use the other port value or port range other than the default values.
 
-The service over the Carrier network is broadcasted and located as a peer information and identified by using peerId. The deploying user needs to maintain ownership of this peer so that the service can be updated and broadcasted later if necessary. Therefore, the item peerPrivateKey is the secret key to control the ownership of this peer and needs to be kept private.
+The service over the Carrier network is broadcasted and located as a peer information and identified by using peerId. The deploying user needs to maintain ownership of this peer so that the service can be updated and broadcasted later if necessary. Therefore, the item peerPrivateKey is the private key to control the ownership of this peer and needs to be kept private.
 
 {% hint style="info" %}
 The Trinity-Tech team has deployed a list of carrier super nodes that can be leveraged by the user applications. One set of these carrier super nodes provides the Active Proxy service with supporting the pc2 domain name. &#x20;
 {% endhint %}
 
-## The Leverage of Active Proxy Client
+## To Launch an Active Proxy Client
 
+In the client part, the Active Proxy client would be integrated into the application and run in either of these two ways:
 
+* as a general command application, or
+* as a system service named "carrier-meerkat" on Debian-based Linux.
 
-## Configuration of Active Proxy Service in the Carrier Node Application
+### 1. Run the Active Proxy Client as a General Command Application&#x20;
 
-An application, named "`Launcher`," is utilized as a daemon service running as a Native DHT node to make use of the Active Proxy service. The appropriate configuration for this is illustrated in the following example:
+Users can build the Active Proxy Client application on Unix-based Linux or Windows and run it in the foreground by executing the following commands:
 
-```json
-{
-  "ipv4": true,
-  "ipv6": false,
-  "dataDir": "./data",
-
-  "bootstraps": [
-    {
-      "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
-      "address": "155.138.245.211",
-      "port": 39001
-    },
-	  // more bootstrap nodes
-  ],
-
-  "services": [
-    {
-      "name": "ActiveProxy",
-      "configuration": {
-        "serverId": "YOUR-TARGET-CARRIER-SUPER-NODE-ID",
-        "serverHost": "TARGET-CARRIER-SUPER-IP-ADDRESS-OR-HOSTNAME",
-        "serverPort": "TARGET-ACTIVE-PROXY-SERVICE-PORT",
-        "upstreamHost": "YOUR-SERIVCE-IP-ADDRESS", // local IP address
-        "upstreamPort": "YOUR-SERVICE-PORT"
-      }
-    }
-  ]
-}
+```bash
+$ git clone git@github.com:elastos/Elastos.Carrier.Native carrier2
+$ cd carrier2/build
+$ mkdir prod && cd prod
+$ cmake -DCMAKE_INSTALL_PREFIX=dist ../..
+$ make -jN
+$ make install
 ```
 
-💡 Notice: The "\`Launcher\`" application can be constructed under the "launcher" directory of the \[Elastos.Native]\([https://github.com/elastos/Elastos.Carrier.Native](https://github.com/elastos/Elastos.Carrier.Native)) repository.
-
-Here are the explanations for the fields used in “services” part of the service configuration file:
-
-* **Name:** The name of the target service.
-* **configuration.serverId:** The Node ID of the target super carrier node.
-* **configuration.serverHost:** The IP address of the carrier super node.
-* **configuration.serverPort:** The active port number of the proxy service.
-* **configuration.upstreamHost:** The host name or IP address of the local service to be mapped out.
-* **configuration.upstreamPort:** The port number of the local service to be mapped out.
-
-## llRun a local service to be forwarded
-
-Deploy a local website service on a Raspberry Pi device in a LAN environment. The website should be accessible at [http://192.168.1.101:80](http://192.168.1.101/)within the local network. Once the website is deployed, launch the `launcher` service using the "sample.conf" configuration file on the same Raspberry Pi device.
-
-```json
-{
-  "ipv4": true,
-  "ipv6": false,
-  "dataDir": "./data",
-
-  "bootstraps": [
-    {
-      "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
-      "address": "155.138.245.211",
-      "port": 39001
-    },
-	  // more bootstrap nodes
-  ],
-
-  "services": [
-    {
-      "name": "ActiveProxy",
-      "configuration": {
-        "serverId": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
-        "serverHost": "155.138.245.211",
-        "serverPort": 8090,
-        "upstreamHost": "192.168.1.101", // local IP address of your raspberry device
-        "upstreamPort": 80 // http-based website.
-      }
-    }
-  ]
-}
-```
-
-with the command under a directory with “**launcher**” binary
+After successfully completing the build, launch the Active Proxy client using the following command:
 
 ```sh
-$ ./launcher -c sample.conf
+$ ./dist/bin/carrier-launcher -c YOUR-PATH/default.conf
 ```
 
-Once you have launched the `launcher` service, the Carrier Super Node will assign a mapped port for your service. In my case, the assigned port is `20000`, which is the first port in the mapping range.
+Here is an example of a config file for your reference.
 
-To check if your website is working properly, you can access it at [http://155.138.245.211:20000](http://155.138.245.211:20000/).
+```json
+{
+  "ipv4": true,
+  "ipv6": false,
+  "port": 39002,
+  "dataDir": "YOUR-DATA-PATH",
+
+  "logger": {
+    "level": "info",
+    "logFile": "YOUR-DATA-PATH/carrier.log",
+    "pattern": "[%Y-%m-%d %T] [%n] %^[%l] %v%$"
+  },
+
+  "bootstraps": [
+    {
+      "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
+      "address": "155.138.245.211",
+      "port": 39001
+    } // more super nodes can be added next.
+  ],
+  "addons": [
+    {
+      "name": "ActiveProxy",
+      "configuration": {
+        "serverPeerId" : "5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6",
+        "peerPrivateKey": "THE-PEER-PRIVATE-KEY-OF-YOUR-LOCAL-SERVICE",
+        "domainName": "abc.pc2.net",
+        "upstreamHost": "127.0.0.1",
+        "upstreamPort": 8989
+      }
+    }
+  ]
+}
+```
+
+In the config file above, the `serverPeerId` item represents the peer ID in base58 format for the Active Proxy service that you will be using. The four subsequent items should be configured based on your personal micro-service deployed on your home LAN. It's worth mentioning that the `peerPrivateKey` item is the private key used to control the ownership of your personal service.
+
+###
+
+### 2. Run the Active Proxy Client as a System Service
+
+Users can also build the Active Proxy client in Debian package with name`carrier-meerkat.deb`on a Debian-based Linux system by using the following commands:
+
+```bash
+$ git clone git@github.com/elastos/Elastos.Carrier.Native carrier2
+$ cd carrier2/build
+$ mkdir prod && cd prod
+$ cmake -DCMAKE_INSTALL_PREFIX=dist ../..
+$ make -jN
+$ make install
+$ make meerkat-deb
+
+```
+
+After completing the build, a Debian package named `carrier-meerkat.deb` is generated. The user can then install this package as a system service and keep it running in the background.
+
+```bash
+$ sudo dpkg -i carrier-meerkat.deb
+$ sudo systemctl status carrier-meerkat
+```
+
+In this case, it is recommended to run the Active Proxy client with the correct file file, as shown in the following example:
+
+```json
+{
+  "ipv4": true,
+  "ipv6": false,
+  "port": 39002,
+  "dataDir": "/var/lib/carrier-meerkat",
+
+  "logger": {
+    "level": "info",
+    "logFile": "/var/log/carrier-meerkat/carrier.log",
+    "pattern": "[%Y-%m-%d %T] [%n] %^[%l] %v%$"
+  },
+
+  "bootstraps": [
+    {
+      "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
+      "address": "155.138.245.211",
+      "port": 39001
+    } // more super nodes can be added next.
+  ],
+  "addons": [
+    {
+      "name": "ActiveProxy",
+      "configuration": {
+        "serverPeerId" : "5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6",
+        "peerPrivateKey": "THE-PEER-PRIVATE-KEY-OF-YOUR-LOCAL-SERVICE",
+        "domainName": "abc.pc2.net",
+        "upstreamHost": "127.0.0.1",
+        "upstreamPort": 8989
+      }
+    }
+  ]
+}
+```
+
+## Deploying a Personal Web Service at Your Home LAN
+
+As an example of using the Active Proxy service, a personal website service needs to be deployed on your home LAN alongside the Active Proxy client. Originally, the website should only be accessible within your LAN environment. With the leverage of the Active Proxy service, the access point to the personal website service would be forwarded to one carrier super node, making it accessible to the public outside.
+
+Users can either use nginx or other HTTP proxy tools to deploy such a personal website, or even can use a existing local service. Here is a quick way to run a simple personal website to demonstrate the strength of the Active Proxy service.
+
+* proxy tool - caddy ([https://caddyserver.com/download](https://caddyserver.com/download))
+* website content ([https://github.com/ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE))
+
+Download the source website content, and run the caddy under the directory with a command:
+
+```bash
+$ caddy file-server --listen=0.0.0.0:8989
+```
+
+Suppose that the device for running this personal website on your local LAN is **192.168.1.100**, then you can check the website in a browser using the URL - [**http://192.168.1.100:8989**](http://192.168.1.100:8989)
+
+Once the personal service is running, then update the item values in the config file
