@@ -22,9 +22,9 @@
   * [dStore Service](getting-started/carrier-services/dstore-service.md)
   * [Messaging Service](getting-started/carrier-services/messaging-service.md)
 * [Practices](getting-started/practices/README.md)
-  * [Deploying a Super Node](getting-started/practices/deploying-a-super-node.md)
-  * [Leverage Active Proxy Service](getting-started/practices/leverage-active-proxy-service.md)
-  * [Practice in shell](getting-started/practices/practice-in-shell.md)
+  * [Deploying Super Node](getting-started/practices/deploying-super-node.md)
+  * [Leveraging Active Proxy Service](getting-started/practices/leveraging-active-proxy-service.md)
+  * [The Interactive Shell Command](getting-started/practices/the-interactive-shell-command.md)
   * [Set up crawler bot](getting-started/practices/set-up-crawler-bot.md)
 
 ## In-depth Tech

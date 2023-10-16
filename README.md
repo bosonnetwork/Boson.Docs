@@ -42,9 +42,9 @@ Once you have a basic understanding of the carrier network, it is recommended th
 
 Here is a list of recommended guidelines for practicing with carrier tech:
 
-* [**Deploy a carrier super node**](getting-started/practices/deploying-a-super-node.md)
-* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/leverage-active-proxy-service.md)
-* [**Practice using Carrier by following the recommended steps**](getting-started/practices/practice-in-shell.md)
+* [**Deploy a carrier super node**](getting-started/practices/deploying-super-node.md)
+* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/leveraging-active-proxy-service.md)
+* [**Practice using Carrier by following the recommended steps**](getting-started/practices/the-interactive-shell-command.md)
 
 ## In-depth tech
 

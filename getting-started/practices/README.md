@@ -14,6 +14,6 @@ layout:
 
 # Practices
 
-* [**Deploy a Carrier super node**](deploying-a-super-node.md)
-* [**Utilize the ActiveProxy service to run a local service**](leverage-active-proxy-service.md)
-* [**Practice using Carrier by following the recommended steps**](practice-in-shell.md)
+* [**Deploy a Carrier super node**](deploying-super-node.md)
+* [**Utilize the ActiveProxy service to run a local service**](leveraging-active-proxy-service.md)
+* [**Practice using Carrier by following the recommended steps**](the-interactive-shell-command.md)

@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Deploying a Super Node
+# Deploying Super Node
 
 {% hint style="info" %}
 _It is recommended to install a carrier super node on **Ubuntu 22.04** or later, and it must be bound to a public IP address. Otherwise, it cannot function as a bootstrap node._
@@ -150,3 +150,6 @@ To properly run the carrier super node service, update the config file with the 
 }
 ```
 
+{% hint style="info" %}
+The later section of "**services**" is used for the super node to provide the **Active Proxy** service and **DHT Proxy** service. Users can disable those carrier services by removing this section..&#x20;
+{% endhint %}
