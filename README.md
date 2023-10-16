@@ -36,19 +36,19 @@ If you're new to the carrier project, it's recommended that you first gain an ov
 
 * [**The overview of carrier network**](./#overview)
 * [**Carrier protocols**](getting-started/carrier-protocol/) - The carrier-defined protocols from CIP
-* [**Carrier services**](getting-started/carrier-services/) - The services customizedly provided by carrier super nodes
+* [**Carrier services**](getting-started/carrier-services/) - The services provided by carrier super nodes
 
-Once you have a basic understanding of the carrier network, it is recommended that you practice by deploying a carrier super node on a public VPS server. Next, we suggest that you run a local service on your development machine or Raspberry Pi device using the active proxy service.&#x20;
+Once you have a basic understanding of the carrier network, it is recommended that you practice by deploying a carrier super node service on a public VPS server. Next, we suggest that you run a local personal service on Raspberry Pi device at your home by using the active proxy service.&#x20;
 
 Here is a list of recommended guidelines for practicing with carrier tech:
 
 * [**Deploy a carrier super node**](getting-started/practices/deploying-super-node.md)
-* [**Utilize the ActiveProxy service to run a local service**](getting-started/practices/leveraging-active-proxy-service.md)
-* [**Practice using Carrier by following the recommended steps**](getting-started/practices/the-interactive-shell-command.md)
+* [**Leveraging the active proxy service to run a personal service**](getting-started/practices/leveraging-active-proxy-service.md)
+* [**Understanding carrier node by practicing the interactive shell command**](getting-started/practices/the-interactive-shell-command.md)
 
 ## In-depth tech
 
-Once you have a general understanding of the carrier project, it's time to dive into the technology in-depth and check the SDKs and APIs. Here is a set of SDKs in different languages for the final step in your journey to integrate carrier into your applications:
+Once you have a general understanding of the carrier network, it's time to dive into the technology in-depth and check the SDKs and APIs for your own applications to integrate. Here is a set of SDKs in different languages for the final step in your journey to integrate the carrier into your applications:
 
 * [**Java SDK**](developer-kits/java.md)
 * [**C/C++ Native SDK**](developer-kits/c-c++.md)
@@ -57,7 +57,7 @@ Once you have a general understanding of the carrier project, it's time to dive 
 
 ## Contributions
 
-We welcome contributions from passionate developers in the open-source community who aspire to create a secure, decentralized communication platform and help expand the capabilities of the carrier project to achieve wider adoption. Below is a list of repositories for the Carrier project where you can create issues or push pull-requests to contribute:
+We welcome contributions from passionate developers in the open-source community who aspire to create a secure, decentralized communication platform and help expand the capabilities of the carrier project to achieve wider adoption. Below is the main list of repositories where you can create issues or push pull-requests to contribute:
 
 * [**Carrier Java**](https://github.com/elastos/Elastos.Carrier.Java)
 * [**Carrier Native**](https://github.com/elastos/Elastos.Carrier.Native)
@@ -72,3 +72,4 @@ We also welcome community involvement in improving the CIP specifications and pu
 
 * [**Github**](https://github.com/elastos/Elastos.Carrier.Java)
 * [**Discord**](https://discord.gg/PfhEeuu2)
+* [**Telegram**](https://t.me/awesomecarrier)
