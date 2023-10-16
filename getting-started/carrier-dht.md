@@ -18,7 +18,7 @@ layout:
 
 Kademlia DHT is a distributed hash table designed for decentralized peer-to-peer networks by Petar Maymounkov and David Mazières in 2002. It specifies the structure of the network and the exchange of information through node lookups. Kademlia DHT nodes communicate with each other using UDP. Each DHT node is identified by a node ID, and the Kademlia algorithm uses this ID to locate other nodes or values. You can learn more about Kademlia DHT on [Wikipedia](https://en.wikipedia.org/wiki/Kademlia).
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 The distributed nature of Kademia requires each node to maintain a mapping of a subset of the nodes on the network in its own routing table. This feature makes the network highly resistant to denial-of-service attacks and the loss of a group of nodes, as the protocol simply routes around the unavailable nodes. Therefore, it creates resilience against attacks, downtime, and central points of failure.
 

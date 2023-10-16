@@ -1,20 +1,24 @@
----
-description: One web portal to the twin pc2 domain name registration service
----
-
 # pc2.net&#x20;
 
-## Dynamic DNS
+The [pc2.net](http://pc2.net/) is the website where users can register a dynamic domain name, known as a pc2 domain name. To access the website, users must sign in using Essentials wallet and Elastos DID, a decentralized identifier.
 
-> **Dynamic DNS** (DDNS) is a method of automatically updating a [name server](https://en.wikipedia.org/wiki/Name\_server) in the [Domain Name System](https://en.wikipedia.org/wiki/Domain\_Name\_System) (DNS), often in real time, with the active DDNS configuration of its configured hostnames, addresses or other information.
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## PC2 domain name
+## Registering a pc2 Domain Name
 
-TODO
+Once the user is signed into [pc2.net](https://pc2.net/), click the `REGISTER DDNS NAME` button. This will display the page for registering a pc2 domain name. Be prepared with the following two items:
 
-## PC2 domain name registrar
+1. An available DDNS name, also known as a pc2 name.
+2. The carrier nodeId that you want to leverage for the Active Proxy service.
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Register a pc2 domain name</p></figcaption></figure>
 
+## Checking pc2 Domain Names
 
+Once succeed in registering the pc2 name, then the user can click `MY DDNS NAMES` button to check what are the pc2 names you have registered under the DID, and what carrier node IDs are bound to those pc2 names respectively.
 
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+If you are running a Carrier Active Proxy client, either as a daemon or foreground command, to forward a local service entry and make it accessible to the public using a specific pc2 domain name, please ensure that the carrier nodeId matches the nodeId bound with the pc2 domain name. Otherwise, the Active Proxy client will not function properly.
+{% endhint %}
