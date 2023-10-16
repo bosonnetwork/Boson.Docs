@@ -28,76 +28,44 @@ In addition to serving as bootstrap nodes, carrier super nodes also offer built-
 
 ## A Set of Super Nodes Running as Bootstrap Nodes
 
-Since the Trinity-Tech team finished the initial version of the carrier network implementation, they deployed a set of public carrier super nodes. This set contained a total of 8 public super nodes, forming the very first version of the Carrier network.
+When the Trinity-Tech team finished the initial version of carrier implementation, they deployed a set of public carrier super nodes with Active Proxy support. This set contains a total of 8 public nodes, forming the very first Carrier network.
 
-In the initial version, each carrier super node runs the Active Proxy service. Users can use this service to set up a user service under home WiFi, which can then be forwarded onto carrier super nodes for public access. Additionally, users can utilize the cutting-edge website [https://pc2.net](https://pc2.net/) or [http://pc2.org](http://pc2.org/) provided by Trinity-Tech to bind the user service and assign a DDNS name for forwarding.
+In the initial version, each carrier super node is running with the Active Proxy service. The Active Proxy service can be leveraged by a personal microservice that was originally only allowed for access within LAN, but can now be accessed by the public. Additionally, users can register a PC2 name from the website [https://pc2.net](https://pc2.net/) provided by Trinity-Tech to bind the user service.
 
-Here are the initial list of pulbic super nodes deployed by **trinity-tech**:
-
-* **Carrier super node1**
+Here is the initial list of public super nodes deployed by the **trinity-tech** team**:**
 
 ```json
 { 
     "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ", 
-    "address": "carrier1.trinity-tech.io", 
+    "address": "155.138.245.211", 
     "port": 39001 
-}
-```
-
-* **Carrier super node2**
-
-```json
+},
 { 
     "id": "6o6LkHgLyD5sYyW9iN5LNRYnUoX29jiYauQ5cDjhCpWQ", 
-    "address": "carrier2.trinity-tech.io", 
+    "address": "45.32.138.246", 
     "port": 39001 
     
- }
-```
-
-* **Carrier super node3**
-
-```json
+},
 { 
     "id": "8grFdb2f6LLJajHwARvXC95y73WXEanNS1rbBAZYbC5L", 
-    "address": "carrier3.trinity-tech.io", 
+    "address": "140.82.57.197", 
     "port": 39001 
-}
-```
-
-* **Carrier super node4**
-
-```json
+},
 { 
     "id": "4A6UDpARbKBJZmW5s6CmGDgeNmTxWFoGUi2Z5C4z7E41", 
     "address": "107.191.62.45", 
     "port": 39001 
-}
-```
-
-* **Carrier super node5**
-
-```json
+},
 { 
     "id": "5BJ8SZZQ4z4izhw82W2ksyuTCQz3GwWUWBSaza4qzVT9", 
     "address": "207.148.82.19", 
     "port": 39001 
-}
-```
-
-* **Carrier super node6**
-
-```json
+},
 { 
     "id": "8fAHSUAtKmVycxQK2VRDnhcSL1XX9ciweULt4dHx6Yfg", 
     "address": "140.82.34.87", 
     "port": 39001 
-}
-```
-
-* **Carrier super node7**
-
-```json
+},
 { 
     "id": "J44cKHHjJzpJJhM4tqwZxYhv9Cynozx38xeR2WcvfFRN", 
     "address": "139.84.232.184", 
@@ -105,18 +73,16 @@ Here are the initial list of pulbic super nodes deployed by **trinity-tech**:
 }
 ```
 
-## A Configure Example Used to Set Up a Super Node
+## A Config Example for the Super Node
 
 When the community decides to set up a super node for public or experimental usage, a proper configuration file is required. This file should include a few super nodes as bootstrap nodes to connect with. After the super node is running, it will automatically connect to the Carrier network gradually through these bootstrap nodes.
 
-Here is an example configuration file that the community can use with the full set of supernodes deployed by **trinity-tech**. We are pleased to see more public supernodes from the community.
+Here is an example config file without for the community to use with a few super nodes deployed by **trinity-tech**. We are pleased to see more public super nodes from the community.
 
 ```json
 {
   "ipv4": true,
   "ipv6": false,
-  "address4": "your-ipv4-address",
-  "address6": "your-ipv6-address",
   "port": 39001,
   "dataDir": "/var/lib/carrier",
 
@@ -127,36 +93,27 @@ Here is an example configuration file that the community can use with the full s
       "port": 39001
     },
     {
-      "id": "FRkR2NWhbSGMv3BqGui7FYAgCSAWySrz6xmTAx9Ny7zo",
-      "address": "45.76.161.175",
-      "port": 39001
-    },
-    {
-      "id": "8grFdb2f6LLJajHwARvXC95y73WXEanNS1rbBAZYbC5L",
-      "address": "140.82.57.197",
-      "port": 39001
-    },
-    {
       "id": "4A6UDpARbKBJZmW5s6CmGDgeNmTxWFoGUi2Z5C4z7E41",
       "address": "107.191.62.45",
       "port": 39001
+    }
+  ],
+  "services": [
+    {
+      "class": "elastos.carrier.service.dhtproxy.DHTProxy",
+      "configuration": {
+        "port": 8088
+      }
     },
     {
-      "id": "5BJ8SZZQ4z4izhw82W2ksyuTCQz3GwWUWBSaza4qzVT9",
-      "address": "207.148.82.19",
-      "port": 39001
-    },
-    { 
-        "id": "8fAHSUAtKmVycxQK2VRDnhcSL1XX9ciweULt4dHx6Yfg", 
-        "address": "140.82.34.87", 
-        "port": 39001 
-    },
-    { 
-        "id": "J44cKHHjJzpJJhM4tqwZxYhv9Cynozx38xeR2WcvfFRN", 
-        "address": "139.84.232.184", 
-        "port": 39001
+      "class": "elastos.carrier.service.activeproxy.ActiveProxy",
+      "configuration": {
+        "port": 8090,
+        "portMappingRange": "20000-22000",
+        "peerPrivateKey": "YOUR-PRIVATE-KEY-TO-PEER"
+      } 
     }
-  ]
+  ]  
 }
 ```
 

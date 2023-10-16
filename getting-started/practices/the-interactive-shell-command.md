@@ -182,7 +182,7 @@ Carrier $ findpeer 5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6
 
 There are more commands not mentioned above that would be helpful for retrieving additional internal state or information of the current shell as a carrier node.
 
-* stop
+* **stop**
 
 The `stop` command is used to exit from this carrier shell command application.
 
