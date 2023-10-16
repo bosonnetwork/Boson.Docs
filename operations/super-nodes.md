@@ -38,33 +38,32 @@ Here is the initial list of public super nodes deployed by the **trinity-tech** 
 { 
     "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ", 
     "address": "155.138.245.211", 
-    "port": 39001 
+    "port": 39001
 },
 { 
     "id": "6o6LkHgLyD5sYyW9iN5LNRYnUoX29jiYauQ5cDjhCpWQ", 
     "address": "45.32.138.246", 
-    "port": 39001 
-    
+    "port": 39001
 },
 { 
     "id": "8grFdb2f6LLJajHwARvXC95y73WXEanNS1rbBAZYbC5L", 
     "address": "140.82.57.197", 
-    "port": 39001 
+    "port": 39001
 },
 { 
     "id": "4A6UDpARbKBJZmW5s6CmGDgeNmTxWFoGUi2Z5C4z7E41", 
     "address": "107.191.62.45", 
-    "port": 39001 
+    "port": 39001
 },
 { 
     "id": "5BJ8SZZQ4z4izhw82W2ksyuTCQz3GwWUWBSaza4qzVT9", 
     "address": "207.148.82.19", 
-    "port": 39001 
+    "port": 39001
 },
 { 
     "id": "8fAHSUAtKmVycxQK2VRDnhcSL1XX9ciweULt4dHx6Yfg", 
     "address": "140.82.34.87", 
-    "port": 39001 
+    "port": 39001
 },
 { 
     "id": "J44cKHHjJzpJJhM4tqwZxYhv9Cynozx38xeR2WcvfFRN", 
