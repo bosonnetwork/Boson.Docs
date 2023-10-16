@@ -185,3 +185,9 @@ $ caddy file-server --listen=0.0.0.0:8989
 
 Suppose that the device for running this personal website on your local LAN is **192.168.1.100**, then you can check the website in a browser using the URL - [**http://192.168.1.100:8989**](http://192.168.1.100:8989)\
 With the Active Proxy client, the website can be accessed by the public outside.
+
+## More Links
+
+* [**Generating a private key for service peer**](the-interactive-shell-command.md#a-java-based-shell-command)
+* [**Register a pc2 domain name to map the personal service**](../../operations/pc2.net.md#registering-a-pc2-domain-name)
+* [**Check the pc2 domain name whether is bound with the correct carrier nodeId**](../../operations/pc2.net.md#checking-pc2-domain-names)
