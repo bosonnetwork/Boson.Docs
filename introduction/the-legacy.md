@@ -15,14 +15,14 @@ layout:
 # The Legacy
 
 {% hint style="info" %}
-**Elastos Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version 1.0.
+**The Carrier** was originally designed as a fully decentralized and encrypted peer-to-peer (**P2P**) communication platform, known as the classic Carrier version v1.
 {% endhint %}
 
 ## The R**etrospect** of Carrier 1.0
 
-The **Carrier 1.0** or **Carrier Classic** is the first version of Elastos carrier infrastructure dedicated to being a fully decentralized and encrypted peer-to-peer communication platform that routes network traffic between dApps (_Decentralized_ _Applications_). &#x20;
+The **Carrier V1** or **Carrier Classic** is the first version of Elastos carrier infrastructure dedicated to being a fully decentralized and encrypted peer-to-peer communication platform that routes network traffic between dApps (_Decentralized_ _Applications_). &#x20;
 
-The version 1.0 provides a package of communication features with a pipeline of design in structural implementation. Users can choose from a variety of layered communication features to fulfill their requirements. Below is a list of the available features:
+The v1 version provides a package of communication features with a pipeline of design in structural implementation. Users can choose from a variety of layered communication features to fulfill their requirements. Below is a list of the available features:
 
 * Instant Short **Messaging**
 * **Session** establishment and communication for streaming
@@ -44,7 +44,7 @@ Due to the aforementioned limitations in meeting the solid needs of applications
 
 ## Repositories of Carrier 1.0
 
-We have suspended the development of Carrier version 1.0, but we will continue to maintain it until all customizers have migrated to Carrier 2.0. Below is a list of the main repositories for Carrier 1.0:
+The carrier version 1.0 has been decided to stop development or involvement, but it will still continue to be maintained until the applications integrated with carrier v1 can be migrated to Carrier 2.0. Below is a list of the main repositories for carrier 1.0:
 
 * [**C/C++ Native SDK**](https://github.com/elastos/Elastos.CarrierClassic.Native)
 * [**Java Android SDK**](https://github.com/elastos/Elastos.CarrierClassic.Android)
