@@ -1,2 +1,2 @@
-# Practice in shell
+# The Interactive Shell Command
 

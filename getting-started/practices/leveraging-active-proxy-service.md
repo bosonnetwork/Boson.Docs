@@ -1,4 +1,4 @@
-# Leverage Active Proxy Service
+# Leveraging Active Proxy Service
 
 Active Proxy service is a system-level service that operates over the carrier network. Its purpose is to forward locally deployed personal service within a LAN network, making them accessible to the public.
 
