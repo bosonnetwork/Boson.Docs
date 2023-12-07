@@ -25,8 +25,8 @@ The new version of **Boson** introduces a well-layered and modularized service a
 If you are new to Boson, it is recommended to begin by developing a comprehensive understanding of the network. Boson is a meticulously designed, permissionless communication network, with each layer serving a distinct purpose within the overall framework. To facilitate your learning journey, consider following these recommended steps:
 
 * [**The overview of Boson network**](./#overview)
-* [**Boson protocols**](getting-started/boson-protocol/) - The boson-defined protocols from BIP
-* [**Boson services**](getting-started/boson-services/) - The services provided by boson super nodes
+* [**Boson protocols**](getting-started/boson-protocol/)
+* [**Boson services**](getting-started/boson-services/)
 
 Once you've acquired a foundational understanding of the Boson network, it is highly recommended to gain practical experience by deploying a Boson super node on a public VPS server. Following this, we suggest running a local personal service on a Raspberry Pi device at your home, leveraging the active proxy service.
 
