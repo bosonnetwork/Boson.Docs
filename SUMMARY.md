@@ -2,25 +2,19 @@
 
 * [Welcome to Boson Network](README.md)
 
-## Introduction
-
-* [The Legacy](introduction/the-legacy.md)
-* [The New Age](introduction/the-new-age.md)
-* [The Outlook](introduction/the-outlook.md)
-
 ## Getting Started
 
 * [Overview](getting-started/overview.md)
-* [Carrier DHT](getting-started/carrier-dht.md)
-* [Carrier Protocol](getting-started/carrier-protocol/README.md)
-  * [Lookup Nodes](getting-started/carrier-protocol/lookup-nodes.md)
-  * [Announce Peers](getting-started/carrier-protocol/announce-peers.md)
-  * [Store Values](getting-started/carrier-protocol/store-values.md)
-* [Carrier Services](getting-started/carrier-services/README.md)
-  * [DHT Proxy](getting-started/carrier-services/dht-proxy.md)
-  * [Active Proxy](getting-started/carrier-services/active-proxy.md)
-  * [dStore Service](getting-started/carrier-services/dstore-service.md)
-  * [Messaging Service](getting-started/carrier-services/messaging-service.md)
+* [Boson DHT](getting-started/boson-dht.md)
+* [Boson Protocol](getting-started/boson-protocol/README.md)
+  * [Lookup Nodes](getting-started/boson-protocol/lookup-nodes.md)
+  * [Announce Peers](getting-started/boson-protocol/announce-peers.md)
+  * [Store Values](getting-started/boson-protocol/store-values.md)
+* [Boson Services](getting-started/boson-services/README.md)
+  * [DHT Proxy](getting-started/boson-services/dht-proxy.md)
+  * [Active Proxy](getting-started/boson-services/active-proxy.md)
+  * [dStore Service](getting-started/boson-services/dstore-service.md)
+  * [Messaging Service](getting-started/boson-services/messaging-service.md)
 * [Practices](getting-started/practices/README.md)
   * [Deploying Super Node](getting-started/practices/deploying-super-node.md)
   * [Leveraging Active Proxy Service](getting-started/practices/leveraging-active-proxy-service.md)
@@ -36,13 +30,10 @@
 
 * [Java](developer-kits/java.md)
 * [C/C++](developer-kits/c-c++.md)
-* [Swift](developer-kits/swift.md)
-* [Javascript](developer-kits/javascript.md)
 
 ## Operations
 
 * [Super Nodes](operations/super-nodes.md)
-* [Carrier Explorer](operations/carrier-explorer.md)
 * [pc2.net ](operations/pc2.net.md)
 
 ## Resources
