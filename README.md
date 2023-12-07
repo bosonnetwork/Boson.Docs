@@ -16,21 +16,21 @@ layout:
 
 ## Overview
 
-**Boson** network is a fully decentralized, peer-to-peer (P2P) communication network that provides reliable communication and data sharing capabilities without the need for a central registry. It originated as a fork from the Elastos **Carrier** open source project and has continued to evolve and improve over time.
+**Boson** network is a fully decentralized, peer-to-peer (P2P) communication network that provides reliable communication and data sharing capabilities without the need for a central registry. It was initially derived from the Elastos Carrier open source project and has since undergone further development and enhancements.
 
-The latest version of **Boson** introduces a well-layered and modularized service architecture, opening up new possibilities for application adoption. Furthermore, **Boson** has transitioned into a fully permissionless communication network.
+The new version of **Boson** introduces a well-layered and modularized service architecture, opening up new possibilities for application adoption. Furthermore, **Boson** has transitioned into a fully permissionless communication network.
 
 ## Getting started
 
-If you're new to Boson, it is recommended that you first gain an overview understanding of the network. Boson is a well-layered, permission-less communication network where each layer serves a specific purpose for the entire network. Here are the recommended steps to learn about it:
+If you are new to Boson, it is recommended to begin by developing a comprehensive understanding of the network. Boson is a meticulously designed, permissionless communication network, with each layer serving a distinct purpose within the overall framework. To facilitate your learning journey, consider following these recommended steps:
 
 * [**The overview of Boson network**](./#overview)
 * [**Boson protocols**](getting-started/boson-protocol/) - The boson-defined protocols from BIP
 * [**Boson services**](getting-started/boson-services/) - The services provided by boson super nodes
 
-Once you have a basic understanding of the boson network, it is recommended that you practice in deploying a boson super node on a public VPS server. Next, we suggest that you run a local personal service on Raspberry Pi device at your home by using the active proxy service.&#x20;
+Once you've acquired a foundational understanding of the Boson network, it is highly recommended to gain practical experience by deploying a Boson super node on a public VPS server. Following this, we suggest running a local personal service on a Raspberry Pi device at your home, leveraging the active proxy service.
 
-Here is a list of recommended guidelines for practicing with boson tech:
+To assist you in effectively practicing with Boson technology, here is a list of recommended guidelines:
 
 * [**Deploy a boson super node**](getting-started/practices/deploying-super-node.md)
 * [**Leveraging the active proxy service to run a personal service**](getting-started/practices/leveraging-active-proxy-service.md)
@@ -38,20 +38,18 @@ Here is a list of recommended guidelines for practicing with boson tech:
 
 ## In-depth tech
 
-Once you have a general understanding of the network, it's time to dive into the technology in-depth and check the SDKs and APIs for your own applications to integrate. Here is a set of SDKs in different languages for the final step in your journey to integrate the boson into your applications:
+After gaining a fundamental understanding of the network, it's time to delve deeper into the technology and explore the available SDKs and APIs for seamlessly integrating Boson into your own applications. To guide you in this final step of your integration journey, here is a curated collection of SDKs for your reference:
 
 * [**Java SDK**](developer-kits/java.md)
 * [**C/C++ Native SDK**](developer-kits/c-c++.md)
 
 ## Contributions
 
-We welcome contributions from passionate developers in the open-source community who aspire to create a secure, decentralized communication platform and help expand the capabilities of this project to achieve wider adoption. Below is the main list of repositories where you can create issues or push pull-requests to contribute:
+We invite contributions from enthusiastic developers in the open-source community who share the vision of establishing a secure, decentralized communication platform. Your involvement can play a vital role in enhancing the capabilities of this project and fostering broader adoption. Explore the primary list of repositories below where you can contribute by creating issues or submitting pull requests:
 
 * [**Boson Java**](https://github.com/bosonnetwork/Boson.Java)
 * [**Boson Native**](https://github.com/bosonnetwork/Boson.Native)
 
-We also welcome community involvement in improving the CIP specifications and publishing boson super nodes for public use. You are also welcome to join our dedicated Telegram group to get more details and updates about the Carrier network.
-
-* [**awesome-boson**](https://github.com/bosonnetwork/awesome-boson) - CIP (Boson Implementation Possibilities of Adoptions)
+## More Links
 * [**Public Boson Nodes**](https://github.com/bosonnetwork/public-boson-nodes)
 * [**Telegram - Awesome Boson**](https://t.me/awesameboson)
