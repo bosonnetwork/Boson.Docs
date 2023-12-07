@@ -12,13 +12,9 @@ layout:
     visible: true
 ---
 
-# Carrier Services
+# Boson Services
 
-## Carrier Services
-
-
-
-* [**DHT Proxy**](dht-proxy.md)
+* [**Web Gateway**](web-gateway.md)
 * [**Active Proxy**](active-proxy.md)
 * [**Messaging Service**](messaging-service.md)
-* [**Public dStore Service**](dstore-service.md)
+* [**dStore Service**](dstore-service.md)

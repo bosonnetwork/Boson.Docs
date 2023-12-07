@@ -19,5 +19,5 @@ This feature has not been implemented yet, but it is already on the list of plan
 {% endhint %}
 
 {% hint style="info" %}
-Since carrier network supports the protocols with methods "store-value" and "find-value", then these two methods would be leveraged to impelment the mechanism of Key-Value dencetralized storage.  Then a new IPFS similar solution for decentralized storage but more flexible would be arising on Carrier network.
+Since boson network supports the protocols with methods "store-value" and "find-value", then these two methods would be leveraged to impelment the mechanism of Key-Value dencetralized storage.  Then a new IPFS similar solution for decentralized storage but more flexible would be arising on Boson network.
 {% endhint %}
