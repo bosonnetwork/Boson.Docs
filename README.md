@@ -12,64 +12,46 @@ layout:
     visible: true
 ---
 
-# Welcome to Carrier 2.0
-
-{% hint style="info" %}
-Throughout the documentation website, the terms **Carrier Legacy** or **Carrier Classic** refer to carrier version 1.0, while the term **New Carrier** or simply **Carrier** is used to refer to carrier version 2.0 or any new version in the future.
-{% endhint %}
+# Welcome to Boson
 
 ## Overview
 
-**Carrier** has been an essential component of the **Elastos** ecosystem since its inception. As a completely decentralized, peer-to-peer (P2P) communication network, it provides reliable communication and data sharing capabilities without relying on a central registry and risking data leakage.
+**Boson** network is a fully decentralized, peer-to-peer (P2P) communication network that provides reliable communication and data sharing capabilities without the need for a central registry. It originated as a fork from the Elastos **Carrier** open source project and has continued to evolve and improve over time.
 
-Due to limited adoptions of the legacy version 1.0, Carrier has continued to evolve and improve over time. With a newly well-layered architecture and expanded possibilities for application adoption, the carrier remains a critical component of the Elastos ecosystem. It keeps playing a crucial role in its success and continued growth.
-
-Below is a list of brief introductions to the carrier project from the past, present, and future:
-
-* [**The Legacy** ](introduction/the-legacy.md) - A retrospective of carrier version 1.0
-* [**The New Age**](introduction/the-new-age.md) - The improved carrier version 2.0
-* [**The Outlook** ](introduction/the-outlook.md)- The vision of carrier for the future
+The latest version of **Boson** introduces a well-layered and modularized service architecture, opening up new possibilities for application adoption. Furthermore, **Boson** has transitioned into a fully permissionless communication network.
 
 ## Getting started
 
-If you're new to the carrier project, it's recommended that you first gain an overview understanding of the new carrier network. Carrier is a well-layered, permissionless communication network, where each layer serves its own specific purpose for the entire carrier network. Here are the recommended steps to learn about Carrier:
+If you're new to Boson, it is recommended that you first gain an overview understanding of the network. Boson is a well-layered, permission-less communication network where each layer serves a specific purpose for the entire network. Here are the recommended steps to learn about it:
 
-* [**The overview of carrier network**](./#overview)
-* [**Carrier protocols**](getting-started/carrier-protocol/) - The carrier-defined protocols from CIP
-* [**Carrier services**](getting-started/carrier-services/) - The services provided by carrier super nodes
+* [**The overview of Boson network**](./#overview)
+* [**Boson protocols**](getting-started/boson-protocol/) - The boson-defined protocols from BIP
+* [**Boson services**](getting-started/boson-services/) - The services provided by boson super nodes
 
-Once you have a basic understanding of the carrier network, it is recommended that you practice by deploying a carrier super node service on a public VPS server. Next, we suggest that you run a local personal service on Raspberry Pi device at your home by using the active proxy service.&#x20;
+Once you have a basic understanding of the boson network, it is recommended that you practice in deploying a boson super node on a public VPS server. Next, we suggest that you run a local personal service on Raspberry Pi device at your home by using the active proxy service.&#x20;
 
-Here is a list of recommended guidelines for practicing with carrier tech:
+Here is a list of recommended guidelines for practicing with boson tech:
 
-* [**Deploy a carrier super node**](getting-started/practices/deploying-super-node.md)
+* [**Deploy a boson super node**](getting-started/practices/deploying-super-node.md)
 * [**Leveraging the active proxy service to run a personal service**](getting-started/practices/leveraging-active-proxy-service.md)
-* [**Understanding carrier node by practicing the interactive shell command**](getting-started/practices/the-interactive-shell-command.md)
+* [**Understanding boson node by practicing an interactive shell command**](getting-started/practices/the-interactive-shell-command.md)
 
 ## In-depth tech
 
-Once you have a general understanding of the carrier network, it's time to dive into the technology in-depth and check the SDKs and APIs for your own applications to integrate. Here is a set of SDKs in different languages for the final step in your journey to integrate the carrier into your applications:
+Once you have a general understanding of the network, it's time to dive into the technology in-depth and check the SDKs and APIs for your own applications to integrate. Here is a set of SDKs in different languages for the final step in your journey to integrate the boson into your applications:
 
 * [**Java SDK**](developer-kits/java.md)
 * [**C/C++ Native SDK**](developer-kits/c-c++.md)
-* [**Swift iOS SDK**](http://127.0.0.1:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/)
-* [**Javascript Lite SDK**](developer-kits/javascript.md)
 
 ## Contributions
 
-We welcome contributions from passionate developers in the open-source community who aspire to create a secure, decentralized communication platform and help expand the capabilities of the carrier project to achieve wider adoption. Below is the main list of repositories where you can create issues or push pull-requests to contribute:
+We welcome contributions from passionate developers in the open-source community who aspire to create a secure, decentralized communication platform and help expand the capabilities of this project to achieve wider adoption. Below is the main list of repositories where you can create issues or push pull-requests to contribute:
 
-* [**Carrier Java**](https://github.com/elastos/Elastos.Carrier.Java)
-* [**Carrier Native**](https://github.com/elastos/Elastos.Carrier.Native)
+* [**Boson Java**](https://github.com/bosonnetwork/Boson.Java)
+* [**Boson Native**](https://github.com/bosonnetwork/Boson.Native)
 
-We also welcome community involvement in improving the CIP specifications and publishing carrier super nodes for public use. You are also welcome to join our dedicated Telegram group to get more details and updates about the Carrier network.
+We also welcome community involvement in improving the CIP specifications and publishing boson super nodes for public use. You are also welcome to join our dedicated Telegram group to get more details and updates about the Carrier network.
 
-* [**awesome-carrier**](https://github.com/trinity-tech-io/awesome-carrier) - CIP (Carrier Implementation Possibilities of Adoptions)
-* [**Public Carrier Nodes**](https://github.com/trinity-tech-io/public-carrier-nodes)
-* [**Telegram - Awesome Carrier 2.0**](https://t.me/awesomecarrier)
-
-## More Links
-
-* [**Github**](https://github.com/elastos/Elastos.Carrier.Java)
-* [**Discord**](https://discord.gg/PfhEeuu2)
-* [**Telegram**](https://t.me/awesomecarrier)
+* [**awesome-boson**](https://github.com/bosonnetwork/awesome-boson) - CIP (Boson Implementation Possibilities of Adoptions)
+* [**Public Boson Nodes**](https://github.com/bosonnetwork/public-boson-nodes)
+* [**Telegram - Awesome Boson**](https://t.me/awesameboson)
