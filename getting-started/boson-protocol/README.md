@@ -12,19 +12,11 @@ layout:
     visible: true
 ---
 
-# Carrier Protocol
+# Boson Protocol
 
-## Kademlia DHT
+## The Boson Network
 
-Kademlia DHT is a distributed hash table designed for decentralized peer-to-peer networks by Petar Maymounkov and David Mazières in 2002. It specifies the structure of the network and the exchange of information through node lookups. Kademlia DHT nodes communicate with each other using UDP. Each DHT node is identified by a node ID, and the Kademlia algorithm uses this ID to locate other nodes or values. You can learn more about Kademlia DHT on [Wikipedia](https://en.wikipedia.org/wiki/Kademlia).
-
-The distributed nature of Kademia requires each node to maintain a mapping of a subset of the nodes on the network in its own routing table. This feature makes the network highly resistant to denial-of-service attacks and the loss of a group of nodes, as the protocol simply routes around the unavailable nodes. Therefore, it creates resilience against attacks, downtime, and central points of failure.
-
-Due to the aforementioned advantages, Kademia DHT has been widely used in projects such as Bittorrent, Ethereum, IPFS, and Swarm. Carrier has also decided to integrate it as the underlying DHT network so that Carrier can be a fully decentralized, reliable communication platform.
-
-## Carrier Network
-
-Carrier is a fully decentralized and peer-to-peer encrypted communication platform that uses Kademlia DHT as its underlying network. A suite of protocols has been implemented to facilitate communication among nodes. These protocols include addressing and propagating nodes, values, and peer entities. Below is a list of the basic protocols currently supported by Carrier:
+The Boson Network stands as a fully decentralized, peer-to-peer encrypted communication platform, employing Kademlia DHT as its foundational network infrastructure. A comprehensive suite of protocols has been meticulously implemented to foster seamless communication among nodes. These protocols encompass the addressing and propagation of nodes, values, and peer entities through the entire Network. The following is a compilation of primitive protocols outlined in the initial standard specification supported:
 
 * ping
 * find\_node
@@ -35,6 +27,6 @@ Carrier is a fully decentralized and peer-to-peer encrypted communication platfo
 
 ## Related Links:
 
-* [**Carrier Nodes**](lookup-nodes.md)
-* [**Carrier Peer**](announce-peers.md)
-* [**Carrier Value**](store-values.md)
+* [**Boson Nodes**](lookup-nodes.md)
+* [**Boson Peer**](announce-peers.md)
+* [**Boson Value**](store-values.md)
