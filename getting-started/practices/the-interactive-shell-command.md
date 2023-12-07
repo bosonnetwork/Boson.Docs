@@ -7,31 +7,31 @@ There are two types of shell interactive command applications to use for user ch
 
 ## A Java based Shell Command&#x20;
 
-Here is a serial of commands to build the shell command application for the Carrier Java repository. This process is the same as building a carrier super node service:
+Here is a serial of commands to build the shell command application for the Boson Java repository. This process is the same as building a boson super node service:
 
 ```bash
-$ git clone git@github.com:elastos/Elastos.Carrier.Java carrier-java
-$ cd carrier-java
+$ git clone git@github.com:bosonnetwork/Boson.Java boson
+$ cd boson
 $ ./mvnw -Dmaven.test.skip=true
 $ cd shell/target
 ```
 
-Under the directory **shell/target**, a binary named `carrier-shell` is generated, and the user can run this executable with the command to enter the interactive console:
+Under the directory **shell/target**, a binary named `boson-shell` is generated, and the user can run this executable with the command to enter the interactive console:
 
 ```bash
-carrier $ ./carrier-shell -c your-config-path/default.conf
-Carrier node started
-Carrier Id: BCmAbJXmp4ehiShXqQfghEXdq3H1wQVX6syTxT1N7Z56
+Boson $ ./boson-shell -c your-config-path/default.conf
+Boson node started
+Boson Id: BCmAbJXmp4ehiShXqQfghEXdq3H1wQVX6syTxT1N7Z56
 ```
 
-IIf the program is running with the carrier shell without the config file, then the current shell acts as an isolated node detached from the main carrier network. We recommend using the `bootstrap` command to connect to the carrier network next.
+IIf the program is running with the shell without the config file, then the current shell acts as an isolated node detached from the main boson network. We recommend using the `bootstrap` command to connect to the boson network next.
 
 * **help**
 
-This is the main command for users to request help with all the commands supported in this shell command application. Users need to learn the commands from the `PicocliCommands` section to delve into the details of the current running carrier node.
+This is the main command for users to request help with all the commands supported in this shell command application. Users need to learn the commands from the `PicocliCommands` section to delve into the details of the current running node.
 
 ```bash
-Carrier $ help
+Boson $ help
   System:
     exit         exit from app/script
     help         command help
@@ -53,40 +53,40 @@ Carrier $ help
     findnode     Find node and show the node info if exists.
     findpeer     Find peer and show the candidate peers if exists.
     findvalue    Find value and show the value if exists.
-    id           Display the ID of current Carrier node.
+    id           Display the ID of current node.
     keygen       Create keypair.
     routingtable Display the routing tables.
-    stop         Display the ID of current Carrier node.
+    stop         Display the ID of current node.
     storage      Show the local data storage.
     storevalue   Store a value to the DHT.
 ```
 
 * **id**
 
-The **`id`** command is used to display a node Id of current shell application running as a carrier node.
+The **`id`** command is used to display a node Id of current shell application running as a boson node.
 
 ```bash
-Carrier $ id
-Carrier id: BCmAbJXmp4ehiShXqQfghEXdq3H1wQVX6syTxT1N7Z56
-Carrier $
+Boson $ id
+Boson id: BCmAbJXmp4ehiShXqQfghEXdq3H1wQVX6syTxT1N7Z56
+Boson $
 ```
 
 * **bootstrap**
 
-The **`bootstrap`** command is used to bootstrap this shell application to connect to the carrier network. It would be possibly used on the first that have run it:
+The **`bootstrap`** command is used to bootstrap this shell application to connect to the boson network. It would be possibly used on the first that have run it:
 
 ```bash
-Carrier $ bootstrap HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ 155.138.245.211 39001
+Boson $ bootstrap HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ 155.138.245.211 39001
 DHT/IPv4 connected
 DHT/IPv4 profound connected
 ```
 
 * **routingtable**
 
-The **`routingtable`** is used to display information about the routing table, which helps check the health of the current carrier node.
+The **`routingtable`** is used to display information about the routing table, which helps check the health of the current node.
 
 ```bash
-arrier $ routingtable
+Boson $ routingtable
 Node: BCmAbJXmp4ehiShXqQfghEXdq3H1wQVX6syTxT1N7Z56
 DHT: IPv4
 Address: 192.168.1.107:39001
@@ -118,7 +118,7 @@ Prefix: 80/0 [Home]
 The **`keygen`** command is used to generate private/public key pairs for encryption or signature purposes. The private key for signing can be used to announce a service peer when deploying an Active Proxy service on a super node or a personal service to utilize the Active Proxy service on a native client application.
 
 ```bash
-Carrier $ keygen
+Boson $ keygen
 Signature:
   Private(Hex): 58bb783307742a0e3158642a88f133332cac5a3ac440a87bcaa5382d4e3245ec3b28dd37661fe4f631f7602fd4d6644402c9da3585841e2746054eff33a296cf
    Public(Hex): 3b28dd37661fe4f631f7602fd4d6644402c9da3585841e2746054eff33a296cf
@@ -127,90 +127,89 @@ Encryption:
   Private(Hex): d83b4c4626b6709b8df0fbc35b10fa5a101f465e439f0e2970d0d563881d6760
    Public(Hex): e43c6b4fcb4157f38c2fc3076c20d40375477040f4cf73a1afc3f8e1887d841b
    Public(B58): GMwPdNvE1UstAKCDo1BWqZqsYdc8mkDGdFuArY6Fwb3p
-Carrier $ 
 
 ```
 
 * **findnode**
 
-The **`findnode`** command is used to retrieve other or neighboring carrier nodes with a given node ID over the carrier network. This command internally utilizes the carrier protocol `find-node` to look up the specific carrier node across the entire carrier network.
+The **`findnode`** command is used to retrieve other or neighboring nodes with a given node ID over the boson network. This command internally utilizes the protocol `find-node` to look up the specific node across the entire network.
 
 ```bash
-Carrier $ findnode 2XTynHmLAWnZtLJsst3dQGd3W5ZpWthyeCS2ToLxk4ws
+Boson $ findnode 2XTynHmLAWnZtLJsst3dQGd3W5ZpWthyeCS2ToLxk4ws
 IPv4: <2XTynHmLAWnZtLJsst3dQGd3W5ZpWthyeCS2ToLxk4ws,/149.28.250.37,39001>
 IPv6: <2XTynHmLAWnZtLJsst3dQGd3W5ZpWthyeCS2ToLxk4ws,/149.28.250.37,39001>
 ```
 
 * **storevalue**
 
-The **`storevalue`** is used to store a specific value over the carrier network. The value can be retrieved later by using the command findvalue. This command internally utilizes the carrier protocol store-value to propagate the value to be stored across the entire carrier network.
+The **`storevalue`** is used to store a specific value over the boson network. The value can be retrieved later by using the command findvalue. This command internally utilizes the protocol store-value to propagate the value to be stored across the entire network.
 
 ```
-Carrier $ storevalue -m "hello-world"
+Boson $ storevalue -m "hello-world"
 Value 8mL3KYWP3xaqJpo7ECeB7C2kv1KCij4sdRfWRPbvRzaq stored.
 ```
 
 * **findvalue**
 
-The **`findvalue`** command is used to retrieve the specific value information by a give value ID. This command internally utilizes the carrier protocol `find-value` to lookup the value item across the entire carrier.
+The **`findvalue`** command is used to retrieve the specific value information by a give value ID. This command internally utilizes the protocol `find-value` to lookup the value item across the entire network.
 
 ```bash
-Carrier $ findvalue 8mL3KYWP3xaqJpo7ECeB7C2kv1KCij4sdRfWRPbvRzaq
+Boson $ findvalue 8mL3KYWP3xaqJpo7ECeB7C2kv1KCij4sdRfWRPbvRzaq
 id:8mL3KYWP3xaqJpo7ECeB7C2kv1KCij4sdRfWRPbvRzaq,publicKey:BsNxi3gyXytHCQGuB457zm2n3VKyfZWzPyBk5EVDiNPo,nonce: 4079d0990affccc590ce61c8dbd61dcacaa64263bdde6965,seq:0,sig:09c6771869f3e737a05491839c497b121d9a2bce74e86c7eee0d7b1f20d6900be91bfe56dfe52c14c86e13e6dad3644efc213e3f28fdc5008367c95b1e4ae804,data:68656c6c6f2d776f726c64
 ```
 
 * **announcepeer**
 
-The `announcepeer` command is used to announce a peer information, such as a personal web service of your own. This command internally utilizes the carrier protocol `announce-peer` to propagate the peer information across the entire carrier network.
+The `announcepeer` command is used to announce a peer information, such as a personal web service of your own. This command internally utilizes the protocol `announce-peer` to propagate the peer information across the entire network.
 
 ```bash
-Carrier $ announcepeer -k 58bb783307742a0e3158642a88f133332cac5a3ac440a87bcaa5382d4e3245ec3b28dd37661fe4f631f7602fd4d6644402c9da3585841e2746054eff33a296cf 12345
+Boson $ announcepeer -k 58bb783307742a0e3158642a88f133332cac5a3ac440a87bcaa5382d4e3245ec3b28dd37661fe4f631f7602fd4d6644402c9da3585841e2746054eff33a296cf 12345
 Peer 4ywCHfUYDevE78jcTSDD6yo1CnJzSeKsxR1nvY25g5gr announced with private key 58bb783307742a0e3158642a88f133332cac5a3ac440a87bcaa5382d4e3245ec3b28dd37661fe4f631f7602fd4d6644402c9da3585841e2746054eff33a296cf
 ```
 
 * **findpeer**
 
-The **`findpeer`** command is used to retrieve a list of peer information with a given peer ID. This command internally utilizes the carrier protocol find-peer to lookup all peers across the entire carrier network as much as possible. Here is an example to retrieve all carrier nodes that provides the Active Proxy service with a given peer ID.
+The **`findpeer`** command is used to retrieve a list of peer information with a given peer ID. This command internally utilizes the protocol find-peer to lookup all peers across the entire network as much as possible. Here is an example to retrieve all boson nodes that provides the Active Proxy service with a given peer ID.
 
 ```bash
-Carrier $ findpeer 5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6
+Boson $ findpeer 5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6
 <5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6,6o6LkHgLyD5sYyW9iN5LNRYnUoX29jiYauQ5cDjhCpWQ,8090>
 <5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6,4A6UDpARbKBJZmW5s6CmGDgeNmTxWFoGUi2Z5C4z7E41,8090>
 <5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6,8grFdb2f6LLJajHwARvXC95y73WXEanNS1rbBAZYbC5L,8090>
 <5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6,HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ,8090>
 ```
 
-There are more commands not mentioned above that would be helpful for retrieving additional internal state or information of the current shell as a carrier node.
+There are more commands not mentioned above that would be helpful for retrieving additional internal state or information of the current shell as a boson node.
 
 * **stop**
 
-The `stop` command is used to exit from this carrier shell command application.
+The `stop` command is used to exit from this shell command application.
 
 ```bash
-Carrier $ stop
-Carrier node stopped
+Boson $ stop
+Boson node stopped
 ```
 
 ## A native shell command implemented in C/C++
 
-Below is a serial of commands to build the shell command application for the Carrier Native repository. This process is the same as building a native carrier launcher running as the Active Proxy client:
+Below is a serial of commands to build the shell command application for the Boson Native repository. This process is the same as building a native launcher running as the Active Proxy client:
 
 ```bash
-$ git clone git@github.com:elastos/Elastos.Carrier.Native carrier-native
-$ cd carrier-native/build && mkdir prod
+$ git clone git@github.com:bosonnetwork/Boson.Native photon
+$ cd photon/build && mkdir prod
 $ cmake -DCMAKE_INSTALL_PREFIX=dist ../..
 $ make -jN
 $ make install
-$ ./dist/bin/carrier-shell -c YOUR-CONFIG-PATH/default.conf
+$ ./dist/bin/boson-shell -c YOUR-CONFIG-PATH/default.conf
 
 ```
 
-Under the directory `dist/bin` of your building environment, a binary named `carrier-shell` is generated, and the user can run this executable with the command to enter the interactive console:
+Under the directory `dist/bin` of your building environment, a binary named `boson-shell` is generated, and the user can run this executable with the command to enter the interactive console:
 
 ```bash
-carrier $ ./carrier-shell -c your-config-path/default.conf
-Carrier node started
-Carrier Id: BCmAbJXmp4ehiShXqQfghEXdq3H1wQVX6syTxT1N7Z56
+boson $ ./boson-shell -c your-config-path/default.conf
+boson node started
+boson Id: BCmAbJXmp4ehiShXqQfghEXdq3H1wQVX6syTxT1N7Z56
 ```
 
-The commands supported on the native carrier shell are very similar to the shell of the Java implementation. We encourage users to also experience this shell application to get more internal state or information for the native carrier node.
+The commands supported on the native shell are very similar to the shell of the Java implementation. We encourage users to also experience this shell application to get more internal state or information for the native node.

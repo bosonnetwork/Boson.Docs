@@ -11,7 +11,7 @@
   * [Announce Peers](getting-started/boson-protocol/announce-peers.md)
   * [Store Values](getting-started/boson-protocol/store-values.md)
 * [Boson Services](getting-started/boson-services/README.md)
-  * [DHT Proxy](getting-started/boson-services/dht-proxy.md)
+  * [Web Gateway](getting-started/boson-services/web-gateway.md)
   * [Active Proxy](getting-started/boson-services/active-proxy.md)
   * [dStore Service](getting-started/boson-services/dstore-service.md)
   * [Messaging Service](getting-started/boson-services/messaging-service.md)
