@@ -16,20 +16,16 @@ layout:
 
 ## Github Repositories
 
-Here are the main repositories related to Carrier Version 2.0. We welcome contributions from the community in the form of issue reports or proposal requests.
+Here are the main repositories related to Boson project. We welcome contributions from the community in the form of issue reports or proposal requests.
 
-* [**Carrier Java**](https://github.com/elastos/Elastos.Carrier.Java)
-* [**Carrier Native**](https://github.com/elastos/Elastos.Carrier.Native)
-* **Carrier Swift (Working)**
+* [**Boson Java**](https://github.com/bosonnetwork/Boson.Java)
+* [**Boson Native**](https://github.com/bosonnetwork/Boson.Native)
 
-The first one, **Carrier Java**, is used to deploy a carrier super node. The latter, **Carrier Native** repository, is used to integrate into applications as a regular carrier node to leverage the features or services from super nodes.
+The first one, **Boson Java**, is used to deploy a boson super node. The latter, **Boson Native** repository, is used to integrate into applications as a regular node to leverage the features or services from super nodes.
 
-* [**CIP (Carrier Improvement Proposal)**](https://github.com/trinity-tech-io/awesome-carrier)
-* [**Public Carrier Nodes**](https://github.com/trinity-tech-io/public-carrier-nodes)
+* [**Public Boson Nodes**](https://github.com/bosonnetwork/public-boson-nodes)
 
 ## Other Links:
 
-* [**Email**](http://127.0.0.1:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/) - [carrier-dev@trinity-tech.io](links.md#email)
-* [**Website**](https://trinity-tech.io) - [https://trinity-tech.io](https://trinity-tech.io)
-* [**Telgram**](https://t.me/awesomecarrier)
-* [**Discord**](https://discord.gg/VnfUHXkv)
+* [**Email**](http://127.0.0.1:5000/o/-MiuJMlYEx2aazGrKrUY/s/vUu27GQSAeqmivH4yylC/) - [contact@bosonnetwork.io](links.md#email)
+* [**Telgram**](https://t.me/bosonnetwork)
