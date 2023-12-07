@@ -19,7 +19,6 @@
   * [Deploying Super Node](getting-started/practices/deploying-super-node.md)
   * [Leveraging Active Proxy Service](getting-started/practices/leveraging-active-proxy-service.md)
   * [The Interactive Shell Command](getting-started/practices/the-interactive-shell-command.md)
-  * [Set Up A Crawler Bot](getting-started/practices/set-up-a-crawler-bot.md)
 
 ## In-depth Tech
 
