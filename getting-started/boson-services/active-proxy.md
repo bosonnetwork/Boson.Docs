@@ -14,9 +14,9 @@ layout:
 
 # Active Proxy
 
-The Active Proxy service, provided by the boson super node, facilitates accessibility of a local or personal service running on your home WiFi to the public. Essentially, it forwards the entry to the personal service through the boson super node, rendering it visible to the public.
+The <mark style="color:green;">**Active Proxy**</mark> service, provided by the boson super node, facilitates accessibility of a local or personal service running on your home WiFi to the public. Essentially, it forwards the entry to the personal service through the boson super node, rendering it visible to the public.
 
-## Leveraging Active Proxy for Home-Based Services"
+## Leverage for Home-Based Services"
 
 Suppose you wish to operate a blog service on a Raspberry device within your home WiFi network, sharing stories with the public. In such a scenario, you can employ the Active Proxy functionality from the super nodes you trust the most to publicize your blog service.
 
@@ -24,8 +24,7 @@ Similarly, consider a situation where you have set up a NAS or personal storage 
 
 <figure><img src="../../.gitbook/assets/gateway-service.png" alt=""><figcaption><p>An Imagined Gateway Service Leveraging on Active Proxy Feature</p></figcaption></figure>
 
-
-## A Complete Fulfillment of Active Proxy Services
+## The Fulfillment of Active Proxy Service
 
 A complete fulfillment of Active Proxy services consists of client and server components. Boson super nodes continue to provide the service by announcing these services over the network. On the other hand, a regular photon node hosts the client component, facilitating seamless interaction with one of the services.
 
@@ -33,3 +32,7 @@ To initiate a dedicated connection between a regular node hosting an active prox
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The work flow for Active Proxy between dApp and the home-based service.</p></figcaption></figure>
 
+### Related Links
+
+* [Super Boson Node](../../operations/super-nodes.md#boson-super-nodes)
+* [Regular Photon Node](../boson-protocol/nodes.md#native-node-photon-node)
