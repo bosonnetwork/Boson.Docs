@@ -17,10 +17,10 @@ layout:
 The updated boson retains its decentralized essence and preserves the peer-to-peer  encrypted communication feature from its inception. Evolving with a strategic restructuring, it now operates as a layered and permissionless communication network. This transformation aims to broaden the spectrum of potential applications beyond the secure P2P communication feature. The layered structure, presented from the bottom up, is as follows:
 
 * [**UDP/TCP**](https://en.wikipedia.org/wiki/Internet\_protocol\_suite)
-* [**Kademia DHT**](boson-dht.md)
+* [**Kademia DHT**](kademlia-dht.md)
 * [**Boson Protocol**](boson-protocol/)
 * [**Boson Service**](boson-services/)
-* **Applications**
+* **dApps**
 
 <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>A layered and permission-less peer-to-peer encrypted network</p></figcaption></figure>
 
