@@ -14,7 +14,7 @@ layout:
 
 # Nodes
 
-[#native-node-photon-node](nodes.md#native-node-photon-node "mention")s[#super-node-boson-node](nodes.md#super-node-boson-node "mention")The Boson Network encompasses all nodes worldwide, categorized based on their deployment on public VPS, personal devices, Raspberry Pi devices, browsers, and other platforms. Together, these nodes form the integral components of the entire network.
+The Boson Network encompasses all nodes worldwide, categorized based on their deployment on public VPS, personal devices, Raspberry Pi devices, browsers, and other platforms. Together, these nodes form the integral components of the entire network.
 
 * [**Super Node ( boson node)**](nodes.md#super-node-boson-node)
 * [**Native Node (photon node)**](nodes.md#native-node-photon-node)
