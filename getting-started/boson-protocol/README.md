@@ -16,7 +16,7 @@ layout:
 
 ## The Boson Network
 
-The Boson Network stands as a fully decentralized, peer-to-peer encrypted communication platform, employing Kademlia DHT as its foundational network infrastructure. A comprehensive suite of protocols has been meticulously implemented to foster seamless communication among nodes. These protocols encompass the addressing and propagation of nodes, values, and peer entities through the entire Network. The following is a compilation of primitive protocols outlined in the initial standard specification supported:
+The Boson Network stands as a fully decentralized, peer-to-peer encrypted communication platform, with Kademlia DHT serving as its underlying network. A meticulously implemented suite of protocols is designed to facilitate seamless communication among nodes. These protocols cover the addressing and propagation of nodes, values, and peer entities throughout the entire network. The following compilation represents the primitive protocols outlined in the initial standard specification that are supported:
 
 * ping
 * find\_node

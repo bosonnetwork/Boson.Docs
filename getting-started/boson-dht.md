@@ -26,3 +26,11 @@ Kademlia DHT, created by Petar Maymounkov and David Mazières in 2002, is a dist
 The distributed nature of Kademlia mandates that each node upholds a mapping of a subset of nodes on the network within its routing table. This inherent feature imparts the network with heightened resistance to denial-of-service attacks and alleviates the consequences of node loss. The protocol dynamically reroutes around unavailable nodes, thereby enhancing the network's resilience. This fortification serves as a robust defense mechanism against potential attacks, downtimes, and central points of failure.
 
 Leveraging these advantages, Kademlia DHT has garnered widespread adoption in prominent projects such as BitTorrent, Ethereum, IPFS, and Swarm. Acknowledging its effectiveness, Boson has strategically integrated Kademlia as the underlying DHT network, aligning with the overarching vision to position Boson as a fully decentralized and trustworthy communication platform.
+
+
+## Related Links:
+
+* [**Kademlia DHT**](https://en.wikipedia.org/wiki/Kademlia)
+* [**BitTorrent**](https://en.wikipedia.org/wiki/BitTorrent)
+* [**Ethereum**](https://en.wikipedia.org/wiki/Ethereum)
+* [**IPFS**](https://en.wikipedia.org/wiki/InterPlanetary_File_System)
