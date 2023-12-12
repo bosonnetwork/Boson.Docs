@@ -30,9 +30,9 @@ Once you've acquired a basic understanding of the network, it is highly recommen
 
 To assist you in effectively practicing with the boson technology, here is a list of recommended guidelines:
 
-* [**Deploy a boson super node**](getting-started/practices/deploying-super-node.md)
-* [**Leveraging the active proxy service to run a personal service**](getting-started/practices/leveraging-active-proxy-service.md)
-* [**Understanding boson node by practicing an interactive shell command**](getting-started/practices/the-interactive-shell-command.md)
+* [**Deploy a boson super node**](broken-reference)
+* [**Leveraging the active proxy service to run a personal service**](broken-reference)
+* [**Understanding boson node by practicing an interactive shell command**](broken-reference)
 
 ## In-depth tech
 

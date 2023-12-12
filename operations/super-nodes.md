@@ -32,7 +32,7 @@ When the Trinity-Tech team finished the initial version of boson implementation,
 
 In the initial version, each boson super node is running with the Active Proxy service. The Active Proxy service can be leveraged by a personal microservice that was originally only allowed for access within LAN, but can now be accessed by the public. Additionally, users can register a PC2 name from the website [https://pc2.net](https://pc2.net/) provided by Trinity-Tech to bind the user service.
 
-Here is the initial list of public super nodes deployed by the **trinity-tech** team**:**
+Here is the initial list of public super nodes deployed by the **trinity-tech** team\*\*:\*\*
 
 ```json
 { 
@@ -121,5 +121,5 @@ Here is an example config file without for the community to use with a few super
 ## More Links
 
 * [Boson Super Nodes](super-nodes.md#boson-super-nodes)
-* [Setting up a Boson super node by the community](../getting-started/practices/deploying-super-node.md)
+* [Setting up a Boson super node by the community](broken-reference)
 * [Java SDK API document](../developer-kits/java.md)

@@ -15,10 +15,7 @@
   * [Active Proxy](getting-started/boson-services/active-proxy.md)
   * [Messaging](getting-started/boson-services/messaging-service.md)
   * [dStore](getting-started/boson-services/dstore-service.md)
-* [Practices](getting-started/practices/README.md)
-  * [Deploying Super Node](getting-started/practices/deploying-super-node.md)
-  * [Leveraging Active Proxy Service](getting-started/practices/leveraging-active-proxy-service.md)
-  * [The Interactive Shell Command](getting-started/practices/the-interactive-shell-command.md)
+* [The Practices](getting-started/the-practices.md)
 
 ## In-depth Tech
 
