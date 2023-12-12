@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [The Overview](getting-started/overview.md)
-* [Kademlia DHT](getting-started/boson-dht.md)
+* [Kademlia DHT](getting-started/kademlia-dht.md)
 * [Boson Protocol](getting-started/boson-protocol/README.md)
   * [Nodes](getting-started/boson-protocol/nodes.md)
   * [Peers](getting-started/boson-protocol/peers.md)
@@ -15,7 +15,8 @@
   * [Active Proxy](getting-started/boson-services/active-proxy.md)
   * [Messaging](getting-started/boson-services/messaging-service.md)
   * [dStore](getting-started/boson-services/dstore-service.md)
-* [The Practices](getting-started/the-practices.md)
+* [The Practices](getting-started/the-practices/README.md)
+  * [Deploying Super Node](getting-started/the-practices/deploying-super-node.md)
 
 ## In-depth Tech
 
