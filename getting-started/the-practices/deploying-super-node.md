@@ -112,29 +112,6 @@ To properly run the boson super node service, update the config file with the fo
       "address": "45.76.161.175",
       "port": 39001
     }
-  ],
-  "services": [
-    {
-      "class": "io.bosonnetwork.service.dhtproxy.DHTProxy",
-      "configuration": {
-        "port": 8088
-      }
-    },
-    {
-      "class": "io.bosonnetwork.service.activeproxy.ActiveProxy",
-      "configuration": {
-        "host": "YOUR-IP-ADDRESS",
-        "port": 8090,
-        "portMappingRange": "20000-22000",
-        "connections":8,
-        "maxConnections":64,
-        "peerPrivateKey": "YOUR-PRIVATE-KEY-OF-ACTIVE-PROXY-PEER"
-      }
-    }
   ]
 }
 ```
-
-{% hint style="info" %}
-The later section of "**services**" is used for the super node to provide the **Active Proxy** service and **Web Gateway** service. Users can disable those services by removing this section..
-{% endhint %}
