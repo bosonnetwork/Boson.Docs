@@ -17,6 +17,8 @@
   * [dStore](getting-started/boson-services/dstore-service.md)
 * [The Practices](getting-started/the-practices/README.md)
   * [Deploying Super Node](getting-started/the-practices/deploying-super-node.md)
+  * [Leveraging Active Proxy](getting-started/the-practices/leveraging-active-proxy.md)
+  * [The shell command](getting-started/the-practices/the-shell-command.md)
 
 ## In-depth Tech
 
