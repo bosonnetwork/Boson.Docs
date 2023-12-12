@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-* [Overview](getting-started/overview.md)
-* [Boson DHT](getting-started/boson-dht.md)
+* [The Overview](getting-started/overview.md)
+* [Kademlia DHT](getting-started/boson-dht.md)
 * [Boson Protocol](getting-started/boson-protocol/README.md)
   * [Lookup Nodes](getting-started/boson-protocol/lookup-nodes.md)
   * [Announce Peers](getting-started/boson-protocol/announce-peers.md)
@@ -33,7 +33,7 @@
 ## Operations
 
 * [Super Nodes](operations/super-nodes.md)
-* [pc2.net ](operations/pc2.net.md)
+* [pc2.net](operations/pc2.net.md)
 
 ## Resources
 
