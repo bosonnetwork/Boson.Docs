@@ -49,19 +49,17 @@ $ sudo dpkg -i boson-<version>--SNAPSHOT-all.deb
 
 After the installation, several directories and files with the following organized structure are created if it's a fresh installation:
 
-* **/usr/lib/boson**: contains the runtime libraries, including jar packages
-* **/var/lib/boson**: contains the runtime libraries, including jar packages
-* **/etc/boson**: contains the config file **default.conf**
-* **/var/lib/boson**: contains the runtime data store
-* **/var/log/boson**: contains the output log file boson.log
+* <mark style="color:green;">**/usr/lib/boson**</mark>: contains the runtime libraries, including jar packages
+* <mark style="color:green;">**/etc/boson**</mark>: contains the config file **default.conf**
+* <mark style="color:green;">**/var/lib/boson**</mark>: contains the runtime data store
+* <mark style="color:green;">**/var/log/boson**</mark>: contains the output log file boson.log
 
 A list of runtime data stored and cached under **`/var/lib/boson`** includes the following files:
 
-* **key**: contains a generated private key
-* **id**: contains the node ID in base58 format
-* **dht4.cache**: contains the routing table information for IPv4 addresses.
-* **dht6.cache**: contains the routing table information for IPv6 addresses, if IPv6 is enabled.
-* **node.db**: contains information about Value and Peer announced over network.
+* <mark style="color:green;">**key**</mark>: contains a generated private key
+* <mark style="color:green;">**id**</mark>: contains the node ID in base58 format
+* <mark style="color:green;">**dht4.cache**</mark>: contains the routing table information for IPv4 addresses.
+* <mark style="color:green;">**node.db**</mark>: contains information about Value and Peer announced over network.
 
 ## Enable Port Opening
 
