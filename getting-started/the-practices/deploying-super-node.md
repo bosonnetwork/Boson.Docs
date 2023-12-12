@@ -15,17 +15,10 @@ layout:
 # Deploying Super Node
 
 {% hint style="info" %}
-_It is recommended to install a boson super node on **Ubuntu 22.04** or later, and it must be bound to a public IP address. Otherwise, it cannot function as a bootstrap node._
+_It is recommended to install a Boson super node on **Ubuntu 22.04** or a later version. Additionally, the super node must be bound to a public IP address in order to function as a public bootstrap node._
 {% endhint %}
 
-## Installation of Runtime Dependencies
-
-The following runtime components are dependencies that must be installed prior to installing the boson super node service:
-
-* Java Virtual Machine (JVM) >= Java 11
-* sodium (libsodium) >= 1.0.16
-
-To install these dependencies, please run the following command:
+To initiate the installation of the essential runtime components required by boson super nodes, please execute the following command on your build machine:
 
 {% code fullWidth="true" %}
 ```sh
@@ -33,46 +26,46 @@ $ sudo apt install openjdk-11-jre-headless libsodium23
 ```
 {% endcode %}
 
-## Building the Super Node Debian Package
+## Building Debian Package
 
-After installing the dependencies on your build machine, run the following commands to build the super node service as Debian package:
+After installing the dependencies on your build machine, execute the following commands to build a Debian package that can be installed as a super boson node:
 
 ```sh
-$ git clone git@github.com:bosonnetwork/Boson.Java.git boson
+$ git clone git@github.com:bosonnetwork/Boson.Distribution.git boson
 $ cd boson
-$ ./mvnw -Dmaven.test.skip=true
-$ cd cmds/target
+$ ./mvnw install
+$ cd target
 ```
 
-After the build, a Debian package will be generated with the pattern name _**boson-\<version>-SNAPSHOT-all.deb**.
+After the build, a Debian package is generated with the following **nomenclature** <mark style="color:green;">**boson-\<version>-SNAPSHOT-all.deb**</mark>**.**
 
-## Installing the Super Node Service
+## Installing Super Node
 
-Once the Debian package is generated, then run the following command to install it as a super node service:
+After generating the Debian package, proceed to upload it to the VPS server. Then, execute the following command to install it as a super boson node in the server with privileged permission:
 
 ```sh
-$ sudo dpkg -i boson-<version>-SNAPSHOT.deb
+$ sudo dpkg -i boson-<version>--SNAPSHOT-all.deb
 ```
 
 After the installation, several directories and files with the following organized structure are created if it's a fresh installation:
 
-* **/usr/lib/boson**:  contains the runtime libraries, including jar packages
-* **/var/lib/boson**:  contains the runtime libraries, including jar packages
-* **/etc/boson**:  contains the config file **default.conf**
-* **/var/lib/boson**:  contains the runtime data store
-* **/var/log/boson**:   contains the output log file boson.log
+* **/usr/lib/boson**: contains the runtime libraries, including jar packages
+* **/var/lib/boson**: contains the runtime libraries, including jar packages
+* **/etc/boson**: contains the config file **default.conf**
+* **/var/lib/boson**: contains the runtime data store
+* **/var/log/boson**: contains the output log file boson.log
 
 A list of runtime data stored and cached under **`/var/lib/boson`** includes the following files:
 
-* **key**:  contains a randomly generated private key
-* **id**:  contains the node ID in base58 format
-* **dht4.cache**:  contains the routing table information for IPv4 addresses.
-* **dht6.cache**:  contains the routing table information for IPv6 addresses, if IPv6 is enabled.
-* **node.db**:  contains information about Value and Peer announced over network.
+* **key**: contains a generated private key
+* **id**: contains the node ID in base58 format
+* **dht4.cache**: contains the routing table information for IPv4 addresses.
+* **dht6.cache**: contains the routing table information for IPv6 addresses, if IPv6 is enabled.
+* **node.db**: contains information about Value and Peer announced over network.
 
-## Enable Allowing the Opening of Ports
+## Enable Port Opening
 
-IIf the VPS running the super node service has a firewall enabled, it needs to enable the designated ports. The default port being used is **`39001`**. To enable or check the port if it's already enabled, run the commands with '**`ufw'`** tool below with privileged permission:
+If the VPS running the super node has a firewall enabled, it needs to enable the designated ports. The default port being used is **`39001`**. To enable or check the port if it's already enabled, run the commands with '**`ufw'`** tool below with privileged permission:
 
 {% code overflow="wrap" fullWidth="false" %}
 ```sh
@@ -81,9 +74,9 @@ $ sudo ufw status verbose
 ```
 {% endcode %}
 
-## Checking the Super Node Service Status
+## Checking Service Status
 
-Once the super node service has been installed and is running on the VPS, it is recommended to use the '**`systemctl`**' command to check the status of the service or to start/stop it for management purposes.
+Once the super node has been installed and is running on the VPS, it is advisable to employ the 'systemctl' command to check the service status or initiating start/stop actions for effective management.
 
 ```bash
 $ systemctl status boson
@@ -99,7 +92,7 @@ $ tail -f /var/log/boson/boson.log
 
 ## An Example of a Config File
 
-To properly run the boson super node service, update the config file with the following contents, but make sure to fill in your own address4 or address6 field.&#x20;
+To properly run the boson super node service, update the config file with the following contents, but make sure to fill in your own address4 or address6 field.
 
 ```json
 {
@@ -118,18 +111,7 @@ To properly run the boson super node service, update the config file with the fo
       "id": "6o6LkHgLyD5sYyW9iN5LNRYnUoX29jiYauQ5cDjhCpWQ",
       "address": "45.76.161.175",
       "port": 39001
-    },
-    {
-      "id": "8grFdb2f6LLJajHwARvXC95y73WXEanNS1rbBAZYbC5L",
-      "address": "140.82.57.197",
-      "port": 39001
-    },
-    {
-      "id": "4A6UDpARbKBJZmW5s6CmGDgeNmTxWFoGUi2Z5C4z7E41",
-      "address": "66.42.74.13",
-      "port": 39001
-    },
-
+    }
   ],
   "services": [
     {
@@ -154,5 +136,5 @@ To properly run the boson super node service, update the config file with the fo
 ```
 
 {% hint style="info" %}
-The later section of "**services**" is used for the super node to provide the **Active Proxy** service and **Web Gateway** service. Users can disable those services by removing this section..&#x20;
+The later section of "**services**" is used for the super node to provide the **Active Proxy** service and **Web Gateway** service. Users can disable those services by removing this section..
 {% endhint %}
