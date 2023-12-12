@@ -14,16 +14,9 @@ layout:
 
 # Web Gateway
 
-The **Web Gateway** service is a simple web service provided by the super node. It allows lightweight applications, often those in browsers, to experience some of the features of the boson protocols without being a boson node themselves, by using the super node as a gateway.
+The <mark style="color:green;">**Web Gateway**</mark> service, offered by the super boson node, is a straightforward web service for the public. It enables lightweight applications, particularly those within browsers, to access certain features of the boson protocols without the need to be working as a full-fledged boson node. Instead, these applications utilize the super node as a gateway, facilitating seamless interaction with the boson network.
 
-## The Use Cases Could Benefit From Web Gateway
+### Related Links
 
-TODO
-
-## Why Do You Need Web Gateway for applications?
-
-TODO
-
-## How does Web Gateway service work?
-
-TODO
+* [Boson Super Node](../boson-protocol/nodes.md#super-node-boson-node)
+* [Boson Protocols](../boson-protocol/)
