@@ -15,7 +15,7 @@ layout:
 # Deploying Super Node
 
 {% hint style="info" %}
-_It is recommended to install a Boson super node on **Ubuntu 22.04** or a later version. Additionally, the super node must be bound to a public IP address in order to function as a public bootstrap node._
+_It's recommended to install a boson super node on **Ubuntu 22.04** or a later version. Additionally, the super node must be bound to a public IP address in order to function as a public bootstrap node._
 {% endhint %}
 
 To initiate the installation of the essential runtime components required by boson super nodes, please execute the following command on your build machine:
@@ -105,11 +105,6 @@ To properly run the boson super node service, update the config file with the fo
     {
       "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
       "address": "155.138.245.211",
-      "port": 39001
-    },
-    {
-      "id": "6o6LkHgLyD5sYyW9iN5LNRYnUoX29jiYauQ5cDjhCpWQ",
-      "address": "45.76.161.175",
       "port": 39001
     }
   ]
