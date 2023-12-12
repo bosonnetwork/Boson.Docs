@@ -14,7 +14,7 @@ layout:
 
 # Welcome to Boson Network
 
-The B**oson** network is a fully decentralized, peer-to-peer communication network that provides reliable communication and data sharing capabilities without the need for a central registry. It was initially derived from the Elastos Carrier open source project and has since undergone further development and enhancements.
+The **Boson** network is a fully decentralized, peer-to-peer communication network that provides reliable communication and data sharing capabilities without the need for a central registry. It was initially derived from the Elastos Carrier open source project and has since undergone further development and enhancements.
 
 The new version of boson introduces a well-layered and modularized service architecture, opening up new possibilities for application adoption. Furthermore, boson network has transitioned into a fully permissionless communication network.
 
