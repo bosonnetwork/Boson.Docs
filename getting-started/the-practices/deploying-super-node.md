@@ -14,10 +14,6 @@ layout:
 
 # Deploying Super Node
 
-{% hint style="info" %}
-_It's recommended to install a boson super node on **Ubuntu 22.04** or a later version. Additionally, the super node must be bound to a public IP address in order to function as a public bootstrap node._
-{% endhint %}
-
 To initiate the installation of the essential runtime components required by boson super nodes, please execute the following command on your build machine:
 
 {% code fullWidth="true" %}
@@ -25,6 +21,10 @@ To initiate the installation of the essential runtime components required by bos
 $ sudo apt install openjdk-11-jre-headless libsodium23
 ```
 {% endcode %}
+
+{% hint style="info" %}
+_It's recommended to install a boson super node on **Ubuntu 22.04** or a later version. Additionally, the super node must be bound to a public IP address in order to function as a public bootstrap node._
+{% endhint %}
 
 ## Building Debian Package
 
