@@ -14,8 +14,6 @@ layout:
 
 # Overview
 
-## Rising the New Boson
-
 The updated Boson retains its decentralized essence and preserves the  peer-to-peer (P2P) encrypted communication feature from its inception.  Evolving with a strategic restructuring, it now operates as a layered  and permissionless communication network. This transformation aims to  broaden the spectrum of potential applications beyond the secure P2P  communication feature. The layered structure, presented from the bottom  up, is as follows:
 
 * **UDP/TCP**
