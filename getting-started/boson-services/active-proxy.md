@@ -14,29 +14,22 @@ layout:
 
 # Active Proxy
 
-The **Active Proxy** service is the first add-on service provided by **Boson Super Nodes**. It allows a local service running on your home WiFi to be announced on a set of super nodes. Once the service is announced on super nodes, it can be accessed by the public naturally.
+The Active Proxy service, provided by the boson super node, facilitates accessibility of a local or personal service running on your home WiFi to the public. Essentially, it forwards the entry to the personal service through the boson super node, rendering it visible to the public.
 
-## The Use Cases Could Benefit From Active Proxy
+## Leveraging Active Proxy for Home-Based Services"
 
-Suppose you want to run a blog service on a Raspberry device in your home WiFi and share stories on the blog service with the public. In this case, you can use the **Active Proxy** from the super nodes you trust the most to announce your blog service to the public.
+Suppose you wish to operate a blog service on a Raspberry device within your home WiFi network, sharing stories with the public. In such a scenario, you can employ the Active Proxy functionality from the super nodes you trust the most to publicize your blog service.
 
-Another example is when you have deployed a NAS or personal storage service on your home WiFi. It works to access your data from the service at your home, but if you need to access your personal data from outside, you can use **Active Proxy** to announce the service access point from home WiFi to the internet while still keeping the privacy of your data.
+Similarly, consider a situation where you have set up a NAS or personal storage service on your home WiFi. While the service efficiently grants access to your data from within your home network, utilizing the Active Proxy allows you to announce the service access point from your home WiFi to the internet. This way, you can access your personal data remotely while still maintaining the privacy and security of your information.
 
 <figure><img src="../../.gitbook/assets/gateway-service.png" alt=""><figcaption><p>An Imagined Gateway Service Leveraging on Active Proxy Feature</p></figcaption></figure>
 
-## Why Do You Need Active Proxy for Local Services?
 
-If a local service is running on a home WiFi, it can only be accessed within the LAN and not by external users. This is because the NAT mechanism blocks initial access directly from the public network. To allow external access, users can either run services on a VPS with a public IP address or leverage third-party DDNS services to publish the service.
+## A Complete Fulfillment of Active Proxy Services
 
-In the boson network, each super node runs an **Active Proxy** service. Any user can choose a set of the super nodes to announce a service entry, making the service accessible for the public.
+A complete fulfillment of Active Proxy services consists of client and server components. Boson super nodes continue to provide the service by announcing these services over the network. On the other hand, a regular photon node hosts the client component, facilitating seamless interaction with one of the services.
 
-## How Does Active Proxy Work
+To initiate a dedicated connection between a regular node hosting an active proxy client and a specified super node, a config file is used to specify the active proxy peer ID. Once the connection is established, it will be utilized to forward traffic between external dApps and the home-based service.
 
-A complete **Active Proxy** service consists of client and server services. The super node hosts the server part, while the regular node, running alongside a user's service, hosts the client part.
-
-By using a config file to specify the active proxy peer ID, a regular node hosting an active proxy client will initiate a dedicated connection with the specified super node. Once the connection is established, it will be used to forward traffic between external dApps and the user's internal service.
-
-Assuming that the connection between an external dApp and a user service deployed on a home WiFi has been established, and the dApp requests access to the user service. The request from the dApp is forwarded to the internal regular node on the user's home WiFi via an active proxy server running on a super node. The active proxy client in the regular node then forwards the traffic to the target user service. The response is then forwarded in reverse from the internal regular node to the super node outside.
-
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The work flow for Active Proxy between dApp and the user service.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The work flow for Active Proxy between dApp and the home-based service.</p></figcaption></figure>
 
