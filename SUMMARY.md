@@ -7,7 +7,7 @@
 * [The Overview](getting-started/overview.md)
 * [Kademlia DHT](getting-started/boson-dht.md)
 * [Boson Protocol](getting-started/boson-protocol/README.md)
-  * [Lookup Nodes](getting-started/boson-protocol/lookup-nodes.md)
+  * [Boson Nodes](getting-started/boson-protocol/boson-nodes.md)
   * [Announce Peers](getting-started/boson-protocol/announce-peers.md)
   * [Store Values](getting-started/boson-protocol/store-values.md)
 * [Boson Services](getting-started/boson-services/README.md)
