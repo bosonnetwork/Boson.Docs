@@ -1,12 +1,12 @@
-# Leveraging Active Proxy Service
+# Leveraging Active Proxy
 
-Active Proxy service is a system-level service that operates over the boson network. Its purpose is to forward locally deployed personal service within a LAN network, making them accessible to the public.
+The Active Proxy service serves as a system-level component operating seamlessly across the network. Its core purpose lies in facilitating the forwarding of locally deployed services within a home WiFi environment, ensuring accessibility to the public.
 
-Active Proxy service consists of two parts: the **Service** and **Client**. The service part runs alongside the super node, and users typically do not need to be concerned about this aspect. The client part runs alongside the native node. As the native node is often integrated into the user application, it can be customized based on specific requirements or application scenarios.
+The complete service comprises two integral components: **Service** and **Client**. The service component operates in tandem with the super node, and users typically do not need to be concerned about this aspect. On the other hand, the client part is designed to run alongside the regular photon node. Given that the regular node is often integrated into user applications, it can be easily customized to meet specific requirements or align with different application scenarios.
 
-## Deploying the Active Proxy Service
+## Deploying Active Proxy Service
 
-As mentioned, the Active Proxy service is running alongside the super node on the server with a public address. Here is an example of a config file that can be referenced.
+As mentioned above, the Active Proxy service operates in tandem with the super node on a server with a public address. Below is an example of a configuration file that can serve as a reference:
 
 ```json
 {
@@ -17,10 +17,10 @@ As mentioned, the Active Proxy service is running alongside the super node on th
 
   "bootstraps": [
     {
-	    "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
-	    "address": "155.138.245.211",
-	    "port": 39001
-    } // more bootstrap nodes. 
+      "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
+      "address": "155.138.245.211",
+      "port": 39001
+    }
   ],
   
   "services": [
@@ -38,95 +38,14 @@ As mentioned, the Active Proxy service is running alongside the super node on th
 }
 ```
 
-In the config file above, only one item of the **ActiveProxy** service is included in the **services** section. Users can update the port value or port range values as required.
+The Active Proxy service propagates across the Boson network and can be identified as a peer through a peer ID. To retain ownership of this peer service, the deploying user is required to specify the <mark style="color:green;">`peerPrivateKey`</mark> item with a private key value. It is essential to note that only with this private key can the peer information of this service be updated later as needed.
 
-The Active Proxy service is propagated over the boson network, and it can be located or identified as a peer by using a peer ID. To maintain ownership of this peer service, the deploying user needs to specify the **peerPrivateKey** item with a private key value. Only with this private key the peer information of this service can be updated later as required.
+## Launch an Active Proxy Client
 
-{% hint style="info" %}
-The Trinity-Tech team has deployed a list of boson super nodes hosting Active Proxy service that can be leveraged by the user applications. One set of these super nodes provides the Active Proxy service with supporting the pc2 domain name. &#x20;
-{% endhint %}
-
-## To Launch an Active Proxy Client
-
-In the client part, the Active Proxy client can be integrated into the application and run in either of these two ways:
-
-- Run as a general command application, or
-- Run as a system service named **boson-meerkat** on Debian-based Linux.
-
-### 
-
-### 1. Run the Active Proxy Client as a General Command Application 
-
-Users can build the Active Proxy Client application on Unix-based Linux or Windows, and run it as an application by executing  the following commands:
-
-```shell
-$ git clone git@github.com:bosonnetwork/Boson.Native photon
-$ cd photon/build
-$ mkdir prod && cd prod
-$ cmake -DCMAKE_INSTALL_PREFIX=dist ../..
-$ make -jN
-$ make install
-```
-
-​    
-
-After successfully completing the build, launch the Active Proxy client using the following command:
-
-```shell
-$ ./dist/bin/boson-launcher -c YOUR-PATH/default.conf
-```
-
-​    
-
-Here is an example of a config file for your reference.
-
-```json
-{
-  "ipv4": true,
-  "ipv6": false,
-  "port": 39002,
-  "dataDir": "YOUR-DATA-PATH",
-
-  "logger": {
-    "level": "info",
-    "pattern": "[%Y-%m-%d %T] [%n] %^[%l] %v%$"
-  },
-
-  "bootstraps": [
-    {
-      "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
-      "address": "155.138.245.211",
-      "port": 39001
-    } // more super nodes can be added next.
-  ],
-  "addons": [
-    {
-      "name": "ActiveProxy",
-      "configuration": {
-        "serverPeerId" : "5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6",
-        "domainName": "abc.pc2.net",
-        "upstreamHost": "127.0.0.1",
-        "upstreamPort": 8989
-      }
-    }
-  ]
-}
-```
-
-​    
-
-In the config file above, the `serverPeerId` item represents the peer ID in base58 format for the Active Proxy  service that you want to use. The four subsequent items should be  configured based on your personal micro-service deployed on your home  LAN. The others are the parameters related to  the personal service that you can update them according the environment.
-
-
-
-### 2. Run the Active Proxy Client as a System Service
-
-
-
-Users can build the Active Proxy client in Debian package with name `boson-meerkat.deb` on a Debian-based Linux system by using the following commands:
+Users can build the Active Proxy client in Debian package with the following nomenclature `boson-meerkat.deb` on a Debian-based Linux system by running the commands:
 
 ```bash
-$ git clone git@github.com/bosonnetwork/Boson.Native photon
+$ git clone git@github.com/bosonnetwork/Photon photon
 $ cd photon/build
 $ mkdir prod && cd prod
 $ cmake -DCMAKE_INSTALL_PREFIX=dist ../..
@@ -136,14 +55,14 @@ $ make meerkat-deb
 
 ```
 
-After completing the build, a Debian package named `boson-meerkat.deb` is generated. The user can install this package and keep it running as a system service.
+After completing the build, a Debian package with the name `boson-meerkat.deb` is generated. The user can install this package and keep it running as a system service.
 
 ```bash
 $ sudo dpkg -i boson-meerkat.deb
 $ sudo systemctl status boson-meerkat
 ```
 
-In this case, it is recommended to run the Active Proxy client with the following config example:
+Here is the config file used by the boson-meerkat service running as the active proxy client.
 
 ```json
 {
@@ -163,14 +82,13 @@ In this case, it is recommended to run the Active Proxy client with the followin
       "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
       "address": "155.138.245.211",
       "port": 39001
-    } // more super nodes can be added next.
+    }
   ],
   "addons": [
     {
       "name": "ActiveProxy",
       "configuration": {
         "serverPeerId" : "5vVM1nrCwFh3QqAgbvF3bRgYQL5a2vpFjngwxkiS8Ja6",
-        "domainName": "abc.pc2.net",
         "upstreamHost": "127.0.0.1",
         "upstreamPort": 8989
       }
@@ -179,22 +97,11 @@ In this case, it is recommended to run the Active Proxy client with the followin
 }
 ```
 
-## Deploying a Personal Web Service at Your Home LAN
+## Deploying a Home-Based Service
 
-To demonstrate the use of the Active Proxy service, you need to deploy a personal website service on your home LAN along with the Active Proxy client. Initially, this website can only be accessed within your LAN environment. However, by utilizing the Active Proxy service, the access point to this website service will be forwarded to a boson super node, allowing it to be accessible to the public outside.
-
-Users can either use **nginx** or other HTTP proxy tools to deploy such a personal website or even use an existing local service. Here is a quick way to run a simple website to demonstrate the power of the Active Proxy service with the following two items:
-
-* proxy tool - caddy ([https://caddyserver.com/download](https://caddyserver.com/download))
-* website content ([https://github.com/ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE))
-
-Download the source website content, and run the **caddy** tool under the directory with a command:
-
-```bash
-$ caddy file-server --listen=0.0.0.0:8989
-```
-
-Suppose that the device for running this personal website on your local LAN is **192.168.1.100**, then you can check the website in a browser using the URL - [**http://192.168.1.100:8989**](http://192.168.1.100:8989) . With the Active Proxy client, the website can be accessed by the public outside.
+To showcase the functionality of the Active Proxy service, deploying a personal website service on your home LAN, along with the Active Proxy client, is necessary. Initially, this website can only be accessed within your LAN environment. However, by leveraging the Active Proxy service, the access point to this website service will be forwarded to a Boson super node, thereby enabling accessibility to the public outside your LAN.\
+\
+In the aforementioned example, the local web service is assumed to be running on port 8989 and the loopback address. You can verify its functionality by accessing the URL - [http://127.0.0.1:8989](http://127.0.0.1:8989). By employing the Active Proxy client, the website becomes accessible to the public outside your local environment.
 
 ## More Links
 
