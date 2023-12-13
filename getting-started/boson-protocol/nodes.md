@@ -20,6 +20,8 @@ The Boson Network encompasses all nodes worldwide, categorized based on their de
 * [**Native Node (photon node)**](nodes.md#native-node-photon-node)
 * [**Lite Node (gluton node)**](nodes.md#lite-node-gluton-node)
 
+<figure><img src="../../.gitbook/assets/boson-nodes.png" alt=""><figcaption><p>The Boson Network being composed of three types of nodes.</p></figcaption></figure>
+
 ### Super Node - <mark style="color:green;">boson node</mark>
 
 A boson super node is a specialized node dedicated to assisting new nodes seeking to join the network and broadcasting their presence. As public node services catering to applications, super nodes necessitate a VPS server with a public IP address. This is crucial to ensure that the public services they offer remain accessible, avoiding potential connectivity issues that may arise if the Super Node is running within a home WiFi network.
