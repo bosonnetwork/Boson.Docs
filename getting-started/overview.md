@@ -20,7 +20,7 @@ The updated boson retains its decentralized essence and preserves the peer-to-pe
 * [**Kademia DHT**](kademlia-dht.md)
 * [**Boson Protocol**](boson-protocol/)
 * [**Boson Service**](boson-services/)
-* **dApps**
+* <mark style="color:green;">**dApps**</mark>
 
 <figure><img src="../.gitbook/assets/boson-layered-structure.png" alt="A layer-designed peer-to-peer encrypted communication network" width="563"><figcaption><p>A layer-designed permissionless peer-to-peer encrypted network</p></figcaption></figure>
 
@@ -30,7 +30,7 @@ Overall, the layered structure offers the network greater scalability and flexib
 
 ### Related Links:
 
-* Web Gateway
-* Active Proxy
-* Federal based Messaging
-* Decentralized Storage
+* [**Web Gateway**](boson-services/web-gateway.md)
+* [**Active Proxy**](boson-services/active-proxy.md)
+* [**Federal based Messaging**](boson-services/messaging-service.md)
+* [**Decentralized Storage**](boson-services/dstore-service.md)
