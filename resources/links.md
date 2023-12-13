@@ -23,7 +23,7 @@ Here are the main repositories related to Boson project. We welcome contribution
 
 The first one, **Boson Java**, is used to deploy a boson super node. The latter, **Boson Native** repository, is used to integrate into applications as a regular node to leverage the features or services from super nodes.
 
-* [**Public Boson Nodes**](https://github.com/bosonnetwork/public-boson-nodes/blob/master/public-super-nodes.json)
+* [**Public Boson Nodes**](https://github.com/bosonnetwork/public-super-nodes/blob/master/public-super-nodes.json)
 
 ## Other Links:
 
