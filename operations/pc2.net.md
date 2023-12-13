@@ -1,8 +1,6 @@
-# pc2.net&#x20;
+# pc2.net
 
 The [pc2.net](http://pc2.net/) is the website where users can register a dynamic domain name, known as a pc2 domain name. To access the website, users must sign in using Essentials wallet and Elastos DID, a decentralized identifier.
-
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Registering a pc2 Domain Name
 
@@ -20,5 +18,5 @@ Once succeed in registering the pc2 name, then the user can click `MY DDNS NAMES
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-If you are running an Active Proxy client, either as a daemon or foreground command, to forward a local service entry and make it accessible to the public using a specific pc2 domain name, please ensure that the  nodeId matches the nodeId bound with the pc2 domain name. Otherwise, the Active Proxy client will not function properly.
+If you are running an Active Proxy client, either as a daemon or foreground command, to forward a local service entry and make it accessible to the public using a specific pc2 domain name, please ensure that the nodeId matches the nodeId bound with the pc2 domain name. Otherwise, the Active Proxy client will not function properly.
 {% endhint %}
