@@ -33,10 +33,3 @@ A native node typically is running alongside an application or is seamlessly int
 ### Lite Node - <mark style="color:green;">gluton node</mark>
 
 A lite node is crafted to operate as a browser application, leveraging the Web Gateway service provided by a designated super node. Unlike native nodes, lite nodes do not function independently but rather communicate with other nodes through the super node, facilitated by the web gateway service. Consequently, web applications running in the browser can be perceived as lite DHT nodes in terms of their interactions with other nodes.
-
-### More Links
-
-* Web Gateway
-* Active Proxy
-* Federal Based Messaging
-* Decentralized Store
