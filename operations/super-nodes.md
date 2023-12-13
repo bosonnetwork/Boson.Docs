@@ -24,8 +24,6 @@ A boson super node, also known as a bootstrap node, is a special type of boson n
 
 In addition to serving as bootstrap nodes, boson super nodes also offer built-in services such as Web Gateway and Active Proxy services. More built-in services will be integrated as the development of the network progresses.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>An imagined boson network consists of Super Nodes, Regular Nodes, and dApp adoptions.</p></figcaption></figure>
-
 ## A Set of Super Nodes Running as Bootstrap Nodes
 
 When the Trinity-Tech team finished the initial version of boson implementation, they deployed a set of public boson super nodes with Active Proxy support. This set contains a total of 8 public nodes, forming the very first Boson network.
