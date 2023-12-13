@@ -14,67 +14,25 @@ layout:
 
 # Super Nodes
 
+A boson super node, also known as a bootstrap node, is a specific type of DHT node that primarily assists new nodes in joining the boson network. It accomplishes this by propagating nodes into the routing tables of neighboring nodes, and ensuring the health and stability of those routing tables. Since super nodes act as bootstrap nodes, they need to be hosted on a VPS with a public IP address.
+
+In addition to their role as bootstrap nodes, boson super nodes provide essential built-in services, including Web Gateway and Active Proxy services. The network's development will see the integration of more built-in services as it progresses.
+
 {% hint style="info" %}
-We expect the community to deploy public super nodes and improve the boson network to be more healthy and robust. Please inform us once you start working on this.
+We anticipate the active participation of the community in deploying public super nodes to enhance the health and robustness of the Boson network. Please keep us informed once you commence work on this initiative."
 {% endhint %}
 
-## Boson Super Nodes
+## Public Boson Super Nodes
 
-A boson super node, also known as a bootstrap node, is a special type of boson node dedicated to helping new nodes join the boson network. It achieves this by propagating nodes into the routing tables of neighboring nodes, and keeping the routing tables of neighboring nodes healthy and robust. Since super nodes serve as bootstrap node, they must run on a VPS with a public IP address.
+The Trinity Tech team has deployed and published a list of Boson super nodes for public use. Each of these super nodes is currently operational and offers support for Active Proxy and Web Gateway services. Please check [here](https://github.com/bosonnetwork/public-super-nodes/blob/master/public-super-nodes.json) to get the details.
 
-In addition to serving as bootstrap nodes, boson super nodes also offer built-in services such as Web Gateway and Active Proxy services. More built-in services will be integrated as the development of the network progresses.
+* [Public boson super nodes](https://github.com/bosonnetwork/public-super-nodes/blob/master/public-super-nodes.json)
 
-## A Set of Super Nodes Running as Bootstrap Nodes
+### A Config Sample for The Community
 
-When the Trinity-Tech team finished the initial version of boson implementation, they deployed a set of public boson super nodes with Active Proxy support. This set contains a total of 8 public nodes, forming the very first Boson network.
+When the community opts to establish a Boson super node for public or experimental use, a well-configured file is essential. This configuration file should specify several super nodes to serve as bootstrap nodes for initial connections. Once the super node is operational, it will automatically establish connections to the boson network in a gradual manner through these designated bootstrap nodes
 
-In the initial version, each boson super node is running with the Active Proxy service. The Active Proxy service can be leveraged by a personal microservice that was originally only allowed for access within LAN, but can now be accessed by the public. Additionally, users can register a PC2 name from the website [https://pc2.net](https://pc2.net/) provided by Trinity-Tech to bind the user service.
-
-Here is the initial list of public super nodes deployed by the **trinity-tech** team\*\*:\*\*
-
-```json
-{ 
-    "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ", 
-    "address": "155.138.245.211", 
-    "port": 39001
-},
-{ 
-    "id": "6o6LkHgLyD5sYyW9iN5LNRYnUoX29jiYauQ5cDjhCpWQ", 
-    "address": "45.32.138.246", 
-    "port": 39001
-},
-{ 
-    "id": "8grFdb2f6LLJajHwARvXC95y73WXEanNS1rbBAZYbC5L", 
-    "address": "140.82.57.197", 
-    "port": 39001
-},
-{ 
-    "id": "4A6UDpARbKBJZmW5s6CmGDgeNmTxWFoGUi2Z5C4z7E41", 
-    "address": "66.42.74.13", 
-    "port": 39001
-},
-{ 
-    "id": "5BJ8SZZQ4z4izhw82W2ksyuTCQz3GwWUWBSaza4qzVT9", 
-    "address": "207.148.82.19", 
-    "port": 39001
-},
-{ 
-    "id": "8fAHSUAtKmVycxQK2VRDnhcSL1XX9ciweULt4dHx6Yfg", 
-    "address": "140.82.34.87", 
-    "port": 39001
-},
-{ 
-    "id": "J44cKHHjJzpJJhM4tqwZxYhv9Cynozx38xeR2WcvfFRN", 
-    "address": "139.84.232.184", 
-    "port": 39001
-}
-```
-
-## A Config Example for the Super Node
-
-When the community decides to set up a super node for public or experimental usage, a proper configuration file is required. This file should include a few super nodes as bootstrap nodes to connect with. After the super node is running, it will automatically connect to the Boson network gradually through these bootstrap nodes.
-
-Here is an example config file without for the community to use with a few super nodes deployed by **trinity-tech**. We are pleased to see more public super nodes from the community.
+Provided below is an example configuration file for the community's use. We are delighted to witness the growing presence of public super nodes within the community.
 
 ```json
 {
@@ -87,11 +45,6 @@ Here is an example config file without for the community to use with a few super
     {
       "id": "HZXXs9LTfNQjrDKvvexRhuMk8TTJhYCfrHwaj3jUzuhZ",
       "address": "155.138.245.211",
-      "port": 39001
-    },
-    {
-      "id": "4A6UDpARbKBJZmW5s6CmGDgeNmTxWFoGUi2Z5C4z7E41",
-      "address": "66.42.74.13",
       "port": 39001
     }
   ],
