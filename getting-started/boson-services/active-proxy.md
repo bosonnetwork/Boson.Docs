@@ -30,7 +30,7 @@ A complete fulfillment of Active Proxy services consists of client and server co
 
 To initiate a dedicated connection between a regular node hosting an active proxy client and a specified super node, a config file is used to specify the active proxy peer ID. Once the connection is established, it will be utilized to forward traffic between external dApps and the home-based service.
 
-<figure><img src="../../.gitbook/assets/boson-active-proxy-2.png" alt=""><figcaption><p>The workflow for Active Proxy service between applications and home-based service</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/boson-active-proxy-simple.png" alt=""><figcaption><p>The workflow for Active Proxy service between applications and home-based service</p></figcaption></figure>
 
 ## Related Links
 
