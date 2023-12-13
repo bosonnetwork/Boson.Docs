@@ -22,7 +22,7 @@ Suppose you wish to operate a blog service on a Raspberry device within your hom
 
 Similarly, consider a situation where you have set up a NAS or personal storage service on your home WiFi. While the service efficiently grants access to your data from within your home network, utilizing the Active Proxy allows you to announce the service access point from your home WiFi to the internet. This way, you can access your personal data remotely while still maintaining the privacy and security of your information.
 
-<figure><img src="../../.gitbook/assets/gateway-service.png" alt=""><figcaption><p>An Imagined Gateway Service Leveraging on Active Proxy Feature</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/boson-active-proxy.png" alt=""><figcaption><p>An Imagined Gateway Service Leveraging Active Proxy Service</p></figcaption></figure>
 
 ## Walk Through Active Proxy Service
 
