@@ -45,10 +45,10 @@ After gaining a fundamental understanding of the network, it's time to delve dee
 
 We invite contributions from enthusiastic developers in the open-source community who share the vision of establishing a secure, decentralized communication platform. Your involvement can play a vital role in enhancing the capabilities of this project and fostering broader adoption. Explore the primary list of repositories below where you can contribute by creating issues or submitting pull requests:
 
-* [**Boson Java SDK**](https://github.com/bosonnetwork/Boson.Java)
-* [ **Photon Native C++/C SDK**](https://github.com/bosonnetwork/Boson.Native)
+* [**Boson Java**](https://github.com/bosonnetwork/Boson.Java)
+* [**Photon Native C++/C**](https://github.com/bosonnetwork/Boson.Native)&#x20;
 
 ## More Links
 
-* [**Public Boson Nodes**](https://github.com/bosonnetwork/public-boson-nodes)
-* [**Telegram - AwesomeBoson**](https://t.me/awesameboson)
+* [**Boson Super Nodes**](https://github.com/bosonnetwork/public-boson-nodes)
+* [**Telegram**](https://t.me/awesameboson)
