@@ -14,7 +14,7 @@ layout:
 
 # Welcome to Boson Network
 
-The **Boson** network is a fully decentralized, peer-to-peer communication network that provides reliable communication and data sharing capabilities without the need for a central registry. It was initially derived from the Elastos Carrier open source project and has since undergone further development and enhancements.
+The <mark style="color:green;">**Boson**</mark> network is a fully decentralized, peer-to-peer communication network that provides reliable communication and data sharing capabilities without the need for a central registry. It was initially derived from the Elastos Carrier open source project and has since undergone further development and enhancements.
 
 The new version of boson introduces a well-layered and modularized service architecture, opening up new possibilities for application adoption. Furthermore, boson network has transitioned into a fully permissionless communication network.
 
@@ -31,7 +31,7 @@ Once you've acquired a basic understanding of the network, it is highly recommen
 To assist you in effectively practicing with the boson technology, here is a list of recommended guidelines:
 
 * [**Deploying a boson super node**](getting-started/the-practices/deploying-super-node.md)
-* [**Leveraging the active proxy service to run a home-based service**](getting-started/the-practices/leveraging-active-proxy.md)
+* [**Leveraging active proxy service to run a home-based service**](getting-started/the-practices/leveraging-active-proxy.md)
 * [**Understanding boson technology by practicing an interactive shell command**](getting-started/the-practices/the-shell-command.md)
 
 ## In-depth tech
@@ -52,3 +52,4 @@ We invite contributions from enthusiastic developers in the open-source communit
 
 * [**Boson Super Nodes**](https://github.com/bosonnetwork/public-boson-nodes)
 * [**Telegram**](https://t.me/awesameboson)
+* [**Github**](https://github.com/bosonnetwork)
