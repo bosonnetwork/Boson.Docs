@@ -26,5 +26,5 @@ The boson network stands as a fully decentralized, peer-to-peer encrypted commun
 ## Related Links:
 
 * [**Nodes**](boson-nodes.md)
-* [**Peers**](boson-peers.md)
 * [**Values**](boson-values.md)
+* [**Peers**](boson-peers.md)
