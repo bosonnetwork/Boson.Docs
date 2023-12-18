@@ -13,8 +13,8 @@
 * [Boson Services](getting-started/boson-services/README.md)
   * [Web Gateway](getting-started/boson-services/web-gateway.md)
   * [Active Proxy](getting-started/boson-services/active-proxy.md)
-  * [Messaging Relay](getting-started/boson-services/messaging-service.md)
-  * [Swarm Storage](getting-started/boson-services/dstore-service.md)
+  * [Messaging Relay](getting-started/boson-services/messaging-relay.md)
+  * [Swarm Storage](getting-started/boson-services/swarm-storage.md)
   * [Chord Identifier](getting-started/boson-services/chord-identifier.md)
 * [The Practices](getting-started/the-practices/README.md)
   * [Deploying Super Node](getting-started/the-practices/deploying-super-node.md)
@@ -23,7 +23,7 @@
 
 ## In-depth Tech
 
-* [Protocols](in-depth-tech/specifications.md)
+* [Protocols](in-depth-tech/protocols.md)
 
 ## Developer Kits
 
