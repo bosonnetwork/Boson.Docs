@@ -18,8 +18,8 @@ As an integral component of the Kademlia DHT network, the boson network function
 
 Each Peer is endowed with a signing key pair and comprises an access entry node, a service port, and a signature proof. The public key functions as the Peer ID, while the private signing key generates the signature based on the node ID and port. Recipients can verify the signature to authenticate the integrity and ownership of this service peer. The access entry node facilitates the retrieval of the IPv4 or IPv6 address for the service peer, as it shares the same IP address as the node.
 
-## Service Publishing and Subscribing&#x20;
+## Service Publishing and Subscribing
 
-In the boson network, the two primitive protocols: **`announce_peer`** and **`find_peer`** are used to publish and subscribe the service peer over the network. When a new peer entity is created, it is distributed to the nodes with neighboring IDs to the peer ID using announce\_peer protocol. Upon receiving the peer, the recipient node caches it in the local database storage. Cached peers in nodes may expire after 2 hours unless periodically rebroadcasted.&#x20;
+In the boson network, the two primitive protocols: **`announce_peer`** and **`find_peer`** are used to publish and subscribe the service peer over the network. When a new peer entity is created, it is distributed to the nodes with neighboring IDs to the peer ID using announce\_peer protocol. Upon receiving the peer, the recipient node caches it in the local database storage. Cached peers in nodes may expire after 2 hours unless periodically rebroadcasted.
 
 An application can employ the find\_peer protocol to lookup the peer and subscribe it using a specified peer ID. It is crucial to note that the peer ID should be obtained through an alternative method not involving the boson network.
