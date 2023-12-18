@@ -14,30 +14,27 @@ layout:
 
 # Super Nodes
 
-A boson super node, also known as a bootstrap node, is a specific type of DHT node that primarily assists new nodes in joining the boson network. It accomplishes this by propagating nodes into the routing tables of neighboring nodes, and ensuring the health and stability of those routing tables. Since super nodes act as bootstrap nodes, they need to be hosted on a VPS with a public IP address.
+A boson super node, also known as a bootstrap node, is a specific type of node that primarily assists new nodes in joining the boson network. It accomplishes this by propagating nodes into the routing tables of neighboring nodes, and ensuring the health and stability of those routing tables. Since super nodes act as bootstrap nodes, they need to be hosted on servers with a public IP address.
 
 In addition to their role as bootstrap nodes, boson super nodes provide essential built-in services, including Web Gateway and Active Proxy services. The network's development will see the integration of more built-in services as it progresses.
 
-{% hint style="info" %}
-We anticipate the active participation of the community in deploying public super nodes to enhance the health and robustness of the Boson network. Please keep us informed once you commence work on this initiative."
-{% endhint %}
+## Public Super Nodes
 
-## Public Boson Super Nodes
-
-The Trinity Tech team has deployed and published a list of Boson super nodes for public use. Each of these super nodes is currently operational and offers support for Active Proxy and Web Gateway services. Please check [here](https://github.com/bosonnetwork/public-super-nodes/blob/master/public-super-nodes.json) to get the details.
+The **Trinity Tech** team has deployed and published a list of boson super nodes for public use. Each of these nodes is currently operational and offers support for Active Proxy and Web Gateway services.&#x20;
 
 * [Public boson super nodes](https://github.com/bosonnetwork/public-super-nodes/blob/master/public-super-nodes.json)
 
-### A Config Sample for The Community
+Active community participation is crucial for deploying public super nodes to strengthen the health and robustness of the network. Please keep us informed once you commence work on this initiative by pushing pull-request to the above repository. We are delighted to witness the growing presence of public super nodes within the community.
 
-When the community opts to establish a Boson super node for public or experimental use, a well-configured file is essential. This configuration file should specify several super nodes to serve as bootstrap nodes for initial connections. Once the super node is operational, it will automatically establish connections to the boson network in a gradual manner through these designated bootstrap nodes
+## A Sample for the Community
 
-Provided below is an example configuration file for the community's use. We are delighted to witness the growing presence of public super nodes within the community.
+When the community opts to establish a boson super node for the public or experimental use, a well-configured file is essential. This config file should specify several super nodes to serve as bootstrap nodes for initial connections. Once the super node is operational, it will automatically establish connections to the boson network in a gradual manner through these designated bootstrap nodes
+
+Provided below is an example configuration file for the community's use.&#x20;
 
 ```json
 {
   "ipv4": true,
-  "ipv6": false,
   "port": 39001,
   "dataDir": "/var/lib/boson",
 
@@ -49,12 +46,6 @@ Provided below is an example configuration file for the community's use. We are 
     }
   ],
   "services": [
-    {
-      "class": "io.bosonnetwork.service.dhtproxy.DHTProxy",
-      "configuration": {
-        "port": 8088
-      }
-    },
     {
       "class": "io.bosonnetwork.service.activeproxy.ActiveProxy",
       "configuration": {
@@ -69,8 +60,9 @@ Provided below is an example configuration file for the community's use. We are 
 }
 ```
 
+This config file serves as a simple example, demonstrating the inclusion of a single super  node and an accompanying Active Proxy service. Users have to generate the `peerPrivateKey` for their own peer ID to identify the Active Proxy service provided by this super node.
+
 ## More Links
 
-* [Boson Super Nodes](super-nodes.md#boson-super-nodes)
-* [Setting up a Boson super node by the community](broken-reference)
-* [Java SDK API document](../developer-kits/java.md)
+* [**Boson Super Nodes**](../getting-started/boson-protocol/nodes.md#super-node-boson)
+* [**Setting up a boson super node by the community**](broken-reference/)
