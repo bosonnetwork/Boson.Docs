@@ -38,13 +38,13 @@ Encrypted values also are mutable values that they can be updated by the data ow
 
 The ID of an encrypted value is similar to that of mutable values. It also utilizes the SHA-256 algorithm on the associated public key and nonce. The encrypted value can only be decrypted by a designated node with a specified node ID in the value entity. When the intended recipient node receives the encrypted value, it uses its private key to decrypt the data and process it.
 
-## Propagation and Lookup Values
+## Data Storage and Retrieval
 
-In the boson network, values are propagated and retrieved by using the two primitive protocols - store\_value and find\_value. Once a new value entity is created by the application, it will be distributed to the nodes with neighboring IDs to the value ID using the protocol - store\_value. Once the recipient node receives the value, it will cache the value in its local database storage. The values cached in nodes can expire after 2 hours unless the value will be broadcasted again periodically.
+In the boson network, stored values are propagated and retrieved through two fundamental protocols: **`store_value`** and **`find_value`**. When a new value entity is created by an application, it is distributed to nodes with neighboring IDs to the value ID using the **`store_value`** protocol. Upon receiving the value, the recipient node caches it in its local database storage. Cached values in nodes may expire after 2 hours unless periodically rebroadcasted.
 
-An application can utilize the find\_value protocol to retrieve or lookup the value entity by specifying a value ID. However, it is important to note that the value ID should be obtained using an alternative method that does not involve the boson network.
+An application can employ the **`find_value`** protocol to retrieve or look up the value using a specified value ID. It is crucial to note that the value ID should be obtained through an alternative method not involving the boson network.
 
 ## Related Links
 
-* store\_value
-* find\_value
+* **The Protocol - store\_value**
+* **The Protocol - find\_value**
