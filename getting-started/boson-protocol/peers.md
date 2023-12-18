@@ -20,4 +20,6 @@ Each Peer is endowed with a signing key pair and comprises an access entry node,
 
 ## Service Publishing and Subscribing&#x20;
 
-##
+In the boson network, the two primitive protocols: **`announce_peer`** and **`find_peer`** are used to publish and subscribe the service peer over the network. When a new peer entity is created, it is distributed to the nodes with neighboring IDs to the peer ID using announce\_peer protocol. Upon receiving the peer, the recipient node caches it in the local database storage. Cached peers in nodes may expire after 2 hours unless periodically rebroadcasted.&#x20;
+
+An application can employ the find\_peer protocol to lookup the peer and subscribe it using a specified peer ID. It is crucial to note that the peer ID should be obtained through an alternative method not involving the boson network.
