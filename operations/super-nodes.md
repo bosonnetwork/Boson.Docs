@@ -20,7 +20,7 @@ In addition to their role as bootstrap nodes, boson super nodes provide essentia
 
 ## Public Super Nodes
 
-The **Trinity Tech** team has deployed and published a list of boson super nodes for public use. Each of these nodes is currently operational and offers support for Active Proxy and Web Gateway services.&#x20;
+The **Trinity Tech** team has deployed and published a list of boson super nodes for public use. Each of these nodes is currently operational and offers support for Active Proxy and Web Gateway services. Here is the repository that lists the deployed super nodes:
 
 * [Public boson super nodes](https://github.com/bosonnetwork/public-super-nodes/blob/master/public-super-nodes.json)
 
@@ -30,7 +30,7 @@ Active community participation is crucial for deploying public super nodes to st
 
 When the community opts to establish a boson super node for the public or experimental use, a well-configured file is essential. This config file should specify several super nodes to serve as bootstrap nodes for initial connections. Once the super node is operational, it will automatically establish connections to the boson network in a gradual manner through these designated bootstrap nodes
 
-Provided below is an example configuration file for the community's use.&#x20;
+Below is an example configuration file intended for the community's use in deploying a super node through a Debian package.
 
 ```json
 {
