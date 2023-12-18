@@ -15,7 +15,7 @@
   * [Active Proxy](getting-started/boson-services/active-proxy.md)
   * [Messaging Relay](getting-started/boson-services/messaging-service.md)
   * [Swarm Storage](getting-started/boson-services/dstore-service.md)
-  * [Chord ID](getting-started/boson-services/chord-id.md)
+  * [Chord Identifier](getting-started/boson-services/chord-identifier.md)
 * [The Practices](getting-started/the-practices/README.md)
   * [Deploying Super Node](getting-started/the-practices/deploying-super-node.md)
   * [Leveraging Active Proxy](getting-started/the-practices/leveraging-active-proxy.md)
