@@ -14,7 +14,7 @@ layout:
 
 # Values
 
-Being a kademia DHT network, the boson network not only provides efficiency routing and lookup mechanism, but also functions as a highly reliable and scalable storage platform for storing and retrieving key-value data. Value can be created by applications by requirement and propagated and stored on the neigbouring nodes across the network. Each stored value entity has a unique value ID as it’s key under the same namespace as node IDs. Based on the nature and purpose, values are designed as the following categories:
+Being a kademlia DHT network, the boson network not only provides efficiency routing and lookup mechanism, but also functions as a highly reliable and scalable storage platform for storing and retrieving key-value data. Value can be created by applications by requirement and propagated and stored on the neigbouring nodes across the network. Each stored value entity has a unique value ID as it’s key under the same namespace as node IDs. Based on the nature and purpose, values are designed as the following categories:
 
 * [**Immutable Values**](values.md#immutable-values)
 * [**Mutable Values**](values.md#mutable-values)

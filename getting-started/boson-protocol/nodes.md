@@ -36,11 +36,11 @@ A lite node, marked as a gluton node, is crafted to operate as a browser applica
 
 ## Propagation Nodes and Lookup Nodes
 
-Since the boson network is a network of Kademia DHT, a basic protocol called <mark style="color:green;">**`find_node`**</mark> is used to distribute node information across interconnected nodes. This propagation occurs when nodes join the network and periodically thereafter. When a node receives information about neighboring nodes, it algorithmically merges these nodes into its routing table, improving the efficiency of data retrieval and network communication.
+Since the boson network is a network of Kademlia DHT, a basic protocol called <mark style="color:green;">**`find_node`**</mark> is used to distribute node information across interconnected nodes. This propagation occurs when nodes join the network and periodically thereafter. When a node receives information about neighboring nodes, it algorithmically merges these nodes into its routing table, improving the efficiency of data retrieval and network communication.
 
 Each node within the network is assigned an unique node ID, a distinctive identifier that sets it apart. Applications can lookup or retrieve specific node details by using this node ID. The information includes the IPv4 or IPv6 addresses associated with the node, along with the node's version.
 
 ### Related Links
 
-* [**Kademia DHT**](../kademlia-dht.md)
+* [**Kademlia DHT**](../kademlia-dht.md)
 * The Protocol - find\_node
