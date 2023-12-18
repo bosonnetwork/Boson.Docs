@@ -34,11 +34,11 @@ A native or regular node, marked as a photon node, typically is running alongsid
 
 A lite node, marked as a gluton node, is crafted to operate as a browser application, leveraging the web gateway service provided by a designated super node. Unlike native nodes, lite nodes do not function independently but rather communicate with other nodes through the super node, facilitated by the web gateway service. Consequently, web applications running in the browser can be perceived as lite DHT nodes in terms of their interactions with other nodes.
 
-## Propagation Nodes and Lookup Nodes
+## Node Propagation and Retrieval
 
-Since the boson network is a network of Kademlia DHT, a basic protocol called <mark style="color:green;">**`find_node`**</mark> is used to distribute node information across interconnected nodes. This propagation occurs when nodes join the network and periodically thereafter. When a node receives information about neighboring nodes, it algorithmically merges these nodes into its routing table, improving the efficiency of data retrieval and network communication.
+As the boson network operates on the Kademlia DHT protocol, it employs a fundamental protocol named **`find_node`** to disseminate node information among interconnected nodes. This propagation occurs when nodes join the network and periodically thereafter. When a node receives information about neighboring nodes, it algorithmically merges these nodes into its routing table, improving the efficiency of data retrieval and network communication.
 
-Each node within the network is assigned an unique node ID, a distinctive identifier that sets it apart. Applications can lookup or retrieve specific node details by using this node ID. The information includes the IPv4 or IPv6 addresses associated with the node, along with the node's version.
+Every node in the network is characterized by a unique node ID, a distinctive identifier that sets it apart. Applications can seamlessly look up or retrieve specific node details by utilizing this node ID, which includes the associated IPv4 or IPv6 addresses, along with the version of node.
 
 ### Related Links
 
