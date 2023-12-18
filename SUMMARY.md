@@ -22,7 +22,7 @@
 
 ## In-depth Tech
 
-* [Specifications](in-depth-tech/specifications.md)
+* [Protocols](in-depth-tech/specifications.md)
 
 ## Developer Kits
 
