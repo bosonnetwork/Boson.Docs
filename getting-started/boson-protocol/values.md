@@ -14,7 +14,7 @@ layout:
 
 # Values
 
-Being a kademlia DHT network, the boson network not only provides efficiency routing and lookup mechanism, but also functions as a highly reliable and scalable storage platform for storing and retrieving key-value data. Value can be created by applications by requirement and propagated and stored on the neigbouring nodes across the network. Each stored value entity has a unique value ID as it’s key under the same namespace as node IDs. Based on the nature and purpose, values are designed as the following categories:
+Functioning as a Kademlia DHT network, the boson network not only ensures efficient routing and lookup mechanisms but also serves as a highly reliable and scalable storage platform for storing and retrieving key-value data. Applications can create values as needed, and these values are propagated to neighboring nodes across the network. Each stored value entity possesses a unique value ID, serving as its key within the same namespace as node IDs. Values are categorized based on their nature and purpose into the following classes:
 
 * [**Immutable Values**](values.md#immutable-values)
 * [**Mutable Values**](values.md#mutable-values)
@@ -40,11 +40,11 @@ The ID of an encrypted value is similar to that of mutable values. It also utili
 
 ## Propagation and Lookup Values
 
-In the boson network, values are propagated and retrieved by using the two primitive protocols - store_value and find_value. Once a new value entity is created by the application, it will be distributed to the nodes with neighboring IDs to the value ID using the protocol - store_value. Once the recipient node receives the value, it will cache the value in its local database storage. The values cached in nodes can expire after 2 hours unless the value will be broadcasted again periodically.
+In the boson network, values are propagated and retrieved by using the two primitive protocols - store\_value and find\_value. Once a new value entity is created by the application, it will be distributed to the nodes with neighboring IDs to the value ID using the protocol - store\_value. Once the recipient node receives the value, it will cache the value in its local database storage. The values cached in nodes can expire after 2 hours unless the value will be broadcasted again periodically.
 
-An application can utilize the find_value protocol to retrieve or lookup the value entity by specifying a value ID. However, it is important to note that the value ID should be obtained using an alternative method that does not involve the boson network.
+An application can utilize the find\_value protocol to retrieve or lookup the value entity by specifying a value ID. However, it is important to note that the value ID should be obtained using an alternative method that does not involve the boson network.
 
 ## Related Links
 
-- store_value
-- find_value
+* store\_value
+* find\_value
